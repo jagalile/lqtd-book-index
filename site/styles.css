@@ -112,15 +112,18 @@ select { background: var(--surface); border: 1px solid var(--line); border-radiu
   background: var(--line);
 }
 .cover::after { /* lomo */
-  content: ""; position: absolute; inset: 0 auto 0 0; width: 7px;
+  content: ""; position: absolute; z-index: 1; inset: 0 auto 0 0; width: 7px;
   background: linear-gradient(90deg, rgb(0 0 0 / .18), rgb(255 255 255 / .12) 60%, transparent);
 }
-.cover img { width: 100%; height: 100%; object-fit: cover; }
+/* Imagen y portada generada en absoluto: el tamaño lo fija solo el aspect-ratio
+   de .cover, nunca el contenido (Safari no da altura definida a esas cajas). */
+.cover img, .cover .gen { position: absolute; inset: 0; width: 100%; height: 100%; }
+.cover img { object-fit: cover; }
 .book:hover .cover { transform: translateY(-4px) rotate(-.6deg); box-shadow: 0 2px 4px rgb(28 25 23 / .1), 0 14px 30px rgb(28 25 23 / .18); }
 .book:focus-visible { outline: none; }
 .book:focus-visible .cover { outline: 3px solid var(--accent); outline-offset: 3px; }
 .gen {
-  height: 100%; display: flex; flex-direction: column; justify-content: space-between;
+  display: flex; flex-direction: column; justify-content: space-between;
   padding: 16% 12% 12% 16%;
   background:
     radial-gradient(120% 80% at 100% 0%, hsl(var(--h) 60% 52% / .55), transparent 60%),
@@ -199,7 +202,8 @@ dialog::backdrop { background: rgb(20 17 15 / .6); backdrop-filter: blur(3px); }
   .toolbar { position: static; }
   .toolbar-inner select { flex: 1; }
   .row { grid-auto-columns: 118px; gap: 14px; }
-  .grid { grid-template-columns: repeat(3, 1fr); gap: 20px 12px; }
+  /* minmax(0, …): con 1fr, un título largo ensancha su columna y su portada. */
+  .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 20px 12px; }
   .book .bt { font-size: 13px; }
   .book .ba { font-size: 12px; }
   .gen .ga { font-size: 9px; }
@@ -212,7 +216,7 @@ dialog::backdrop { background: rgb(20 17 15 / .6); backdrop-filter: blur(3px); }
   .ep { grid-template-columns: 96px 1fr; gap: 10px; }
 }
 @media (max-width: 380px) {
-  .grid { grid-template-columns: repeat(2, 1fr); }
+  .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (prefers-reduced-motion: reduce) {
   .cover { transition: none; }
@@ -220,7 +224,7 @@ dialog::backdrop { background: rgb(20 17 15 / .6); backdrop-filter: blur(3px); }
 
 /* Libro mencionado (no es del invitado) */
 .ribbon {
-  position: absolute; z-index: 1; top: 8px; right: 8px;
+  position: absolute; z-index: 2; top: 8px; right: 8px;
   font-size: 10px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase;
   padding: 3px 7px; border-radius: 4px;
   background: rgb(255 255 255 / .92); color: #1c1917;
