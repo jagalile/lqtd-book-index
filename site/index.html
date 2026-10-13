@@ -3,67 +3,74 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LQTD Índice · Todos los episodios de Lo que tú digas</title>
-  <meta name="description" content="Índice fan no oficial de los episodios de Lo que tú digas con Álex Fidalgo: busca por invitado, tema o etiqueta y encuentra los libros recomendados.">
+  <title>La biblioteca de Lo que tú digas · Libros de los invitados</title>
+  <meta name="description" content="Los libros de los invitados de Lo que tú digas con Álex Fidalgo y los que se mencionan en el podcast, clasificados por temática y enlazados a los episodios en los que se habló de ellos. Web fan no oficial.">
   <meta name="color-scheme" content="light dark">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%23c2410c'/><text x='16' y='22' font-family='Georgia,serif' font-size='16' font-weight='700' text-anchor='middle' fill='white'>LQ</text></svg>">
-  <link rel="preload" href="episodes.json" as="fetch" crossorigin>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%23c2410c'/><rect x='8' y='7' width='5' height='18' rx='1' fill='white'/><rect x='14.5' y='9' width='4' height='16' rx='1' fill='white' opacity='.8'/><rect x='20' y='8' width='4.5' height='17' rx='1' fill='white' transform='rotate(12 22 16)'/></svg>">
+  <link rel="preload" href="books.json" as="fetch" crossorigin>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="hero">
     <div class="wrap">
-      <p class="eyebrow">Índice fan · no oficial</p>
-      <h1>Lo que tú digas<span>, episodio a episodio</span></h1>
-      <p class="lede" id="lede">Todos los episodios del podcast de Álex Fidalgo, con buscador, filtros y enlaces para escucharlos o verlos.</p>
+      <p class="eyebrow">Web fan · no oficial</p>
+      <h1>La biblioteca de <em>Lo que tú digas</em></h1>
+      <p class="lede" id="lede">Los libros de los invitados de Álex Fidalgo y los que se mencionan en sus conversaciones, ordenados por temática.</p>
     </div>
   </header>
 
-  <div class="toolbar" id="toolbar">
+  <div class="toolbar">
     <div class="wrap toolbar-inner">
       <label class="search">
         <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
-        <input id="q" type="search" placeholder="Busca invitado, tema, libro o nº de episodio…" autocomplete="off" aria-label="Buscar episodios">
+        <input id="q" type="search" placeholder="Busca un libro, autor, tema o episodio…" autocomplete="off" aria-label="Buscar libros">
       </label>
-      <div class="controls">
-        <select id="year" aria-label="Año"><option value="">Todos los años</option></select>
-        <select id="sort" aria-label="Orden">
-          <option value="new">Más recientes</option>
-          <option value="old">Más antiguos</option>
-          <option value="long">Más largos</option>
-          <option value="short">Más cortos</option>
-        </select>
-      </div>
+      <select id="rel" aria-label="Qué libros mostrar">
+        <option value="">Todos los libros</option>
+        <option value="g">De los invitados</option>
+        <option value="m">Mencionados</option>
+      </select>
+      <select id="sort" aria-label="Orden">
+        <option value="new">Más recientes</option>
+        <option value="title">Título (A–Z)</option>
+        <option value="author">Autor (A–Z)</option>
+      </select>
     </div>
-    <div class="wrap chips" id="chips" role="group" aria-label="Filtros"></div>
+    <div class="wrap chips" id="chips" role="group" aria-label="Temáticas"></div>
   </div>
 
-  <main class="wrap">
-    <p class="count" id="count" aria-live="polite">Cargando episodios…</p>
-    <ol class="grid" id="grid"></ol>
-    <div id="sentinel" aria-hidden="true"></div>
+  <main class="wrap" id="main">
+    <p class="count" id="count" aria-live="polite">Cargando libros…</p>
+    <div id="shelves"></div>
+    <ol class="grid" id="grid" hidden></ol>
     <div class="empty" id="empty" hidden>
-      <p>No hay episodios que coincidan.</p>
-      <button type="button" id="reset">Quitar filtros</button>
+      <p>No hay libros que coincidan.</p>
+      <button type="button" id="reset">Ver todos los libros</button>
     </div>
   </main>
 
   <footer class="wrap footer">
-    <p>Web hecha por un fan, sin relación con Álex Fidalgo ni con <em>Lo que tú digas</em>. Los episodios se enlazan en sus plataformas oficiales; escúchalos allí para apoyar el podcast.</p>
+    <p>Web hecha por un fan, sin relación con Álex Fidalgo ni con <em>Lo que tú digas</em>. Los libros se han sacado de las descripciones de los episodios; puede que falte alguno. Las portadas y fichas vienen de Open Library.</p>
     <p id="updated"></p>
   </footer>
 
   <dialog id="detail" aria-labelledby="d-title">
     <form method="dialog" class="close-form"><button class="close" aria-label="Cerrar">×</button></form>
-    <div class="media" id="d-media"></div>
-    <div class="d-body">
-      <p class="d-meta" id="d-meta"></p>
-      <h2 id="d-title"></h2>
-      <div class="tags" id="d-tags"></div>
-      <div class="links" id="d-links"></div>
-      <aside class="book" id="d-book" hidden></aside>
-      <div class="d-desc" id="d-desc"></div>
+    <div class="d-wrap">
+      <div class="d-cover" id="d-cover"></div>
+      <div class="d-info">
+        <p class="d-rel" id="d-rel"></p>
+        <div class="tags" id="d-tags"></div>
+        <h2 id="d-title"></h2>
+        <p class="d-author" id="d-author"></p>
+        <p class="d-meta" id="d-meta"></p>
+        <div class="buy" id="d-buy"></div>
+      </div>
     </div>
+    <section class="d-eps">
+      <h3>Se habló de él en</h3>
+      <ul id="d-eps"></ul>
+    </section>
   </dialog>
 
   <script src="app.js" defer></script>

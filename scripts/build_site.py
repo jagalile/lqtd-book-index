@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Construye la web estática en _site/ a partir de site/ y data/episodes.json.
+"""Construye la web estática en _site/ a partir de site/ y data/.
 
-Copia los ficheros de site/ y genera _site/episodes.json, una versión compacta
-de los datos con solo lo que usa la web. Solo usa la librería estándar.
+Copia los ficheros de site/ y genera _site/books.json: los libros de
+data/books.json con los datos de sus episodios ya unidos, en el formato
+compacto que usa la web. Solo usa la librería estándar.
 
     python3 scripts/build_site.py && python3 -m http.server -d _site
 """
@@ -14,7 +15,6 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 SRC = ROOT / "site"
-DATA = ROOT / "data" / "episodes.json"
 OUT = ROOT / "_site"
 
 
@@ -26,41 +26,52 @@ def clean_title(title):
     return t.strip(" -|")
 
 
-def compact(ep):
+def compact_episode(ep):
     out = {
-        "id": ep["id"],
-        "n": ep.get("number"),
-        "part": ep.get("part"),
-        "kind": ep["kind"],
+        "n": ep.get("number") if ep.get("kind") == "episodio" else None,
         "title": clean_title(ep["title"]),
         "date": (ep.get("published") or "")[:10],
-        "dur": ep.get("duration_seconds"),
-        "desc": ep.get("description", ""),
         "yt": ep.get("youtube_id"),
         "sp": ep.get("spotify_url"),
         "iv": ep.get("ivoox_url"),
     }
-    # Campos que añadirán pasos posteriores (etiquetado, libros).
-    if ep.get("tags"):
-        out["tags"] = ep["tags"]
-    if ep.get("guest"):
-        out["guest"] = ep["guest"]
-    if ep.get("book"):
-        out["book"] = ep["book"]
+    return {k: v for k, v in out.items() if v not in (None, "")}
+
+
+def compact_book(book, episodes):
+    eps = sorted((compact_episode(episodes[e]) for e in book["episodes"] if e in episodes),
+                 key=lambda e: e["date"], reverse=True)
+    out = {
+        "id": book["id"],
+        "t": book["title"],
+        "a": book.get("author"),
+        "th": book.get("themes") or [],
+        "y": book.get("year"),
+        "pub": book.get("publisher"),
+        "isbn": book.get("isbn"),
+        "cover": book.get("cover"),
+        "buy": book.get("buy_url"),
+        # Solo se marca la excepción: por defecto es un libro del invitado.
+        "m": 1 if book.get("relation") == "mencionado" else None,
+        "date": eps[0]["date"] if eps else "",
+        "eps": eps,
+    }
     return {k: v for k, v in out.items() if v not in (None, "", [])}
 
 
 def main():
-    data = json.loads(DATA.read_text(encoding="utf-8"))
+    books = json.loads((ROOT / "data" / "books.json").read_text(encoding="utf-8"))
+    episodes = {e["id"]: e for e in json.loads((ROOT / "data" / "episodes.json").read_text(encoding="utf-8"))["episodes"]}
     if OUT.exists():
         shutil.rmtree(OUT)
     shutil.copytree(SRC, OUT)
-    episodes = [compact(e) for e in data["episodes"] if (e.get("duration_seconds") or 0) >= 600]
-    payload = {"updated": data.get("updated_at"), "episodes": episodes}
-    (OUT / "episodes.json").write_text(
-        json.dumps(payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8"
-    )
-    print(f"_site/ generado con {len(episodes)} episodios")
+    payload = {
+        "updated": books.get("updated_at"),
+        "themes": books["themes"],
+        "books": [compact_book(b, episodes) for b in books["books"]],
+    }
+    (OUT / "books.json").write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    print(f"_site/ generado con {len(payload['books'])} libros")
 
 
 if __name__ == "__main__":

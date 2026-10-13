@@ -1,0 +1,4009 @@
+{
+  "themes": {
+    "salud": "Salud y nutrición",
+    "psicologia": "Psicología y mente",
+    "ciencia": "Ciencia",
+    "desarrollo": "Desarrollo personal",
+    "filosofia": "Filosofía",
+    "espiritualidad": "Espiritualidad",
+    "misterio": "Misterio",
+    "crimen": "Crimen y justicia",
+    "sociedad": "Sociedad y actualidad",
+    "historia": "Historia",
+    "tecnologia": "Tecnología",
+    "economia": "Economía y empresa",
+    "comunicacion": "Comunicación y escritura",
+    "sexualidad": "Sexualidad y relaciones",
+    "crianza": "Familia y crianza",
+    "deporte": "Deporte",
+    "memorias": "Memorias y biografías",
+    "novela": "Novela",
+    "poesia": "Poesía",
+    "humor": "Humor",
+    "arte": "Cine, música y arte"
+  },
+  "checked_episodes": [
+    "0395fe9d-e3d1-4212-abbf-0be9f4e3b5b1",
+    "0a4ce951-3df7-4e8f-82b8-bf9a4c3e67ad",
+    "0c2548d1-a925-4372-ad9e-7976518c051e",
+    "0d5c6ad1-7616-431c-bd20-475350dda7f1",
+    "0f78e620-8265-45cf-ba8a-fe3e65258d98",
+    "0ff5fc10-3967-4c82-9ef4-68e39c9b6625",
+    "10087ec6-50ff-43e8-af66-b575bab66342",
+    "122d87a3-26f5-4a18-94cf-12ba54c75bec",
+    "12637239-43eb-4671-87a4-65fa4be05420",
+    "12a9c112-d8b2-4143-b791-c0152d295530",
+    "13b4cce8-7dcc-46aa-8c89-8f0a254dbe60",
+    "1428131c-2e01-4701-ac38-80e704e29d61",
+    "148b141f-bb0a-4906-bb00-f897ed7a3120",
+    "163df41b-4f08-41ce-b581-96cbbc44998e",
+    "178c85b1-cad7-424a-b198-a958eb2e80c9",
+    "1b1d5056-c3bc-42f1-9fb7-5d23434cfd8a",
+    "1cbd5638-f9ab-44dd-8c71-ca574b33bcb3",
+    "1f09c3dd-05cf-469b-99c4-442628f5e297",
+    "20ff1058-8ea4-4b1f-ab65-dd90db71e79f",
+    "21f81e7b-e531-4cdf-8bdf-539cafc85a68",
+    "22284d71-8210-42cd-8948-907d1f7c266f",
+    "22f2bafd-3dc9-497a-9bef-2c5a5321b6ef",
+    "2313fc0b-03dd-4a94-acc7-946efde8e2d4",
+    "26f80dd6-a22b-4ffa-8b84-e7cad127d5e1",
+    "2a307d46-c576-4274-b956-985140b0276a",
+    "2d3e7ff8-2140-4dc4-852c-0767cfd87561",
+    "30edc27f-6b81-4408-ba01-f10bfd59b2f6",
+    "3120a459-aa31-4739-9856-730c2fe05846",
+    "3238e90c-087e-42e2-8e8a-96add97acf8b",
+    "326cf1b0-2730-4a10-9699-918b6ec98e48",
+    "33e87659-63be-42c5-9dbb-f1bfad6d3418",
+    "35420915-5912-4705-87ee-58d2050dd671",
+    "39b76557-4644-477f-8185-463fb96b5be2",
+    "3edcd193-8fa4-4e84-99ee-cd1980e1693d",
+    "3f368af1-bd67-492c-8e58-028d496600cd",
+    "406a1788-dbcc-42b5-9021-f15e839b0dff",
+    "4795588f-35e2-4f00-8655-c7d4ba30a42a",
+    "479aa1a3-536e-4ca7-96d6-2925bb035dcf",
+    "490c4cc0-8f6e-4696-a009-8f15400cfae2",
+    "4aa89770-e3ad-4f0c-bdbf-5c1fb49a9231",
+    "4f57dc33-4098-4aff-8814-abe2a7494de6",
+    "520bd607-648d-442d-bcfa-9d72000d3765",
+    "5552d1b1-68f2-401c-b326-d4c417d61274",
+    "55b80b2a-fef5-4fee-9a6c-edb1707bd859",
+    "56ba3724-0fb1-481a-befe-35cd1251f1d2",
+    "56ded0d7-efb5-4711-86c6-be819051e00f",
+    "5a1e1f1d-6c2d-46bb-9194-7b019edc2937",
+    "5c7b9b9e-fac8-4e8d-a1ce-08d282ca9c08",
+    "5fff7967-f3c0-44c2-8aed-93c84806f699",
+    "6192b214-cfa7-4f37-9c1a-cc6dfe416615",
+    "667e8934-61b4-490b-b03a-f77ee075ac8f",
+    "68218832-6c07-4a1e-a906-3cd3b86bbf04",
+    "6d1de4c8-6e2f-4b8c-bf1f-f47e31f80b1b",
+    "6de56e0a-e0ff-438d-bf92-0935356c849e",
+    "6deafcae-f76c-4ef5-9226-227c67763068",
+    "6f2bc293-b9b9-4c85-823d-9f4692c481df",
+    "6f69ec8d-dfe8-420c-b8a9-17b96f27c3db",
+    "76af8487-baa1-42e9-8cf5-6b2dc086ad14",
+    "76ebf785-c86d-409c-943f-affca19ea4b6",
+    "7702f76b-d21c-4a5b-9a2a-316537f5dd9d",
+    "7cc75b7f-e65e-43ef-8d98-3661f621df0d",
+    "7d182c10-9005-4a98-80ab-a86ec886291f",
+    "7ea6e52f-adac-4f44-8b56-ee5653d827bc",
+    "824eaec5-4e25-4445-95ab-7d6e0e9e16fb",
+    "837da444-8670-4762-a14b-6cd95fbf563d",
+    "862548c2-1810-4b62-b196-2ee1ec2a0c60",
+    "86337c07-1eeb-4ac1-8474-4a5df39072ca",
+    "8d255da5-e535-495c-a7fa-e4976b791670",
+    "8e3d8fc0-ba40-4a07-9127-97f52b6f657b",
+    "8e48fc71-db5f-4977-ab23-eb95eca94cfd",
+    "911a565c-fcc6-4855-a4c5-7440f615c600",
+    "94ebd9b1-5b67-4146-a94e-fd49e3e5ecd6",
+    "955be435-8342-47f6-b06e-dc5ebff12a5b",
+    "95daa39d-5eb6-4734-bda8-4f08581e02e7",
+    "97b73c3e-f961-44d9-8e6c-ad107f857182",
+    "9a8ed720-d4b3-4923-bf12-b58d7fd5b6fa",
+    "9dc416b5-f340-4627-a957-63fc906bef6d",
+    "9e9773b7-5e94-43aa-8b59-9ffbeb79b65f",
+    "a2d4d6d8-21b4-41a9-82dc-d7cc05c42b90",
+    "a2ec117a-f6c3-4b82-8dd4-c2daabd45e1b",
+    "a93c9917-eeae-4975-b6b1-35f188802f50",
+    "a98b4d18-a936-469e-827b-2fac75ef4b95",
+    "aabbe053-6bb1-4598-b207-55fde6d72200",
+    "b0fff003-88f9-4965-b7f7-c513fc4bb200",
+    "b1c401a6-f7be-4b10-aa90-1819cce622a9",
+    "b342eb29-cd39-4885-b641-73ef294f870b",
+    "b40cf37d-788c-4b3c-8d54-2d6a0cfecf24",
+    "b6689c5c-ca3c-4dd2-8010-513813d909a5",
+    "b674b4a9-33aa-4746-aa2f-37358035db8a",
+    "b6e9869c-7f45-433f-8452-8aa4e39e0d36",
+    "bbef13e3-f208-4b11-89b2-ff649a2b1f74",
+    "be194ca8-88cb-444b-82bc-34b1f968c83a",
+    "ccff7dae-9e2a-4df1-800c-782f84a463d6",
+    "cea8f419-4efc-47d6-ad5d-4cb1057085fc",
+    "cf1ebae8-1339-4152-93e8-a5f84669287f",
+    "cfcc1331-f1ba-4edd-a061-b8b03ddbbb8d",
+    "cfea9adf-0bce-48e7-873b-3d655b2e461b",
+    "d35a9249-0fb8-41a0-ab56-d65b1c8b2875",
+    "d6294d94-41ee-4c5a-ba6a-429f423bd337",
+    "d915e7a0-bedd-460d-a6ef-91b30b9bcadf",
+    "e1c6c1cc-f104-4e76-9ad1-52c392b8e5e0",
+    "e21ed561-7f5f-47a3-88af-c1b5e1170c2d",
+    "e52042f8-ce27-4849-8040-42e0244dcbe2",
+    "e5da5077-fc39-4021-80d1-9f315935764b",
+    "e634af5f-f903-4e60-9a00-aec3d44b7b01",
+    "e77604f4-c8b5-4def-a935-a72f9e1afa29",
+    "e93b8ed1-7357-4c2e-b178-593e02813a10",
+    "f06ca50d-2feb-471d-92e0-6b021405a081",
+    "f180262f-2f1c-4113-8a4e-e1d2c88f7373",
+    "f2363c8c-7d19-49a6-a73d-27d93a9014a9",
+    "f4468282-3f01-43d9-ad2c-b3fdd3700e81",
+    "f6281f78-d242-4650-a913-da4b57b9593c",
+    "f6a2fe3b-54d3-4830-9008-60aca2c6e2e3",
+    "f7ce6770-9b95-4978-820a-5cda0738f214",
+    "fb2c9d3e-cff6-48d4-aa1c-47f1b9867579",
+    "fbafbdf8-bc0c-4ee7-8c29-2d59e84c2be8",
+    "ff871881-8a31-4525-b974-c4426edff735",
+    "https://api.spreaker.com/episode/55992249",
+    "https://api.spreaker.com/episode/56047819",
+    "https://api.spreaker.com/episode/56131501",
+    "https://api.spreaker.com/episode/56203394",
+    "https://api.spreaker.com/episode/56309898",
+    "https://api.spreaker.com/episode/56398321",
+    "https://api.spreaker.com/episode/56474912",
+    "https://api.spreaker.com/episode/56623671",
+    "https://api.spreaker.com/episode/56692088",
+    "https://api.spreaker.com/episode/56775819",
+    "https://api.spreaker.com/episode/56797429",
+    "https://api.spreaker.com/episode/56848245",
+    "https://api.spreaker.com/episode/56883065",
+    "https://api.spreaker.com/episode/56940240",
+    "https://api.spreaker.com/episode/56974857",
+    "https://api.spreaker.com/episode/57035888",
+    "https://api.spreaker.com/episode/57077689",
+    "https://api.spreaker.com/episode/57173047",
+    "https://api.spreaker.com/episode/57207564",
+    "https://api.spreaker.com/episode/57267685",
+    "https://api.spreaker.com/episode/57317534",
+    "https://api.spreaker.com/episode/57363155",
+    "https://api.spreaker.com/episode/57431794",
+    "https://api.spreaker.com/episode/57447084",
+    "https://api.spreaker.com/episode/57496604",
+    "https://api.spreaker.com/episode/57535105",
+    "https://api.spreaker.com/episode/57588145",
+    "https://api.spreaker.com/episode/57627621",
+    "https://api.spreaker.com/episode/57676592",
+    "https://api.spreaker.com/episode/57745478",
+    "https://api.spreaker.com/episode/57793664",
+    "https://api.spreaker.com/episode/57828636",
+    "https://api.spreaker.com/episode/57916458",
+    "https://api.spreaker.com/episode/57982776",
+    "https://api.spreaker.com/episode/58053671",
+    "https://api.spreaker.com/episode/58120552",
+    "https://api.spreaker.com/episode/58167805",
+    "https://api.spreaker.com/episode/58233114",
+    "https://api.spreaker.com/episode/58317778",
+    "https://api.spreaker.com/episode/58410393",
+    "https://api.spreaker.com/episode/58498197",
+    "https://api.spreaker.com/episode/58580482",
+    "https://api.spreaker.com/episode/58663077",
+    "https://api.spreaker.com/episode/58745940",
+    "https://api.spreaker.com/episode/58840769",
+    "https://api.spreaker.com/episode/58873666",
+    "https://api.spreaker.com/episode/58929614",
+    "https://api.spreaker.com/episode/58955420",
+    "https://api.spreaker.com/episode/59007272",
+    "https://api.spreaker.com/episode/59042026",
+    "https://api.spreaker.com/episode/59094442",
+    "https://api.spreaker.com/episode/59119921",
+    "https://api.spreaker.com/episode/59177834",
+    "https://api.spreaker.com/episode/59258580",
+    "https://api.spreaker.com/episode/59353737",
+    "https://api.spreaker.com/episode/59483895",
+    "https://api.spreaker.com/episode/59611533",
+    "https://api.spreaker.com/episode/59725909",
+    "https://api.spreaker.com/episode/59885128",
+    "https://api.spreaker.com/episode/60021347",
+    "https://api.spreaker.com/episode/60104741",
+    "https://api.spreaker.com/episode/60195156",
+    "https://api.spreaker.com/episode/60272011",
+    "https://api.spreaker.com/episode/60347071",
+    "https://api.spreaker.com/episode/60420605",
+    "https://api.spreaker.com/episode/60496290",
+    "https://api.spreaker.com/episode/60572903",
+    "https://api.spreaker.com/episode/60636354",
+    "https://api.spreaker.com/episode/60704344",
+    "https://api.spreaker.com/episode/60720976",
+    "https://api.spreaker.com/episode/61938483",
+    "https://api.spreaker.com/episode/62022229",
+    "https://api.spreaker.com/episode/62063918",
+    "https://api.spreaker.com/episode/62084011",
+    "https://api.spreaker.com/episode/62108208",
+    "https://api.spreaker.com/episode/62154181",
+    "https://api.spreaker.com/episode/62170598",
+    "https://api.spreaker.com/episode/62206121",
+    "https://api.spreaker.com/episode/62277015",
+    "https://api.spreaker.com/episode/62305262",
+    "https://api.spreaker.com/episode/62365580",
+    "https://api.spreaker.com/episode/62393803",
+    "https://api.spreaker.com/episode/62450982",
+    "https://api.spreaker.com/episode/62485382",
+    "https://api.spreaker.com/episode/62539823",
+    "https://api.spreaker.com/episode/62567025",
+    "https://api.spreaker.com/episode/62619454",
+    "https://api.spreaker.com/episode/62649951",
+    "https://api.spreaker.com/episode/62696691",
+    "https://api.spreaker.com/episode/62697135",
+    "https://api.spreaker.com/episode/62792293",
+    "https://api.spreaker.com/episode/62949699",
+    "https://api.spreaker.com/episode/63006505",
+    "https://api.spreaker.com/episode/63035908",
+    "https://api.spreaker.com/episode/63121532",
+    "https://api.spreaker.com/episode/63160526",
+    "https://api.spreaker.com/episode/63245706",
+    "https://api.spreaker.com/episode/63276195",
+    "https://api.spreaker.com/episode/63344917",
+    "https://api.spreaker.com/episode/63383142",
+    "https://api.spreaker.com/episode/63443243",
+    "https://api.spreaker.com/episode/63472665",
+    "https://api.spreaker.com/episode/63510108",
+    "https://api.spreaker.com/episode/63539062",
+    "https://api.spreaker.com/episode/63584685",
+    "https://api.spreaker.com/episode/63619163",
+    "https://api.spreaker.com/episode/63674863",
+    "https://api.spreaker.com/episode/63710798",
+    "https://api.spreaker.com/episode/63718652",
+    "https://api.spreaker.com/episode/63828250",
+    "https://api.spreaker.com/episode/63927671",
+    "https://api.spreaker.com/episode/64039390",
+    "https://api.spreaker.com/episode/64166092",
+    "https://api.spreaker.com/episode/64225089",
+    "https://api.spreaker.com/episode/64286643",
+    "https://api.spreaker.com/episode/64352835",
+    "https://api.spreaker.com/episode/64389352",
+    "https://api.spreaker.com/episode/64461391",
+    "https://api.spreaker.com/episode/64501302",
+    "https://api.spreaker.com/episode/64594316",
+    "https://www.ivoox.com/100110633",
+    "https://www.ivoox.com/100277232",
+    "https://www.ivoox.com/100457180",
+    "https://www.ivoox.com/100820624",
+    "https://www.ivoox.com/101257329",
+    "https://www.ivoox.com/101373487",
+    "https://www.ivoox.com/101548996",
+    "https://www.ivoox.com/101739647",
+    "https://www.ivoox.com/101915908",
+    "https://www.ivoox.com/102076000",
+    "https://www.ivoox.com/102303692",
+    "https://www.ivoox.com/102478592",
+    "https://www.ivoox.com/102654477",
+    "https://www.ivoox.com/102795921",
+    "https://www.ivoox.com/103027413",
+    "https://www.ivoox.com/103201471",
+    "https://www.ivoox.com/103402939",
+    "https://www.ivoox.com/103562945",
+    "https://www.ivoox.com/103748411",
+    "https://www.ivoox.com/103947440",
+    "https://www.ivoox.com/103949123",
+    "https://www.ivoox.com/104330367",
+    "https://www.ivoox.com/104529837",
+    "https://www.ivoox.com/104699226",
+    "https://www.ivoox.com/104902732",
+    "https://www.ivoox.com/105077167",
+    "https://www.ivoox.com/105275618",
+    "https://www.ivoox.com/105442669",
+    "https://www.ivoox.com/105708858",
+    "https://www.ivoox.com/106092810",
+    "https://www.ivoox.com/106304573",
+    "https://www.ivoox.com/106535453",
+    "https://www.ivoox.com/106702009",
+    "https://www.ivoox.com/106906700",
+    "https://www.ivoox.com/107069003",
+    "https://www.ivoox.com/107362141",
+    "https://www.ivoox.com/107556377",
+    "https://www.ivoox.com/107814048",
+    "https://www.ivoox.com/108016455",
+    "https://www.ivoox.com/108295754",
+    "https://www.ivoox.com/108481299",
+    "https://www.ivoox.com/108774361",
+    "https://www.ivoox.com/108965351",
+    "https://www.ivoox.com/109240918",
+    "https://www.ivoox.com/109440159",
+    "https://www.ivoox.com/109776882",
+    "https://www.ivoox.com/110272747",
+    "https://www.ivoox.com/110476122",
+    "https://www.ivoox.com/110766866",
+    "https://www.ivoox.com/110977467",
+    "https://www.ivoox.com/111243967",
+    "https://www.ivoox.com/111422003",
+    "https://www.ivoox.com/19086738",
+    "https://www.ivoox.com/19244218",
+    "https://www.ivoox.com/19374438",
+    "https://www.ivoox.com/19500124",
+    "https://www.ivoox.com/19620140",
+    "https://www.ivoox.com/19744935",
+    "https://www.ivoox.com/19866314",
+    "https://www.ivoox.com/19992945",
+    "https://www.ivoox.com/20111311",
+    "https://www.ivoox.com/20219768",
+    "https://www.ivoox.com/20348400",
+    "https://www.ivoox.com/20435080",
+    "https://www.ivoox.com/20585881",
+    "https://www.ivoox.com/20705240",
+    "https://www.ivoox.com/20823697",
+    "https://www.ivoox.com/20965507",
+    "https://www.ivoox.com/21085415",
+    "https://www.ivoox.com/21241609",
+    "https://www.ivoox.com/21507623",
+    "https://www.ivoox.com/21652138",
+    "https://www.ivoox.com/21793462",
+    "https://www.ivoox.com/21932113",
+    "https://www.ivoox.com/22066447",
+    "https://www.ivoox.com/22134745",
+    "https://www.ivoox.com/22201328",
+    "https://www.ivoox.com/22326375",
+    "https://www.ivoox.com/22602950",
+    "https://www.ivoox.com/22734894",
+    "https://www.ivoox.com/22841190",
+    "https://www.ivoox.com/22933040",
+    "https://www.ivoox.com/22994946",
+    "https://www.ivoox.com/23036409",
+    "https://www.ivoox.com/23173161",
+    "https://www.ivoox.com/23340138",
+    "https://www.ivoox.com/23444528",
+    "https://www.ivoox.com/23583855",
+    "https://www.ivoox.com/23730634",
+    "https://www.ivoox.com/23893557",
+    "https://www.ivoox.com/24105525",
+    "https://www.ivoox.com/24242905",
+    "https://www.ivoox.com/24372692",
+    "https://www.ivoox.com/24629693",
+    "https://www.ivoox.com/24828547",
+    "https://www.ivoox.com/24981519",
+    "https://www.ivoox.com/25022692",
+    "https://www.ivoox.com/25215411",
+    "https://www.ivoox.com/25410771",
+    "https://www.ivoox.com/25588771",
+    "https://www.ivoox.com/25699345",
+    "https://www.ivoox.com/25720101",
+    "https://www.ivoox.com/25855904",
+    "https://www.ivoox.com/25984194",
+    "https://www.ivoox.com/26108414",
+    "https://www.ivoox.com/26234916",
+    "https://www.ivoox.com/26370007",
+    "https://www.ivoox.com/26382314",
+    "https://www.ivoox.com/26611861",
+    "https://www.ivoox.com/26734079",
+    "https://www.ivoox.com/27182454",
+    "https://www.ivoox.com/28083727",
+    "https://www.ivoox.com/28285209",
+    "https://www.ivoox.com/28461713",
+    "https://www.ivoox.com/28635224",
+    "https://www.ivoox.com/29039536",
+    "https://www.ivoox.com/29193640",
+    "https://www.ivoox.com/29334128",
+    "https://www.ivoox.com/29557348",
+    "https://www.ivoox.com/29683170",
+    "https://www.ivoox.com/29799947",
+    "https://www.ivoox.com/29856863",
+    "https://www.ivoox.com/30068204",
+    "https://www.ivoox.com/30193037",
+    "https://www.ivoox.com/30337401",
+    "https://www.ivoox.com/30511343",
+    "https://www.ivoox.com/30689244",
+    "https://www.ivoox.com/31310513",
+    "https://www.ivoox.com/31474566",
+    "https://www.ivoox.com/31653510",
+    "https://www.ivoox.com/31893456",
+    "https://www.ivoox.com/32251710",
+    "https://www.ivoox.com/32458277",
+    "https://www.ivoox.com/32685705",
+    "https://www.ivoox.com/33066667",
+    "https://www.ivoox.com/33542375",
+    "https://www.ivoox.com/33716373",
+    "https://www.ivoox.com/34793637",
+    "https://www.ivoox.com/35492850",
+    "https://www.ivoox.com/36123826",
+    "https://www.ivoox.com/36418073",
+    "https://www.ivoox.com/36670406",
+    "https://www.ivoox.com/36937428",
+    "https://www.ivoox.com/37909178",
+    "https://www.ivoox.com/38178050",
+    "https://www.ivoox.com/38519014",
+    "https://www.ivoox.com/38825800",
+    "https://www.ivoox.com/40180774",
+    "https://www.ivoox.com/40799578",
+    "https://www.ivoox.com/41140784",
+    "https://www.ivoox.com/41531894",
+    "https://www.ivoox.com/41889873",
+    "https://www.ivoox.com/42352020",
+    "https://www.ivoox.com/42777106",
+    "https://www.ivoox.com/43093272",
+    "https://www.ivoox.com/43392323",
+    "https://www.ivoox.com/43631766",
+    "https://www.ivoox.com/43930834",
+    "https://www.ivoox.com/44300942",
+    "https://www.ivoox.com/44450574",
+    "https://www.ivoox.com/44721329",
+    "https://www.ivoox.com/45041737",
+    "https://www.ivoox.com/45259941",
+    "https://www.ivoox.com/45541662",
+    "https://www.ivoox.com/45789418",
+    "https://www.ivoox.com/46189763",
+    "https://www.ivoox.com/46450016",
+    "https://www.ivoox.com/46753850",
+    "https://www.ivoox.com/46991229",
+    "https://www.ivoox.com/47297709",
+    "https://www.ivoox.com/47865580",
+    "https://www.ivoox.com/48182591",
+    "https://www.ivoox.com/48450185",
+    "https://www.ivoox.com/48604025",
+    "https://www.ivoox.com/48728820",
+    "https://www.ivoox.com/48869555",
+    "https://www.ivoox.com/48983123",
+    "https://www.ivoox.com/49132207",
+    "https://www.ivoox.com/49239531",
+    "https://www.ivoox.com/49360171",
+    "https://www.ivoox.com/49493285",
+    "https://www.ivoox.com/49593901",
+    "https://www.ivoox.com/49708020",
+    "https://www.ivoox.com/49984243",
+    "https://www.ivoox.com/50224149",
+    "https://www.ivoox.com/50386033",
+    "https://www.ivoox.com/50497498",
+    "https://www.ivoox.com/50611222",
+    "https://www.ivoox.com/50725465",
+    "https://www.ivoox.com/50844049",
+    "https://www.ivoox.com/50956480",
+    "https://www.ivoox.com/51064091",
+    "https://www.ivoox.com/51179510",
+    "https://www.ivoox.com/51437099",
+    "https://www.ivoox.com/51668611",
+    "https://www.ivoox.com/51884217",
+    "https://www.ivoox.com/52106538",
+    "https://www.ivoox.com/52324834",
+    "https://www.ivoox.com/52964763",
+    "https://www.ivoox.com/53387192",
+    "https://www.ivoox.com/53852141",
+    "https://www.ivoox.com/54148580",
+    "https://www.ivoox.com/54440401",
+    "https://www.ivoox.com/54739358",
+    "https://www.ivoox.com/55314794",
+    "https://www.ivoox.com/55611219",
+    "https://www.ivoox.com/55910164",
+    "https://www.ivoox.com/56201211",
+    "https://www.ivoox.com/56514484",
+    "https://www.ivoox.com/56840867",
+    "https://www.ivoox.com/57174289",
+    "https://www.ivoox.com/57493841",
+    "https://www.ivoox.com/57823444",
+    "https://www.ivoox.com/58162531",
+    "https://www.ivoox.com/58492882",
+    "https://www.ivoox.com/59298291",
+    "https://www.ivoox.com/60150324",
+    "https://www.ivoox.com/60496286",
+    "https://www.ivoox.com/60833506",
+    "https://www.ivoox.com/61156876",
+    "https://www.ivoox.com/61905709",
+    "https://www.ivoox.com/62469767",
+    "https://www.ivoox.com/62786688",
+    "https://www.ivoox.com/63132276",
+    "https://www.ivoox.com/63441786",
+    "https://www.ivoox.com/63788948",
+    "https://www.ivoox.com/64116537",
+    "https://www.ivoox.com/64457013",
+    "https://www.ivoox.com/64879047",
+    "https://www.ivoox.com/65120310",
+    "https://www.ivoox.com/65480295",
+    "https://www.ivoox.com/65822593",
+    "https://www.ivoox.com/66181235",
+    "https://www.ivoox.com/66525341",
+    "https://www.ivoox.com/66877950",
+    "https://www.ivoox.com/67225540",
+    "https://www.ivoox.com/67563343",
+    "https://www.ivoox.com/68103382",
+    "https://www.ivoox.com/68475757",
+    "https://www.ivoox.com/68818610",
+    "https://www.ivoox.com/69168403",
+    "https://www.ivoox.com/69494682",
+    "https://www.ivoox.com/69839398",
+    "https://www.ivoox.com/70151571",
+    "https://www.ivoox.com/70484786",
+    "https://www.ivoox.com/70774077",
+    "https://www.ivoox.com/71078072",
+    "https://www.ivoox.com/93312579",
+    "https://www.ivoox.com/93718757",
+    "https://www.ivoox.com/93927090",
+    "https://www.ivoox.com/94154387",
+    "https://www.ivoox.com/94364475",
+    "https://www.ivoox.com/94764456",
+    "https://www.ivoox.com/94971703",
+    "https://www.ivoox.com/95182811",
+    "https://www.ivoox.com/95405357",
+    "https://www.ivoox.com/95900867",
+    "https://www.ivoox.com/96163215",
+    "https://www.ivoox.com/96391232",
+    "https://www.ivoox.com/96561859",
+    "https://www.ivoox.com/96727675",
+    "https://www.ivoox.com/96905347",
+    "https://www.ivoox.com/97155005",
+    "https://www.ivoox.com/97359541",
+    "https://www.ivoox.com/99461010",
+    "https://www.ivoox.com/99910339"
+  ],
+  "books": [
+    {
+      "id": "80-recomendaciones-para-evitar-toxicos-nicolas-olea",
+      "title": "80 recomendaciones para evitar tóxicos",
+      "author": "Nicolás Olea",
+      "themes": [
+        "salud"
+      ],
+      "episodes": [
+        "6f69ec8d-dfe8-420c-b8a9-17b96f27c3db"
+      ],
+      "buy_url": "https://amzn.to/4owDAWo",
+      "lookup": "none"
+    },
+    {
+      "id": "a-los-que-vienen-manuela-carmena",
+      "title": "A los que vienen",
+      "author": "Manuela Carmena",
+      "themes": [
+        "sociedad"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/68103382"
+      ],
+      "isbn": "9788403517677",
+      "year": 2019,
+      "publisher": "AGUILAR",
+      "pages": 320,
+      "cover": "https://covers.openlibrary.org/b/id/14202104-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "abre-los-ojos-conchi-lillo",
+      "title": "¡Abre los ojos!",
+      "author": "Conchi Lillo",
+      "themes": [
+        "ciencia",
+        "salud"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/111243967"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "agenda-2030-libertad-o-tirania-cristina-martin-jimenez",
+      "title": "Agenda 2030: ¿libertad o tiranía?",
+      "author": "Cristina Martín Jiménez",
+      "themes": [
+        "sociedad"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/60720976"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "aliens-ancestrales-josep-guijarro",
+      "title": "Aliens ancestrales",
+      "author": "Josep Guijarro",
+      "themes": [
+        "misterio"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/56398321"
+      ],
+      "isbn": "9788415864806",
+      "year": 2015,
+      "publisher": "Luciérnaga CAS",
+      "pages": 352,
+      "cover": "https://covers.openlibrary.org/b/id/13472242-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "amor-o-adiccion-silvia-congost",
+      "title": "¿Amor o adicción?",
+      "author": "Silvia Congost",
+      "themes": [
+        "psicologia"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/57588145"
+      ],
+      "isbn": "9788408269939",
+      "year": 2023,
+      "publisher": "Zenith",
+      "pages": 256,
+      "cover": "https://covers.openlibrary.org/b/id/13563448-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "antes-del-olvido-jorge-javier-vazquez",
+      "title": "Antes del olvido",
+      "author": "Jorge Javier Vázquez",
+      "themes": [
+        "memorias"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/99461010"
+      ],
+      "isbn": "9788408264408",
+      "year": 2022,
+      "publisher": "Planeta",
+      "pages": 320,
+      "cover": "https://covers.openlibrary.org/b/id/12997628-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "artificial-la-nueva-inteligencia-y-el-contorno-de-lo-humano-mariano-sigman",
+      "title": "Artificial. La nueva inteligencia y el contorno de lo humano",
+      "author": "Mariano Sigman y Santiago Bilinkis",
+      "themes": [
+        "tecnologia",
+        "ciencia"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/57982776",
+        "a93c9917-eeae-4975-b6b1-35f188802f50"
+      ],
+      "isbn": "9788419642677",
+      "year": 2024,
+      "publisher": "Random House Espanol",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "asalto-al-octagono-alvaro-colmenero",
+      "title": "Asalto al octágono",
+      "author": "Álvaro Colmenero",
+      "themes": [
+        "deporte"
+      ],
+      "episodes": [
+        "f6a2fe3b-54d3-4830-9008-60aca2c6e2e3"
+      ],
+      "buy_url": "https://amzn.to/4rbxF9Z",
+      "lookup": "none"
+    },
+    {
+      "id": "asi-funciona-la-justicia-natalia-velilla",
+      "title": "Así funciona la justicia",
+      "author": "Natalia Velilla",
+      "themes": [
+        "sociedad",
+        "crimen"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/59885128"
+      ],
+      "isbn": "9788417623746",
+      "year": 2021,
+      "publisher": "Arpa Editores",
+      "pages": 320,
+      "cover": "https://covers.openlibrary.org/b/id/11238380-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "atencion-plena-dokusho-villalba",
+      "title": "Atención plena",
+      "author": "Dokushô Villalba",
+      "themes": [
+        "espiritualidad"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/58492882"
+      ],
+      "isbn": "9788499886763",
+      "year": 2019,
+      "publisher": "Kaidós",
+      "pages": 219,
+      "cover": "https://covers.openlibrary.org/b/id/13116369-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "aunque-seas-rara-y-pajaro-lua-mosquetera",
+      "title": "Aunque seas rara y pájaro",
+      "author": "Lúa Mosquetera",
+      "themes": [
+        "poesia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/48728820"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "bienvenidos-a-la-rosa-de-los-vientos-bruno-cardenosa",
+      "title": "Bienvenidos a La rosa de los vientos",
+      "author": "Bruno Cardeñosa",
+      "themes": [
+        "comunicacion"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/56974857"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "breve-historia-del-tiempo-stephen-hawking",
+      "title": "Breve historia del tiempo",
+      "author": "Stephen Hawking",
+      "themes": [
+        "ciencia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/24828547"
+      ],
+      "relation": "mencionado",
+      "lookup": "none"
+    },
+    {
+      "id": "caballo-de-troya-jj-benitez",
+      "title": "Caballo de Troya",
+      "author": "JJ Benítez",
+      "themes": [
+        "novela",
+        "misterio"
+      ],
+      "episodes": [
+        "9e9773b7-5e94-43aa-8b59-9ffbeb79b65f"
+      ],
+      "isbn": "9788432037696",
+      "year": 1984,
+      "publisher": "Booket",
+      "pages": 728,
+      "cover": "https://covers.openlibrary.org/b/id/8351109-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "california-83-pepe-colubi",
+      "title": "California 83",
+      "author": "Pepe Colubi",
+      "themes": [
+        "novela"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/45789418"
+      ],
+      "isbn": "9788467005028",
+      "year": 2012,
+      "publisher": "Booket",
+      "pages": 352,
+      "cover": "https://covers.openlibrary.org/b/id/14287805-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "caminar-sin-punteras-almudena-cid",
+      "title": "Caminar sin punteras",
+      "author": "Almudena Cid",
+      "themes": [
+        "memorias",
+        "deporte"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/56203394"
+      ],
+      "isbn": "9788419248329",
+      "year": 2023,
+      "publisher": "Vergara",
+      "pages": 288,
+      "cover": "https://covers.openlibrary.org/b/id/13708216-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "cara-a-cara-con-satanas-teresa-porqueras",
+      "title": "Cara a cara con Satanás",
+      "author": "Teresa Porqueras",
+      "themes": [
+        "misterio"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/56201211"
+      ],
+      "isbn": "9788412254945",
+      "year": 2020,
+      "publisher": "Apostroph, Edicions i Propostes Culturals, S.L.",
+      "pages": 320,
+      "cover": "https://covers.openlibrary.org/b/id/14135384-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "cerebros-rotos-saul-martinez-horta",
+      "title": "Cerebros rotos",
+      "author": "Saúl Martínez-Horta",
+      "themes": [
+        "ciencia",
+        "psicologia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/101373487"
+      ],
+      "isbn": "9788418345487",
+      "year": 2022,
+      "publisher": "Kailas Editorial, S.L.",
+      "pages": 304,
+      "cover": "https://covers.openlibrary.org/b/id/13725456-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "chef-sapiens-marcos-vazquez",
+      "title": "Chef Sapiens",
+      "author": "Marcos Vázquez",
+      "themes": [
+        "salud"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/94764456"
+      ],
+      "isbn": "9788425361722",
+      "year": 2022,
+      "publisher": "GRIJALBO",
+      "pages": 264,
+      "cover": "https://covers.openlibrary.org/b/id/14167029-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "chorromoco-91-pepe-colubi",
+      "title": "Chorromoco 91",
+      "author": "Pepe Colubi",
+      "themes": [
+        "novela"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/45789418"
+      ],
+      "isbn": "9788427041646",
+      "year": 2014,
+      "publisher": "Booket",
+      "pages": 350,
+      "cover": "https://covers.openlibrary.org/b/id/12451712-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "claves-ocultas-del-poder-mundial-miguel-pedrero",
+      "title": "Claves ocultas del poder mundial",
+      "author": "Miguel Pedrero",
+      "themes": [
+        "misterio",
+        "sociedad"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/96561859"
+      ],
+      "isbn": "9788441417632",
+      "year": 2006,
+      "publisher": "Edaf",
+      "pages": 369,
+      "cover": "https://covers.openlibrary.org/b/id/15245813-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "comemos-lo-que-somos-jm-mulet",
+      "title": "Comemos lo que somos",
+      "author": "JM Mulet",
+      "themes": [
+        "salud",
+        "ciencia"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/58663077"
+      ],
+      "buy_url": "https://amzn.to/3OIGYgS",
+      "lookup": "none"
+    },
+    {
+      "id": "comer-sin-miedo-jm-mulet",
+      "title": "Comer sin miedo",
+      "author": "JM Mulet",
+      "themes": [
+        "salud",
+        "ciencia"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/58663077"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "como-salir-del-pozo-andres-oppenheimer",
+      "title": "¡Cómo salir del pozo!",
+      "author": "Andrés Oppenheimer",
+      "themes": [
+        "sociedad",
+        "desarrollo"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/57627621"
+      ],
+      "isbn": "9781644739495",
+      "year": 2023,
+      "publisher": "Random House Espanol",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "conclave-la-iglesia-despues-de-francisco-eric-frattini",
+      "title": "Cónclave: la Iglesia después de Francisco",
+      "author": "Eric Frattini",
+      "themes": [
+        "sociedad",
+        "historia"
+      ],
+      "episodes": [
+        "e21ed561-7f5f-47a3-88af-c1b5e1170c2d"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "conos-juan-manuel-de-prada",
+      "title": "Coños",
+      "author": "Juan Manuel de Prada",
+      "themes": [
+        "novela"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/26234916"
+      ],
+      "isbn": "9788477021308",
+      "year": 1995,
+      "publisher": "Sel",
+      "pages": 158,
+      "cover": "https://covers.openlibrary.org/b/id/7296561-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "criminal-mente-paz-velasco",
+      "title": "Criminal-mente",
+      "author": "Paz Velasco",
+      "themes": [
+        "crimen"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/25720101"
+      ],
+      "isbn": "9788434427389",
+      "year": 2018,
+      "publisher": "Ariel",
+      "cover": "https://covers.openlibrary.org/b/id/8239558-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "cuando-ya-nada-es-urgente-pedro-piqueras",
+      "title": "Cuando ya nada es urgente",
+      "author": "Pedro Piqueras",
+      "themes": [
+        "memorias",
+        "comunicacion"
+      ],
+      "episodes": [
+        "6d1de4c8-6e2f-4b8c-bf1f-f47e31f80b1b"
+      ],
+      "buy_url": "https://amzn.to/42DCHTe",
+      "isbn": "9788410642508",
+      "year": 2025,
+      "publisher": "HarperCollins",
+      "pages": 304,
+      "cover": "https://covers.openlibrary.org/b/id/15182811-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "cuentos-para-sonar-con-un-mundo-mejor-manuela-carmena",
+      "title": "Cuentos para soñar con un mundo mejor",
+      "author": "Manuela Carmena",
+      "themes": [
+        "crianza"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/68103382"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "cuentos-verdaderos-rosa-montero",
+      "title": "Cuentos verdaderos",
+      "author": "Rosa Montero",
+      "themes": [
+        "comunicacion"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/59611533"
+      ],
+      "isbn": "9788420477671",
+      "year": 2024,
+      "publisher": "Penguin Random House Grupo Editorial",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "culturas-olvidadas-historias-de-rincones-anibal-bueno",
+      "title": "Culturas olvidadas. Historias de rincones",
+      "author": "Aníbal Bueno",
+      "themes": [
+        "sociedad",
+        "historia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/110977467"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "dale-vida-a-tu-cerebro-raquel-marin",
+      "title": "Dale vida a tu cerebro",
+      "author": "Raquel Marín",
+      "themes": [
+        "salud",
+        "ciencia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/52324834"
+      ],
+      "buy_url": "https://amzn.to/2HjYicp",
+      "isbn": "9788417092023",
+      "year": 2018,
+      "publisher": "Roca Editorial",
+      "pages": 228,
+      "cover": "https://covers.openlibrary.org/b/id/12329522-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "de-que-nos-sirve-ser-tan-listos-manuel-martin-loeches",
+      "title": "¿De qué nos sirve ser tan listos?",
+      "author": "Manuel Martín-Loeches",
+      "themes": [
+        "ciencia",
+        "psicologia"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/58410393"
+      ],
+      "buy_url": "https://amzn.to/3SiK2RH",
+      "lookup": "none"
+    },
+    {
+      "id": "de-tanto-amarte-me-olvide-de-mi-walter-riso",
+      "title": "De tanto amarte, me olvidé de mí",
+      "author": "Walter Riso",
+      "themes": [
+        "psicologia",
+        "desarrollo"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/104699226"
+      ],
+      "isbn": "9788408269809",
+      "year": 2023,
+      "publisher": "Zenith",
+      "pages": 144,
+      "cover": "https://covers.openlibrary.org/b/id/13563373-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "dejame-llorar-un-apoyo-en-la-perdida-anji-carmelo",
+      "title": "Déjame llorar: un apoyo en la pérdida",
+      "author": "Anji Carmelo",
+      "themes": [
+        "psicologia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/45541662"
+      ],
+      "isbn": "9788496516724",
+      "year": 2020,
+      "publisher": "Taranná Edicions SCP",
+      "pages": 116,
+      "cover": "https://covers.openlibrary.org/b/id/14017721-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "depresion-y-ansiedad-enrique-baca",
+      "title": "Depresión y ansiedad",
+      "author": "Enrique Baca",
+      "themes": [
+        "psicologia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/63441786"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "desde-el-silencio-eduardo-strauch",
+      "title": "Desde el silencio",
+      "author": "Eduardo Strauch",
+      "themes": [
+        "memorias"
+      ],
+      "episodes": [
+        "bbef13e3-f208-4b11-89b2-ff649a2b1f74"
+      ],
+      "buy_url": "https://amzn.to/4iY1oz8",
+      "isbn": "9788498292695",
+      "year": 2012,
+      "publisher": "Ediciones Desnivel",
+      "pages": 192,
+      "cover": "https://covers.openlibrary.org/b/id/13580943-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "devocion-pablo-d-ors",
+      "title": "Devoción",
+      "author": "Pablo d'Ors",
+      "themes": [
+        "espiritualidad"
+      ],
+      "episodes": [
+        "122d87a3-26f5-4a18-94cf-12ba54c75bec"
+      ],
+      "buy_url": "https://amzn.to/4jI5axk",
+      "lookup": "none"
+    },
+    {
+      "id": "diario-de-un-agente-de-homicidios-oscar-tarruella",
+      "title": "Diario de un agente de homicidios",
+      "author": "Óscar Tarruella",
+      "themes": [
+        "crimen",
+        "memorias"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/110766866"
+      ],
+      "isbn": "9788401030192",
+      "year": 2023,
+      "publisher": "PLAZA & JANES",
+      "pages": 312,
+      "cover": "https://covers.openlibrary.org/b/id/13491139-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "diario-de-un-medium-mikel-lizarralde",
+      "title": "Diario de un médium",
+      "author": "Mikel Lizarralde",
+      "themes": [
+        "misterio",
+        "memorias"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/95405357"
+      ],
+      "isbn": "9788418620591",
+      "year": 2022,
+      "publisher": "Vergara",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "diario-de-una-ninfomana-valerie-tasso",
+      "title": "Diario de una ninfómana",
+      "author": "Valérie Tasso",
+      "themes": [
+        "memorias",
+        "sexualidad"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/50956480",
+        "4795588f-35e2-4f00-8655-c7d4ba30a42a"
+      ],
+      "isbn": "9788497932141",
+      "year": 2009,
+      "publisher": "Random House Mondadori, S.A.",
+      "pages": 267,
+      "cover": "https://covers.openlibrary.org/b/id/7433899-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "dibujo-luego-pienso-javirroyo",
+      "title": "Dibujo, luego pienso",
+      "author": "Javirroyo",
+      "themes": [
+        "arte",
+        "desarrollo"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/57077689"
+      ],
+      "isbn": "9788426424747",
+      "year": 2023,
+      "publisher": "Lumen",
+      "pages": 128,
+      "cover": "https://covers.openlibrary.org/b/id/14251187-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "dossier-de-lo-insolito-david-cuevas",
+      "title": "Dossier de lo insólito",
+      "author": "David Cuevas",
+      "themes": [
+        "misterio"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/59353737",
+        "0395fe9d-e3d1-4212-abbf-0be9f4e3b5b1"
+      ],
+      "isbn": "9788416694129",
+      "year": 2016,
+      "publisher": "Luciérnaga CAS",
+      "pages": 352,
+      "cover": "https://covers.openlibrary.org/b/id/13472228-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "el-amor-es-imposible-dario-sztajnszrajber",
+      "title": "El amor es imposible",
+      "author": "Darío Sztajnszrajber",
+      "themes": [
+        "filosofia"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/57447084"
+      ],
+      "isbn": "9786075694443",
+      "year": 2023,
+      "publisher": "Editorial Planeta, S. A.",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "el-arte-de-la-felicidad-alfred-sonnenfeld",
+      "title": "El arte de la felicidad",
+      "author": "Alfred Sonnenfeld",
+      "themes": [
+        "desarrollo",
+        "salud"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/62154181"
+      ],
+      "buy_url": "https://amzn.to/3TPw6Ah",
+      "lookup": "none"
+    },
+    {
+      "id": "el-artesano-de-la-calle-oviedo-rafael-lechowski",
+      "title": "El artesano de la calle Oviedo",
+      "author": "Rafael Lechowski",
+      "themes": [
+        "poesia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/99910339"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "el-cerebro-hackeado-aaron-fernandez-del-olmo",
+      "title": "El cerebro hackeado",
+      "author": "Aarón Fernández del Olmo",
+      "themes": [
+        "psicologia",
+        "tecnologia"
+      ],
+      "episodes": [
+        "b6e9869c-7f45-433f-8452-8aa4e39e0d36"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "el-cerebro-humano-explicado-por-el-dr-santiago-ramon-y-cajal-pablo-barrecheguren",
+      "title": "El cerebro humano explicado por el Dr. Santiago Ramón y Cajal",
+      "author": "Pablo Barrecheguren",
+      "themes": [
+        "ciencia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/95900867"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "el-cerebro-optimista-mikel-alonso",
+      "title": "El cerebro optimista",
+      "author": "Mikel Alonso",
+      "themes": [
+        "psicologia",
+        "desarrollo"
+      ],
+      "episodes": [
+        "520bd607-648d-442d-bcfa-9d72000d3765"
+      ],
+      "buy_url": "https://amzn.to/41T1XEP",
+      "lookup": "none"
+    },
+    {
+      "id": "el-deseo-interminable-jose-antonio-marina",
+      "title": "El deseo interminable",
+      "author": "José Antonio Marina",
+      "themes": [
+        "filosofia",
+        "historia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/102478592"
+      ],
+      "isbn": "9788434435865",
+      "year": 2022,
+      "publisher": "Editorial Ariel",
+      "pages": 304,
+      "cover": "https://covers.openlibrary.org/b/id/13086114-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "el-dolor-cronico-no-es-para-siempre-arturo-goicoechea",
+      "title": "El dolor crónico no es para siempre",
+      "author": "Arturo Goicoechea",
+      "themes": [
+        "salud"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/58580482"
+      ],
+      "buy_url": "https://amzn.to/3OseU0T",
+      "lookup": "none"
+    },
+    {
+      "id": "el-estres-laboral-analisis-y-prevencion-victor-vidal",
+      "title": "El estrés laboral: análisis y prevención",
+      "author": "Víctor Vidal",
+      "themes": [
+        "salud",
+        "psicologia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/60150324"
+      ],
+      "buy_url": "https://amzn.to/3n6J2Px",
+      "isbn": "9788417633943",
+      "year": 2019,
+      "publisher": "Prensas de la Universidad de Zaragoza",
+      "pages": 176,
+      "cover": "https://covers.openlibrary.org/b/id/14158973-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "el-fuego-invisible-javier-sierra",
+      "title": "El fuego invisible",
+      "author": "Javier Sierra",
+      "themes": [
+        "novela",
+        "misterio"
+      ],
+      "episodes": [
+        "cfcc1331-f1ba-4edd-a061-b8b03ddbbb8d"
+      ],
+      "isbn": "9788408178941",
+      "year": 2014,
+      "publisher": "Planeta",
+      "pages": 467,
+      "cover": "https://covers.openlibrary.org/b/id/8090211-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "el-gobierno-invisible-bruno-cardenosa",
+      "title": "El gobierno invisible",
+      "author": "Bruno Cardeñosa",
+      "themes": [
+        "sociedad",
+        "misterio"
+      ],
+      "episodes": [
+        "1b1d5056-c3bc-42f1-9fb7-5d23434cfd8a"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "el-gran-cuaderno-de-podcasting-francisco-izuzquiza",
+      "title": "El gran cuaderno de podcasting",
+      "author": "Francisco Izuzquiza",
+      "themes": [
+        "comunicacion"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/67225540"
+      ],
+      "isbn": "9788417248413",
+      "year": 2019,
+      "publisher": "Kailas Editorial, S.L.",
+      "pages": 304,
+      "cover": "https://covers.openlibrary.org/b/id/13725508-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "el-iv-reich-bruno-cardenosa",
+      "title": "El IV Reich",
+      "author": "Bruno Cardeñosa",
+      "themes": [
+        "sociedad",
+        "historia"
+      ],
+      "episodes": [
+        "1b1d5056-c3bc-42f1-9fb7-5d23434cfd8a"
+      ],
+      "buy_url": "https://amzn.to/4sNWomq",
+      "lookup": "none"
+    },
+    {
+      "id": "el-laberinto-de-cristal-gabriel-rubio",
+      "title": "El laberinto de cristal",
+      "author": "Gabriel Rubio",
+      "themes": [
+        "salud",
+        "psicologia"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/60496290"
+      ],
+      "buy_url": "https://amzn.to/45ElZmu",
+      "lookup": "none"
+    },
+    {
+      "id": "el-libro-de-los-ojos-abiertos-aldo-linares",
+      "title": "El libro de los ojos abiertos",
+      "author": "Aldo Linares",
+      "themes": [
+        "misterio",
+        "espiritualidad"
+      ],
+      "episodes": [
+        "d35a9249-0fb8-41a0-ab56-d65b1c8b2875"
+      ],
+      "buy_url": "https://amzn.to/4jBqWD2",
+      "lookup": "none"
+    },
+    {
+      "id": "el-libro-negro-del-vaticano-eric-frattini",
+      "title": "El libro negro del Vaticano",
+      "author": "Eric Frattini",
+      "themes": [
+        "sociedad",
+        "historia"
+      ],
+      "episodes": [
+        "e21ed561-7f5f-47a3-88af-c1b5e1170c2d"
+      ],
+      "isbn": "9788467049299",
+      "year": 2016,
+      "publisher": "Espasa",
+      "pages": 568,
+      "cover": "https://covers.openlibrary.org/b/id/13972582-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "el-misterioso-caso-del-impostor-del-titanic-carmen-posadas",
+      "title": "El misterioso caso del impostor del Titanic",
+      "author": "Carmen Posadas",
+      "themes": [
+        "novela",
+        "historia"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/63472665"
+      ],
+      "buy_url": "https://amzn.to/3ZKdKTi",
+      "isbn": "9788467072693",
+      "year": 2024,
+      "publisher": "Espasa",
+      "cover": "https://covers.openlibrary.org/b/id/14824953-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "el-nino-que-se-enfado-con-la-muerte-enric-benito",
+      "title": "El niño que se enfadó con la muerte",
+      "author": "Enric Benito",
+      "themes": [
+        "salud",
+        "espiritualidad"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/58929614"
+      ],
+      "buy_url": "https://amzn.to/3Tkbf8r",
+      "lookup": "none"
+    },
+    {
+      "id": "el-paciente-a-el-historial-medico-de-adolf-hitler-eric-frattini",
+      "title": "El paciente A. El historial médico de Adolf Hitler",
+      "author": "Eric Frattini",
+      "themes": [
+        "historia"
+      ],
+      "episodes": [
+        "e77604f4-c8b5-4def-a935-a72f9e1afa29"
+      ],
+      "buy_url": "https://amzn.to/41rzK6z",
+      "lookup": "none"
+    },
+    {
+      "id": "el-pequeno-libro-de-la-filosofia-estoica-javier-g-recuenco",
+      "title": "El pequeño libro de la filosofía estoica",
+      "author": "Javier G. Recuenco y Guillermo de Haro",
+      "themes": [
+        "filosofia",
+        "desarrollo"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/104902732"
+      ],
+      "isbn": "9788413441689",
+      "year": 2022,
+      "publisher": "Alienta Editorial",
+      "cover": "https://covers.openlibrary.org/b/id/14369692-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "el-poder-de-las-palabras-mariano-sigman",
+      "title": "El poder de las palabras",
+      "author": "Mariano Sigman",
+      "themes": [
+        "psicologia",
+        "ciencia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/95182811"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "el-precio-de-la-verdad-jesus-cintora",
+      "title": "El precio de la verdad",
+      "author": "Jesús Cintora",
+      "themes": [
+        "comunicacion",
+        "sociedad"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/60704344"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "el-psicopata-integrado-vicente-garrido",
+      "title": "El psicópata integrado",
+      "author": "Vicente Garrido",
+      "themes": [
+        "crimen",
+        "psicologia"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/63383142"
+      ],
+      "buy_url": "https://amzn.to/3ZFvcsl",
+      "lookup": "none"
+    },
+    {
+      "id": "el-puente-donde-habitan-las-mariposas-nazareth-castellanos",
+      "title": "El puente donde habitan las mariposas",
+      "author": "Nazareth Castellanos",
+      "themes": [
+        "ciencia",
+        "salud"
+      ],
+      "episodes": [
+        "7ea6e52f-adac-4f44-8b56-ee5653d827bc"
+      ],
+      "buy_url": "https://amzn.to/3Zt2Nq7",
+      "isbn": "9788410009639",
+      "year": 2025,
+      "publisher": "Cultura Editora",
+      "pages": 280,
+      "cover": "https://covers.openlibrary.org/b/id/15233802-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "el-retorno-de-la-derecha-federico-jimenez-losantos",
+      "title": "El retorno de la Derecha",
+      "author": "Federico Jiménez Losantos",
+      "themes": [
+        "sociedad"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/57535105"
+      ],
+      "isbn": "9788467065138",
+      "year": 2023,
+      "publisher": "Espasa",
+      "pages": 384,
+      "cover": "https://covers.openlibrary.org/b/id/14185907-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "el-sindrome-de-las-supermujeres-antoni-bolinches",
+      "title": "El síndrome de las supermujeres",
+      "author": "Antoni Bolinches",
+      "themes": [
+        "psicologia",
+        "sexualidad"
+      ],
+      "episodes": [
+        "f180262f-2f1c-4113-8a4e-e1d2c88f7373"
+      ],
+      "buy_url": "https://amzn.to/4r8nO5K",
+      "isbn": "9788418114021",
+      "year": 2019,
+      "publisher": "Amat",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "el-sindrome-woody-allen-edu-galan",
+      "title": "El síndrome Woody Allen",
+      "author": "Edu Galán",
+      "themes": [
+        "sociedad",
+        "arte"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/62365580"
+      ],
+      "isbn": "9788418006029",
+      "year": 2020,
+      "publisher": "DEBATE",
+      "pages": 336,
+      "cover": "https://covers.openlibrary.org/b/id/10528686-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "el-sistema-inmunitario-por-fin-sale-del-armario-sari-arponen",
+      "title": "El sistema inmunitario por fin sale del armario",
+      "author": "Sari Arponen",
+      "themes": [
+        "salud"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/57173047"
+      ],
+      "isbn": "9788413441580",
+      "year": 2022,
+      "publisher": "Alienta",
+      "pages": 416,
+      "cover": "https://covers.openlibrary.org/b/id/12837354-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "el-trap-filosofia-millennial-para-la-crisis-en-espana-ernesto-castro",
+      "title": "El trap: filosofía millennial para la crisis en España",
+      "author": "Ernesto Castro",
+      "themes": [
+        "filosofia",
+        "arte"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/55611219"
+      ],
+      "buy_url": "https://amzn.to/35dv07r",
+      "isbn": "9788417800116",
+      "year": 2019,
+      "publisher": "Errata Naturae",
+      "pages": 413,
+      "cover": "https://covers.openlibrary.org/b/id/11362806-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "el-yunque-la-sociedad-secreta-que-divide-a-los-catolicos-santiago-mata",
+      "title": "El Yunque: la sociedad secreta que divide a los católicos",
+      "author": "Santiago Mata",
+      "themes": [
+        "sociedad",
+        "historia"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/60572903"
+      ],
+      "buy_url": "https://amzn.to/3VP9ShT",
+      "isbn": "9798713859688",
+      "year": 2021,
+      "publisher": "Independently Published",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "elogio-del-amor-rafael-narbona",
+      "title": "Elogio del amor",
+      "author": "Rafael Narbona",
+      "themes": [
+        "filosofia"
+      ],
+      "episodes": [
+        "7d182c10-9005-4a98-80ab-a86ec886291f"
+      ],
+      "buy_url": "https://amzn.to/4l3IuHQ",
+      "lookup": "none"
+    },
+    {
+      "id": "en-2084-el-chojin",
+      "title": "En 2084",
+      "author": "El Chojin",
+      "themes": [
+        "novela"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/51064091"
+      ],
+      "isbn": "9788494567698",
+      "year": 2016,
+      "publisher": "MueveTuLengua",
+      "pages": 288,
+      "cover": "https://covers.openlibrary.org/b/id/13939017-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "en-la-cocina-con-la-doctora-arponen-sari-arponen",
+      "title": "En la cocina con la doctora Arponen",
+      "author": "Sari Arponen",
+      "themes": [
+        "salud"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/57173047"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "en-la-piel-del-asesino-elena-merino",
+      "title": "En la piel del asesino",
+      "author": "Elena Merino y Salvador Larroca",
+      "themes": [
+        "crimen"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/50386033"
+      ],
+      "isbn": "9788494305634",
+      "year": 2014,
+      "publisher": "Glyphos Publicaciones",
+      "cover": "https://covers.openlibrary.org/b/id/7396968-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "era-de-idiotas-david-pastor-vico",
+      "title": "Era de idiotas",
+      "author": "David Pastor Vico",
+      "themes": [
+        "filosofia",
+        "sociedad"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/63927671"
+      ],
+      "buy_url": "https://amzn.to/4g9P7G0",
+      "isbn": "9786073906685",
+      "year": 2024,
+      "publisher": "Editorial Planeta Mexicana",
+      "pages": 320,
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "es-lo-que-es-dokusho-villalba",
+      "title": "Es lo que es",
+      "author": "Dokushô Villalba",
+      "themes": [
+        "espiritualidad"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/58492882"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "escribo-porque-me-gusta-ganar-dinero-isra-bravo",
+      "title": "Escribo porque me gusta ganar dinero",
+      "author": "Isra Bravo",
+      "themes": [
+        "comunicacion",
+        "economia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/94154387"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "esta-vez-si-luis-muino",
+      "title": "Esta vez, ¡sí!",
+      "author": "Luis Muíño, Mónica González y Molo Cebrián",
+      "themes": [
+        "desarrollo"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/54739358"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "estado-islamico-geopolitica-del-caos-javier-martin",
+      "title": "Estado Islámico. Geopolítica del caos",
+      "author": "Javier Martín",
+      "themes": [
+        "sociedad"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/20435080"
+      ],
+      "isbn": "9788490973707",
+      "year": 2017,
+      "publisher": "Los Libros de la Catarata",
+      "pages": 200,
+      "cover": "https://covers.openlibrary.org/b/id/13564436-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "estan-aqui-jj-benitez",
+      "title": "Están aquí",
+      "author": "JJ Benítez",
+      "themes": [
+        "misterio"
+      ],
+      "episodes": [
+        "9e9773b7-5e94-43aa-8b59-9ffbeb79b65f"
+      ],
+      "buy_url": "https://amzn.to/4qPMGPf",
+      "lookup": "none"
+    },
+    {
+      "id": "este-libro-te-hara-vivir-mas-o-por-lo-menos-mejor-tamara-pazos",
+      "title": "Este libro te hará vivir más (o por lo menos mejor)",
+      "author": "Tamara Pazos",
+      "themes": [
+        "salud",
+        "ciencia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/107362141"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "esto-no-existe-juan-soto-ivars",
+      "title": "Esto no existe",
+      "author": "Juan Soto Ivars",
+      "themes": [
+        "sociedad"
+      ],
+      "episodes": [
+        "b6689c5c-ca3c-4dd2-8010-513813d909a5"
+      ],
+      "buy_url": "https://amzn.to/3Kg2PNI",
+      "isbn": "9791387600099",
+      "year": 2025,
+      "publisher": "DEBATE",
+      "cover": "https://covers.openlibrary.org/b/id/15157886-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "etica-estetica-y-politica-ernesto-castro",
+      "title": "Ética, estética y política",
+      "author": "Ernesto Castro",
+      "themes": [
+        "filosofia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/55611219"
+      ],
+      "isbn": "9788417623616",
+      "year": 2020,
+      "publisher": "Arpa Editores",
+      "cover": "https://covers.openlibrary.org/b/id/15241906-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "etica-para-desconfiados-david-pastor-vico",
+      "title": "Ética para desconfiados",
+      "author": "David Pastor Vico",
+      "themes": [
+        "filosofia"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/57745478"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "evaluacion-y-tratamiento-del-trastorno-postraumatico-enrique-baca",
+      "title": "Evaluación y tratamiento del trastorno postraumático",
+      "author": "Enrique Baca",
+      "themes": [
+        "psicologia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/63441786"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "existe-la-muerte-ciencia-vida-y-trascendencia-lujan-comas",
+      "title": "¿Existe la muerte? Ciencia, vida y trascendencia",
+      "author": "Luján Comas y Anji Carmelo",
+      "themes": [
+        "misterio"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/45541662"
+      ],
+      "isbn": "9788418285301",
+      "year": 2020,
+      "publisher": "Plataforma Editorial",
+      "pages": 352,
+      "cover": "https://covers.openlibrary.org/b/id/13454998-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "extraterrestres-ellos-estan-entre-nosotros-lorenzo-fernandez-bueno",
+      "title": "Extraterrestres: Ellos están entre nosotros",
+      "author": "Lorenzo Fernández Bueno",
+      "themes": [
+        "misterio"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/62567025"
+      ],
+      "buy_url": "https://amzn.to/4fpL5ZZ",
+      "lookup": "none"
+    },
+    {
+      "id": "farina-nacho-carretero",
+      "title": "Fariña",
+      "author": "Nacho Carretero",
+      "themes": [
+        "crimen",
+        "sociedad"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/24242905"
+      ],
+      "relation": "mencionado",
+      "isbn": "9788416001460",
+      "year": 2015,
+      "publisher": "Libros del K.O.",
+      "pages": 358,
+      "cover": "https://covers.openlibrary.org/b/id/8217731-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "guerreros-urbanos-jeosm",
+      "title": "Guerreros urbanos",
+      "author": "Jeosm y Arturo Pérez-Reverte",
+      "themes": [
+        "arte"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/64879047"
+      ],
+      "isbn": "9788420423869",
+      "year": 2016,
+      "publisher": "Santillana USA Publishing Company, Incorporated",
+      "pages": 122,
+      "cover": "https://covers.openlibrary.org/b/id/12830177-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "hechos-y-valores-en-psiquiatria-enrique-baca",
+      "title": "Hechos y valores en psiquiatría",
+      "author": "Enrique Baca",
+      "themes": [
+        "psicologia",
+        "filosofia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/63441786"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "historia-de-los-samurais-jonathan-lopez-vera",
+      "title": "Historia de los samuráis",
+      "author": "Jonathan López-Vera",
+      "themes": [
+        "historia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/26108414"
+      ],
+      "isbn": "9788494468575",
+      "year": 2016,
+      "publisher": "Satori",
+      "cover": "https://covers.openlibrary.org/b/id/7422057-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "historia-universal-de-las-soluciones-jose-antonio-marina",
+      "title": "Historia universal de las soluciones",
+      "author": "José Antonio Marina",
+      "themes": [
+        "filosofia",
+        "sociedad"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/59177834"
+      ],
+      "buy_url": "https://amzn.to/3x9hweD",
+      "lookup": "none"
+    },
+    {
+      "id": "homo-imperfectus-maria-martinon-torres",
+      "title": "Homo Imperfectus",
+      "author": "María Martinón-Torres",
+      "themes": [
+        "ciencia",
+        "salud"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/111422003"
+      ],
+      "isbn": "9788423361557",
+      "year": 2022,
+      "publisher": "Destino",
+      "pages": 272,
+      "cover": "https://covers.openlibrary.org/b/id/12819419-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "incompletos-jose-carlos-ruiz",
+      "title": "Incompletos",
+      "author": "José Carlos Ruiz",
+      "themes": [
+        "filosofia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/107556377"
+      ],
+      "isbn": "9788423362721",
+      "year": 2023,
+      "publisher": "Ediciones Destino",
+      "pages": 288,
+      "cover": "https://covers.openlibrary.org/b/id/14115551-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "indomable-david-tesch",
+      "title": "Indomable",
+      "author": "David Tesch",
+      "themes": [
+        "desarrollo"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/109776882"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "inexplicado-david-cuevas",
+      "title": "Inexplicado",
+      "author": "David Cuevas",
+      "themes": [
+        "misterio"
+      ],
+      "episodes": [
+        "0395fe9d-e3d1-4212-abbf-0be9f4e3b5b1"
+      ],
+      "isbn": "9788419996596",
+      "year": 2024,
+      "publisher": "Luciérnaga",
+      "pages": 360,
+      "cover": "https://covers.openlibrary.org/b/id/15254007-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "infiltrados-josep-guijarro",
+      "title": "Infiltrados",
+      "author": "Josep Guijarro",
+      "themes": [
+        "misterio"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/56398321"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "inmunofitness-juan-ramon-lucas",
+      "title": "Inmunofitness",
+      "author": "Juan Ramón Lucas",
+      "themes": [
+        "salud"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/106906700"
+      ],
+      "isbn": "9786075695365",
+      "year": 2023,
+      "publisher": "Editorial Planeta, S. A.",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "instrumental-james-rhodes",
+      "title": "Instrumental",
+      "author": "James Rhodes",
+      "themes": [
+        "memorias"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/105077167"
+      ],
+      "isbn": "9788416290437",
+      "year": 2015,
+      "publisher": "Canongate",
+      "pages": 304,
+      "cover": "https://covers.openlibrary.org/b/id/11011479-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "inteligencia-natural-y-la-logica-de-la-consciencia-antonio-damasio",
+      "title": "Inteligencia natural y la lógica de la consciencia",
+      "author": "Antonio Damasio",
+      "themes": [
+        "ciencia",
+        "filosofia"
+      ],
+      "episodes": [
+        "0f78e620-8265-45cf-ba8a-fe3e65258d98"
+      ],
+      "buy_url": "https://amzn.to/3XAqHyC",
+      "lookup": "none"
+    },
+    {
+      "id": "invicto-marcos-vazquez",
+      "title": "Invicto",
+      "author": "Marcos Vázquez",
+      "themes": [
+        "desarrollo",
+        "filosofia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/55910164"
+      ],
+      "buy_url": "https://amzn.to/31sndl8",
+      "isbn": "9788409202584",
+      "year": 2021,
+      "publisher": "Marcos Vázquez",
+      "pages": 186,
+      "cover": "https://covers.openlibrary.org/b/id/13148597-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "juega-bien-tus-cartas-leo-margets",
+      "title": "¡Juega bien tus cartas!",
+      "author": "Leo Margets",
+      "themes": [
+        "desarrollo",
+        "economia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/56514484"
+      ],
+      "buy_url": "https://amzn.to/34bBtQR",
+      "isbn": "9788416029822",
+      "year": 2017,
+      "publisher": "CONECTA",
+      "pages": 224,
+      "cover": "https://covers.openlibrary.org/b/id/14038570-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "komyo-clara-luz-dokusho-villalba",
+      "title": "Kômyô, clara luz",
+      "author": "Dokushô Villalba",
+      "themes": [
+        "espiritualidad"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/58492882"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "la-crisis-de-la-autoridad-natalia-velilla",
+      "title": "La crisis de la autoridad",
+      "author": "Natalia Velilla",
+      "themes": [
+        "sociedad"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/59885128"
+      ],
+      "buy_url": "https://amzn.to/44DNgVJ",
+      "lookup": "none"
+    },
+    {
+      "id": "la-destruccion-planificada-de-la-infancia-miguel-angel-ruiz",
+      "title": "La destrucción planificada de la infancia",
+      "author": "Miguel Ángel Ruiz",
+      "themes": [
+        "sociedad",
+        "crianza"
+      ],
+      "episodes": [
+        "178c85b1-cad7-424a-b198-a958eb2e80c9"
+      ],
+      "buy_url": "https://amzn.to/4ampjXr",
+      "lookup": "none"
+    },
+    {
+      "id": "la-energia-nuclear-salvara-el-mundo-alfredo-garcia",
+      "title": "La energía nuclear salvará el mundo",
+      "author": "Alfredo García",
+      "themes": [
+        "ciencia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/59298291"
+      ],
+      "buy_url": "https://amzn.to/3oTU0tq",
+      "isbn": "9788408226772",
+      "year": 2020,
+      "publisher": "Editorial Planeta",
+      "pages": 336,
+      "cover": "https://covers.openlibrary.org/b/id/10221409-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "la-enzima-prodigiosa-hiromi-shinya",
+      "title": "La enzima prodigiosa",
+      "author": "Hiromi Shinya",
+      "themes": [
+        "salud"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/19086738"
+      ],
+      "relation": "mencionado",
+      "isbn": "9788403013575",
+      "year": 2007,
+      "publisher": "DEBOLSILLO",
+      "pages": 224,
+      "cover": "https://covers.openlibrary.org/b/id/12362731-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "la-escritura-que-cura-lucia-etxebarria",
+      "title": "La escritura que cura",
+      "author": "Lucía Etxebarria",
+      "themes": [
+        "comunicacion",
+        "psicologia"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/60420605",
+        "2a307d46-c576-4274-b956-985140b0276a"
+      ],
+      "buy_url": "https://amzn.to/3VLbfzj",
+      "lookup": "none"
+    },
+    {
+      "id": "la-evolucion-del-cerebro-humano-emiliano-bruner",
+      "title": "La evolución del cerebro humano",
+      "author": "Emiliano Bruner",
+      "themes": [
+        "ciencia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/110476122"
+      ],
+      "isbn": "9788413612249",
+      "year": 2023,
+      "publisher": "Shackleton books",
+      "pages": 192,
+      "cover": "https://covers.openlibrary.org/b/id/13777656-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "la-felicidad-gabriel-rolon",
+      "title": "La felicidad",
+      "author": "Gabriel Rolón",
+      "themes": [
+        "psicologia",
+        "desarrollo"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/59042026"
+      ],
+      "isbn": "9786075696461",
+      "year": 2024,
+      "publisher": "Editorial Planeta Mexicana",
+      "pages": 392,
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "la-lengua-de-las-mariposas-manuel-rivas",
+      "title": "La lengua de las mariposas",
+      "author": "Manuel Rivas",
+      "themes": [
+        "novela"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/58498197"
+      ],
+      "isbn": "9788420494111",
+      "year": 2001,
+      "publisher": "Alfaguara Ediciones, S.A. (Spain)",
+      "cover": "https://covers.openlibrary.org/b/id/3325005-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "la-maldicion-del-hombre-mono-emiliano-bruner",
+      "title": "La maldición del hombre mono",
+      "author": "Emiliano Bruner",
+      "themes": [
+        "ciencia",
+        "psicologia"
+      ],
+      "episodes": [
+        "d6294d94-41ee-4c5a-ba6a-429f423bd337"
+      ],
+      "buy_url": "https://amzn.to/3GnrFJF",
+      "lookup": "none"
+    },
+    {
+      "id": "la-mascara-moral-edu-galan",
+      "title": "La máscara moral",
+      "author": "Edu Galán",
+      "themes": [
+        "sociedad"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/62365580"
+      ],
+      "isbn": "9788418967375",
+      "year": 2022,
+      "publisher": "DEBATE",
+      "pages": 256,
+      "cover": "https://covers.openlibrary.org/b/id/14249984-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "la-mente-del-futuro-luis-muino",
+      "title": "La mente del futuro",
+      "author": "Luis Muíño",
+      "themes": [
+        "psicologia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/54739358"
+      ],
+      "buy_url": "https://amzn.to/3kgtibx",
+      "isbn": "9788491875772",
+      "year": 2020,
+      "publisher": "RBA Libros",
+      "pages": 256,
+      "cover": "https://covers.openlibrary.org/b/id/12619250-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "la-mentira-marta-fernandez",
+      "title": "La mentira",
+      "author": "Marta Fernández",
+      "themes": [
+        "novela"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/97359541"
+      ],
+      "isbn": "9788491397748",
+      "year": 2022,
+      "publisher": "HarperCollins",
+      "pages": 320,
+      "cover": "https://covers.openlibrary.org/b/id/14289672-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "la-muerte-contada-por-un-sapiens-a-un-neandertal-juan-luis-arsuaga",
+      "title": "La muerte contada por un sapiens a un neandertal",
+      "author": "Juan Luis Arsuaga y Juan José Millás",
+      "themes": [
+        "ciencia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/101915908"
+      ],
+      "isbn": "9788420461052",
+      "year": 2021,
+      "publisher": "Scribe Publications",
+      "pages": 312,
+      "cover": "https://covers.openlibrary.org/b/id/12777487-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "la-muerte-de-la-muerte-jose-luis-cordeiro",
+      "title": "La muerte de la muerte",
+      "author": "José Luis Cordeiro y David Wood",
+      "themes": [
+        "ciencia",
+        "tecnologia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/57174289"
+      ],
+      "buy_url": "https://amzn.to/2FJiJ1G",
+      "isbn": "9788423429233",
+      "year": 2018,
+      "publisher": "Deusto",
+      "pages": 320,
+      "cover": "https://covers.openlibrary.org/b/id/12996787-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "la-quimica-de-lo-bello-deborah-garcia-bello",
+      "title": "La química de lo bello",
+      "author": "Deborah García Bello",
+      "themes": [
+        "ciencia",
+        "arte"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/105442669"
+      ],
+      "isbn": "9788449340598",
+      "year": 2023,
+      "publisher": "Ediciones Paidós",
+      "pages": 312,
+      "cover": "https://covers.openlibrary.org/b/id/13663089-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "la-realidad-no-existe-jaime-rodriguez-de-santiago",
+      "title": "La realidad no existe",
+      "author": "Jaime Rodríguez de Santiago",
+      "themes": [
+        "psicologia",
+        "desarrollo"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/106535453"
+      ],
+      "isbn": "9788403523135",
+      "year": 2023,
+      "publisher": "AGUILAR",
+      "pages": 320,
+      "cover": "https://covers.openlibrary.org/b/id/14202059-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "la-red-oscura-eduardo-casas",
+      "title": "La red oscura",
+      "author": "Eduardo Casas",
+      "themes": [
+        "crimen",
+        "tecnologia"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/56797429"
+      ],
+      "isbn": "9788490608777",
+      "year": 2017,
+      "publisher": "La Esfera de los Libros",
+      "cover": "https://covers.openlibrary.org/b/id/7990713-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "la-soledad-gabriel-rolon",
+      "title": "La soledad",
+      "author": "Gabriel Rolón",
+      "themes": [
+        "psicologia"
+      ],
+      "episodes": [
+        "cea8f419-4efc-47d6-ad5d-4cb1057085fc"
+      ],
+      "buy_url": "https://amzn.to/4aqXR9L",
+      "lookup": "none"
+    },
+    {
+      "id": "la-supraconciencia-existe-manuel-sans-segarra",
+      "title": "La supraconciencia existe",
+      "author": "Manuel Sans Segarra",
+      "themes": [
+        "espiritualidad",
+        "misterio"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/62084011"
+      ],
+      "buy_url": "https://amzn.to/3XTBjtq",
+      "lookup": "none"
+    },
+    {
+      "id": "la-tempestad-juan-manuel-de-prada",
+      "title": "La tempestad",
+      "author": "Juan Manuel de Prada",
+      "themes": [
+        "novela"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/26234916"
+      ],
+      "year": 1997,
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "la-tierra-oculta-manuel-rivas",
+      "title": "La tierra oculta",
+      "author": "Manuel Rivas",
+      "themes": [
+        "novela"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/58498197"
+      ],
+      "buy_url": "https://amzn.to/48Ty7RC",
+      "lookup": "none"
+    },
+    {
+      "id": "la-trampa-del-amor-luis-muino",
+      "title": "La trampa del amor",
+      "author": "Luis Muíño",
+      "themes": [
+        "psicologia"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/63006505",
+        "9dc416b5-f340-4627-a957-63fc906bef6d"
+      ],
+      "buy_url": "https://amzn.to/3IguJaR",
+      "lookup": "none"
+    },
+    {
+      "id": "la-zarigueya-de-schrodinger-susana-monso",
+      "title": "La zarigüeya de Schrödinger",
+      "author": "Susana Monsó",
+      "themes": [
+        "filosofia",
+        "ciencia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/102795921"
+      ],
+      "isbn": "9788417121389",
+      "year": 2021,
+      "publisher": "Plaza y Valdés Editores",
+      "pages": 240,
+      "cover": "https://covers.openlibrary.org/b/id/14111825-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "las-50-leyes-del-poder-en-el-padrino-alberto-mayol",
+      "title": "Las 50 leyes del poder en El Padrino",
+      "author": "Alberto Mayol",
+      "themes": [
+        "sociedad",
+        "desarrollo"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/62170598"
+      ],
+      "buy_url": "https://amzn.to/3zB8b0F",
+      "lookup": "none"
+    },
+    {
+      "id": "las-fronteras-del-pensamiento-carlos-blanco",
+      "title": "Las fronteras del pensamiento",
+      "author": "Carlos Blanco",
+      "themes": [
+        "filosofia"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/56047819"
+      ],
+      "isbn": "9788411222105",
+      "year": 2022,
+      "publisher": "Editorial Dykinson, S.L.",
+      "pages": 222,
+      "cover": "https://covers.openlibrary.org/b/id/13489563-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "las-leyes-del-deseo-judit-iglesias",
+      "title": "Las leyes del deseo",
+      "author": "Judit Iglesias",
+      "themes": [
+        "sexualidad"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/21932113"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "las-victimas-de-la-violencia-enrique-baca",
+      "title": "Las víctimas de la violencia",
+      "author": "Enrique Baca",
+      "themes": [
+        "psicologia",
+        "crimen"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/63441786"
+      ],
+      "isbn": "9788495840080",
+      "year": 2003,
+      "publisher": "EDITORIAL TRIACASTELA",
+      "pages": 287,
+      "cover": "https://covers.openlibrary.org/b/id/13495001-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "libertad-zero-inaki-pinuel",
+      "title": "Libertad Zero",
+      "author": "Iñaki Piñuel",
+      "themes": [
+        "psicologia",
+        "desarrollo"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/109440159"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "lo-que-tu-digas-alex-fidalgo",
+      "title": "Lo que tú digas",
+      "author": "Álex Fidalgo",
+      "themes": [
+        "memorias",
+        "comunicacion"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/43631766",
+        "https://www.ivoox.com/44721329"
+      ],
+      "relation": "mencionado",
+      "lookup": "none"
+    },
+    {
+      "id": "loba-negra-juan-gomez-jurado",
+      "title": "Loba negra",
+      "author": "Juan Gómez-Jurado",
+      "themes": [
+        "novela"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/43631766"
+      ],
+      "isbn": "9788413144801",
+      "year": 2019,
+      "publisher": "B",
+      "pages": 552,
+      "cover": "https://covers.openlibrary.org/b/id/9330598-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "los-cuervos-del-vaticano-eric-frattini",
+      "title": "Los cuervos del Vaticano",
+      "author": "Eric Frattini",
+      "themes": [
+        "sociedad",
+        "historia"
+      ],
+      "episodes": [
+        "e21ed561-7f5f-47a3-88af-c1b5e1170c2d"
+      ],
+      "isbn": "9788467040616",
+      "year": 2013,
+      "publisher": "Editorial Planeta, S. A.",
+      "pages": 288,
+      "cover": "https://covers.openlibrary.org/b/id/14155833-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "los-duenos-del-planeta-cristina-martin-jimenez",
+      "title": "Los dueños del planeta",
+      "author": "Cristina Martín Jiménez",
+      "themes": [
+        "sociedad",
+        "misterio"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/108965351"
+      ],
+      "isbn": "9788427051003",
+      "year": 2023,
+      "publisher": "Ediciones Martínez Roca",
+      "pages": 304,
+      "cover": "https://covers.openlibrary.org/b/id/14263907-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "los-enganos-de-la-mente-susana-martinez-conde",
+      "title": "Los engaños de la mente",
+      "author": "Susana Martínez-Conde",
+      "themes": [
+        "ciencia",
+        "psicologia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/41140784"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "los-escritores-suicidas-jose-antonio-perez-rojo",
+      "title": "Los escritores suicidas",
+      "author": "José Antonio Pérez Rojo",
+      "themes": [
+        "psicologia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/19374438",
+        "2a307d46-c576-4274-b956-985140b0276a"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "los-peligros-de-la-moralidad-pablo-malo",
+      "title": "Los peligros de la moralidad",
+      "author": "Pablo Malo",
+      "themes": [
+        "psicologia",
+        "sociedad"
+      ],
+      "episodes": [
+        "21f81e7b-e531-4cdf-8bdf-539cafc85a68"
+      ],
+      "isbn": "9788423432837",
+      "year": 2021,
+      "publisher": "Deusto",
+      "cover": "https://covers.openlibrary.org/b/id/14341241-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "los-sin-rostro-david-cuevas",
+      "title": "Los sin rostro",
+      "author": "David Cuevas",
+      "themes": [
+        "misterio"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/59353737",
+        "0395fe9d-e3d1-4212-abbf-0be9f4e3b5b1"
+      ],
+      "isbn": "9788418015496",
+      "year": 2021,
+      "publisher": "Luciérnaga",
+      "pages": 368,
+      "cover": "https://covers.openlibrary.org/b/id/12649628-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "maestros-de-la-felicidad-rafael-narbona",
+      "title": "Maestros de la felicidad",
+      "author": "Rafael Narbona",
+      "themes": [
+        "filosofia",
+        "desarrollo"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/64286643",
+        "7d182c10-9005-4a98-80ab-a86ec886291f"
+      ],
+      "buy_url": "https://amzn.to/42NG8XT",
+      "isbn": "9788410197336",
+      "year": 2025,
+      "publisher": "Penguin Random House Grupo Editorial",
+      "pages": 544,
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "mala-mujer-la-revolucion-que-te-hara-libre-noemi-casquet",
+      "title": "Mala mujer: la revolución que te hará libre",
+      "author": "Noemí Casquet",
+      "themes": [
+        "sexualidad"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/35492850"
+      ],
+      "isbn": "9788417560898",
+      "year": 2020,
+      "publisher": "Lunwerg Editores",
+      "pages": 224,
+      "cover": "https://covers.openlibrary.org/b/id/10450881-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "malaherba-manuel-jabois",
+      "title": "Malaherba",
+      "author": "Manuel Jabois",
+      "themes": [
+        "novela"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/69168403"
+      ],
+      "isbn": "9788420438368",
+      "year": 2019,
+      "publisher": "DEBOLSILLO",
+      "pages": 193,
+      "cover": "https://covers.openlibrary.org/b/id/8595623-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "maldita-feminista-loola-perez",
+      "title": "Maldita feminista",
+      "author": "Loola Pérez",
+      "themes": [
+        "sociedad"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/104330367"
+      ],
+      "isbn": "9788432236358",
+      "year": 2020,
+      "publisher": "Seix Barral",
+      "pages": 320,
+      "cover": "https://covers.openlibrary.org/b/id/14043104-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "mama-quiero-ser-dj-eme-dj",
+      "title": "Mamá, quiero ser DJ",
+      "author": "Eme DJ",
+      "themes": [
+        "memorias"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/32458277"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "manual-para-la-serenidad-pepe-garcia",
+      "title": "Manual para la serenidad",
+      "author": "Pepe García",
+      "themes": [
+        "filosofia",
+        "desarrollo"
+      ],
+      "episodes": [
+        "ccff7dae-9e2a-4df1-800c-782f84a463d6"
+      ],
+      "buy_url": "https://amzn.to/4iTV3ox",
+      "lookup": "none"
+    },
+    {
+      "id": "marcas-con-historia-ruben-galgo",
+      "title": "Marcas con historia",
+      "author": "Rubén Galgo",
+      "themes": [
+        "economia",
+        "comunicacion"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/62949699"
+      ],
+      "buy_url": "https://amzn.to/4hXNYmS",
+      "lookup": "none"
+    },
+    {
+      "id": "mas-alla-del-bien-y-del-mal-virginia-barber",
+      "title": "Más allá del bien y del mal",
+      "author": "Virginia Barber",
+      "themes": [
+        "crimen",
+        "psicologia"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/62393803"
+      ],
+      "buy_url": "https://amzn.to/4f6Zz0H",
+      "isbn": "9788499929538",
+      "year": 2019,
+      "publisher": "Debate",
+      "pages": 224,
+      "cover": "https://covers.openlibrary.org/b/id/14250568-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "mas-fuerte-muchachos-el-cine-de-bud-spencer-y-terence-hill-daniel-lorenzo",
+      "title": "¡Más fuerte, muchachos! El cine de Bud Spencer y Terence Hill",
+      "author": "Daniel Lorenzo",
+      "themes": [
+        "arte"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/53387192"
+      ],
+      "buy_url": "https://amzn.to/2INUcd7",
+      "isbn": "9788412174021",
+      "year": 2020,
+      "publisher": "Applehead Team Creaciones",
+      "pages": 268,
+      "cover": "https://covers.openlibrary.org/b/id/13485586-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "medicina-psiquedelica-jose-carlos-bouso",
+      "title": "Medicina psiquedélica",
+      "author": "José Carlos Bouso",
+      "themes": [
+        "salud",
+        "psicologia"
+      ],
+      "episodes": [
+        "13b4cce8-7dcc-46aa-8c89-8f0a254dbe60"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "medicina-sin-enganos-jm-mulet",
+      "title": "Medicina sin engaños",
+      "author": "JM Mulet",
+      "themes": [
+        "salud",
+        "ciencia"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/58663077"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "meditaciones-ignatius-farray",
+      "title": "Meditaciones",
+      "author": "Ignatius Farray",
+      "themes": [
+        "humor"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/63245706",
+        "2a307d46-c576-4274-b956-985140b0276a"
+      ],
+      "isbn": "9788499989402",
+      "year": 2022,
+      "publisher": "Ediciones Temas de Hoy",
+      "pages": 144,
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "melina-juan-ramon-lucas",
+      "title": "Melina",
+      "author": "Juan Ramón Lucas",
+      "themes": [
+        "novela"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/62539823"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "memoria-del-silencio-andrea",
+      "title": "Memoria del silencio",
+      "author": "Andrea y Lola Quintero",
+      "themes": [
+        "memorias",
+        "comunicacion"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/57035888"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "memorias-de-un-exnazi-david-saavedra",
+      "title": "Memorias de un exnazi",
+      "author": "David Saavedra",
+      "themes": [
+        "memorias",
+        "sociedad"
+      ],
+      "episodes": [
+        "d915e7a0-bedd-460d-a6ef-91b30b9bcadf"
+      ],
+      "buy_url": "https://amzn.to/3M3NVdQ",
+      "isbn": "9788466669603",
+      "year": 2021,
+      "publisher": "B",
+      "pages": 368,
+      "cover": "https://covers.openlibrary.org/b/id/13534985-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "michigan-acaso-michigan-anton-reixa",
+      "title": "Michigan, acaso Michigan",
+      "author": "Antón Reixa",
+      "themes": [
+        "memorias"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/31474566"
+      ],
+      "isbn": "9788491214342",
+      "year": 2018,
+      "publisher": "Edicións Xerais",
+      "pages": 128,
+      "cover": "https://covers.openlibrary.org/b/id/13539470-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "mil-ojos-esconde-la-noche-juan-manuel-de-prada",
+      "title": "Mil ojos esconde la noche",
+      "author": "Juan Manuel de Prada",
+      "themes": [
+        "novela",
+        "historia"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/60104741"
+      ],
+      "buy_url": "https://amzn.to/4bICCiO",
+      "lookup": "none"
+    },
+    {
+      "id": "mis-memorias-antes-de-que-se-me-olviden-andres-pajares",
+      "title": "Mis memorias… antes de que se me olviden",
+      "author": "Andrés Pajares",
+      "themes": [
+        "memorias"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/43392323"
+      ],
+      "isbn": "9788417797904",
+      "year": 2020,
+      "publisher": "Almuzara Estudios S A",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "mis-montanas-sebastian-alvaro",
+      "title": "Mis montañas",
+      "author": "Sebastián Álvaro",
+      "themes": [
+        "deporte",
+        "memorias"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/64461391"
+      ],
+      "buy_url": "https://amzn.to/4b9ak1U",
+      "lookup": "none"
+    },
+    {
+      "id": "miss-marte-manuel-jabois",
+      "title": "Miss Marte",
+      "author": "Manuel Jabois",
+      "themes": [
+        "novela"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/69168403"
+      ],
+      "isbn": "9788466359924",
+      "year": 2021,
+      "publisher": "Alfaguara",
+      "pages": 208,
+      "cover": "https://covers.openlibrary.org/b/id/10601573-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "muertes-nada-accidentales-paz-velasco",
+      "title": "Muertes nada accidentales",
+      "author": "Paz Velasco",
+      "themes": [
+        "crimen"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/57676592"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "neurociencia-del-cuerpo-nazareth-castellanos",
+      "title": "Neurociencia del cuerpo",
+      "author": "Nazareth Castellanos",
+      "themes": [
+        "ciencia",
+        "salud"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/100110633"
+      ],
+      "isbn": "9788499889931",
+      "year": 2022,
+      "publisher": "Editorial Kairós",
+      "pages": 248,
+      "cover": "https://covers.openlibrary.org/b/id/13012021-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "neurogamer-pablo-barrecheguren",
+      "title": "Neurogamer",
+      "author": "Pablo Barrecheguren",
+      "themes": [
+        "ciencia",
+        "psicologia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/95900867"
+      ],
+      "isbn": "9788449338144",
+      "year": 2021,
+      "publisher": "Ediciones Paidós",
+      "pages": 224,
+      "cover": "https://covers.openlibrary.org/b/id/13661741-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "niadela-beatriz-montanez",
+      "title": "Niadela",
+      "author": "Beatriz Montañez",
+      "themes": [
+        "memorias",
+        "espiritualidad"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/70484786"
+      ],
+      "isbn": "9788491397724",
+      "year": 2022,
+      "publisher": "HarperCollins",
+      "pages": 104,
+      "cover": "https://covers.openlibrary.org/b/id/14289679-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "nido-de-piratas-jesus-fernandez-ubeda",
+      "title": "Nido de piratas",
+      "author": "Jesús Fernández Úbeda",
+      "themes": [
+        "comunicacion",
+        "historia"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/57317534"
+      ],
+      "isbn": "9788419399342",
+      "year": 2023,
+      "publisher": "DEBATE",
+      "pages": 312,
+      "cover": "https://covers.openlibrary.org/b/id/14250238-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "ojos-verdes-bruno-cardenosa",
+      "title": "Ojos verdes",
+      "author": "Bruno Cardeñosa",
+      "themes": [
+        "memorias"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/56974857"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "ovnis-mensajeros-de-la-conciencia-global-miguel-pedrero",
+      "title": "Ovnis. Mensajeros de la conciencia global",
+      "author": "Miguel Pedrero",
+      "themes": [
+        "misterio"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/96561859"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "perictione-o-de-la-libertad-ernesto-castro",
+      "title": "Perictione o de la libertad",
+      "author": "Ernesto Castro",
+      "themes": [
+        "filosofia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/106702009"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "personas-toxicas-silvia-congost",
+      "title": "Personas tóxicas",
+      "author": "Silvia Congost",
+      "themes": [
+        "psicologia"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/57588145"
+      ],
+      "isbn": "9786070797361",
+      "year": 2023,
+      "publisher": "Editorial Planeta, S. A.",
+      "pages": 224,
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "persuasion-y-poder-fernando-miralles",
+      "title": "Persuasión y poder",
+      "author": "Fernando Miralles",
+      "themes": [
+        "comunicacion"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/60272011"
+      ],
+      "buy_url": "https://amzn.to/3VsHmE7",
+      "lookup": "none"
+    },
+    {
+      "id": "piel-sana-piel-bonita-ana-molina",
+      "title": "Piel sana, piel bonita",
+      "author": "Ana Molina",
+      "themes": [
+        "salud"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/62063918"
+      ],
+      "isbn": "9788449339295",
+      "year": 2022,
+      "publisher": "Ediciones Paidós",
+      "pages": 352,
+      "cover": "https://covers.openlibrary.org/b/id/12993140-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "por-que-compramos-la-burra-ramon-nogueras",
+      "title": "¿Por qué compramos la burra?",
+      "author": "Ramón Nogueras",
+      "themes": [
+        "psicologia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/108774361"
+      ],
+      "isbn": "9788418345098",
+      "year": 2022,
+      "publisher": "Kailas Editorial, S.L.",
+      "pages": 288,
+      "cover": "https://covers.openlibrary.org/b/id/13725464-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "por-que-creemos-en-mierdas-ramon-nogueras",
+      "title": "¿Por qué creemos en mierdas?",
+      "author": "Ramón Nogueras",
+      "themes": [
+        "psicologia",
+        "ciencia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/108774361"
+      ],
+      "isbn": "9788417248734",
+      "year": 2020,
+      "publisher": "Kailas Editorial, S.L.",
+      "pages": 248,
+      "cover": "https://covers.openlibrary.org/b/id/12008322-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "por-que-sonamos-pablo-barrecheguren",
+      "title": "¿Por qué soñamos?",
+      "author": "Pablo Barrecheguren",
+      "themes": [
+        "ciencia",
+        "salud"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/62619454"
+      ],
+      "buy_url": "https://amzn.to/3YPKXOa",
+      "lookup": "none"
+    },
+    {
+      "id": "protege-a-tus-hijos-de-la-sobreexposicion-en-la-red-natalia-diaz-medianoche",
+      "title": "Protege a tus hijos de la sobreexposición en la red",
+      "author": "Natalia Díaz (Medianoche)",
+      "themes": [
+        "crianza",
+        "tecnologia"
+      ],
+      "episodes": [
+        "3edcd193-8fa4-4e84-99ee-cd1980e1693d"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "psicologia-punk-victor-amat",
+      "title": "Psicología Punk",
+      "author": "Víctor Amat",
+      "themes": [
+        "psicologia",
+        "desarrollo"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/55992249"
+      ],
+      "isbn": "9788419248305",
+      "year": 2022,
+      "publisher": "Vergara",
+      "pages": 296,
+      "cover": "https://covers.openlibrary.org/b/id/13708228-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "puta-y-libre-valerie-may",
+      "title": "Puta y libre",
+      "author": "Valérie May",
+      "themes": [
+        "memorias",
+        "sexualidad"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/96905347"
+      ],
+      "isbn": "9788411313087",
+      "year": 2022,
+      "publisher": "Almuzara",
+      "pages": 184,
+      "cover": "https://covers.openlibrary.org/b/id/13688970-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "que-estoy-haciendo-aqui-benjamin-prado",
+      "title": "Qué estoy haciendo aquí",
+      "author": "Benjamín Prado",
+      "themes": [
+        "memorias"
+      ],
+      "episodes": [
+        "326cf1b0-2730-4a10-9699-918b6ec98e48"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "que-se-le-van-las-vitaminas-deborah-garcia-bello",
+      "title": "¡Que se le van las vitaminas!",
+      "author": "Deborah García Bello",
+      "themes": [
+        "ciencia",
+        "salud"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/29557348"
+      ],
+      "isbn": "9788408257530",
+      "year": 2018,
+      "publisher": "Ediciones Paidós",
+      "pages": 256,
+      "cover": "https://covers.openlibrary.org/b/id/13662398-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "queridos-ninos-david-trueba",
+      "title": "Queridos niños",
+      "author": "David Trueba",
+      "themes": [
+        "novela"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/57496604"
+      ],
+      "isbn": "9788433999306",
+      "year": 2021,
+      "publisher": "Editorial Anagrama",
+      "pages": 456,
+      "cover": "https://covers.openlibrary.org/b/id/11941706-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "rasras-lua-mosquetera",
+      "title": "Rasrás",
+      "author": "Lúa Mosquetera",
+      "themes": [
+        "poesia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/48728820"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "ratas-secretos-y-misterios-de-las-reinas-subterraneas-ivan-mourin",
+      "title": "Ratas: secretos y misterios de las reinas subterráneas",
+      "author": "Iván Mourín",
+      "themes": [
+        "ciencia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/109240918"
+      ],
+      "isbn": "9788419164445",
+      "year": 2023,
+      "publisher": "Luciérnaga CAS",
+      "pages": 160,
+      "cover": "https://covers.openlibrary.org/b/id/13472097-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "realidad-jeosm",
+      "title": "Realidad",
+      "author": "Jeosm",
+      "themes": [
+        "arte"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/106304573"
+      ],
+      "isbn": "9788461412877",
+      "year": 2010,
+      "publisher": "Belio Magazine",
+      "pages": 115,
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "reina-roja-juan-gomez-jurado",
+      "title": "Reina Roja",
+      "author": "Juan Gómez-Jurado",
+      "themes": [
+        "novela"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/43631766"
+      ],
+      "isbn": "9788466667937",
+      "year": 2018,
+      "publisher": "B (Ediciones B)",
+      "pages": 324,
+      "cover": "https://covers.openlibrary.org/b/id/9256100-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "revolucion-arturo-perez-reverte",
+      "title": "Revolución",
+      "author": "Arturo Pérez-Reverte",
+      "themes": [
+        "novela",
+        "historia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/93718757"
+      ],
+      "isbn": "9788420461465",
+      "year": 2022,
+      "publisher": "Alfaguara",
+      "pages": 464,
+      "cover": "https://covers.openlibrary.org/b/id/12820995-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "rewind-juan-tallon",
+      "title": "Rewind",
+      "author": "Juan Tallón",
+      "themes": [
+        "novela"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/58162531"
+      ],
+      "buy_url": "https://amzn.to/35iI631",
+      "isbn": "9788419213211",
+      "year": 2022,
+      "publisher": "Kalandraka",
+      "pages": 264,
+      "cover": "https://covers.openlibrary.org/b/id/14201462-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "rie-cuando-puedas-llora-cuando-lo-necesites-el-chojin",
+      "title": "Ríe cuando puedas, llora cuando lo necesites",
+      "author": "El Chojin",
+      "themes": [
+        "desarrollo"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/51064091"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "sacrificio-jeosm",
+      "title": "Sacrificio",
+      "author": "Jeosm",
+      "themes": [
+        "arte"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/106304573"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "saludable-mente-marcos-vazquez",
+      "title": "Saludable Mente",
+      "author": "Marcos Vázquez",
+      "themes": [
+        "psicologia",
+        "salud"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/94764456"
+      ],
+      "isbn": "9788425359477",
+      "year": 2021,
+      "publisher": "Grijalbo",
+      "pages": 250,
+      "cover": "https://covers.openlibrary.org/b/id/10670068-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "se-aceptan-cheques-flores-y-mentiras-luis-alberto-de-cuenca",
+      "title": "Se aceptan cheques, flores y mentiras",
+      "author": "Luis Alberto de Cuenca",
+      "themes": [
+        "poesia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/23444528"
+      ],
+      "isbn": "9788403518360",
+      "year": 2018,
+      "publisher": "Santillana USA Publishing Company, Incorporated",
+      "pages": 87,
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "seducir-con-los-sentidos-ines-sainz",
+      "title": "Seducir con los sentidos",
+      "author": "Inés Sainz",
+      "themes": [
+        "desarrollo"
+      ],
+      "episodes": [
+        "406a1788-dbcc-42b5-9021-f15e839b0dff"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "ser-distinto-no-es-tan-raro-felipe-mateos",
+      "title": "Ser distinto no es tan raro",
+      "author": "Felipe Mateos",
+      "themes": [
+        "memorias",
+        "humor"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/57267685"
+      ],
+      "isbn": "9788419248633",
+      "year": 2024,
+      "publisher": "Vergara",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "ser-mujer-negra-en-espana-desiree-bela-lobedde",
+      "title": "Ser mujer negra en España",
+      "author": "Desirée Bela-Lobedde",
+      "themes": [
+        "sociedad"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/51884217"
+      ],
+      "isbn": "9788417001650",
+      "year": 2018,
+      "publisher": "Plan B (Ediciones B)",
+      "pages": 184,
+      "cover": "https://covers.openlibrary.org/b/id/10412100-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "sienta-las-bases-de-una-salud-plena-saul-sanchez",
+      "title": "Sienta las bases de una salud plena",
+      "author": "Saúl Sánchez",
+      "themes": [
+        "salud"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/63276195"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "silencios-vivos-nach",
+      "title": "Silencios vivos",
+      "author": "Nach",
+      "themes": [
+        "poesia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/48182591"
+      ],
+      "isbn": "9788408217329",
+      "year": 2019,
+      "publisher": "Editorial Planeta",
+      "pages": 208,
+      "cover": "https://covers.openlibrary.org/b/id/11309060-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "sito-presidente-felipe-de-luis",
+      "title": "Sito Presidente",
+      "author": "Felipe de Luis",
+      "themes": [
+        "humor"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/104529837",
+        "https://api.spreaker.com/episode/63510108"
+      ],
+      "buy_url": "https://amzn.to/402jiZQ",
+      "lookup": "none"
+    },
+    {
+      "id": "sonar-lucido-miguel-gasca",
+      "title": "Soñar lúcido",
+      "author": "Miguel Gasca",
+      "themes": [
+        "psicologia"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/60021347"
+      ],
+      "buy_url": "https://amzn.to/3UZ79U0",
+      "isbn": "9788417851965",
+      "year": 2022,
+      "publisher": "Arkano Books",
+      "pages": 192,
+      "cover": "https://covers.openlibrary.org/b/id/13575871-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "sorprende-a-tu-mente-ana-ibanez",
+      "title": "Sorprende a tu mente",
+      "author": "Ana Ibáñez",
+      "themes": [
+        "psicologia",
+        "desarrollo"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/57363155"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "sueno-con-dormir-jose-haba-rubio",
+      "title": "Sueño con dormir",
+      "author": "José Haba-Rubio y Raphaël Heinzer",
+      "themes": [
+        "salud"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/50497498"
+      ],
+      "isbn": "9788491643081",
+      "year": 2018,
+      "publisher": "La Esfera de los Libros",
+      "pages": 336,
+      "cover": "https://covers.openlibrary.org/b/id/14018592-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "superate-lorena-torres",
+      "title": "Supérate",
+      "author": "Lorena Torres",
+      "themes": [
+        "deporte",
+        "desarrollo"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/62697135"
+      ],
+      "buy_url": "https://amzn.to/3UN8wo6",
+      "isbn": "9788418053191",
+      "year": 2024,
+      "publisher": "Penguin Random House Grupo Editorial",
+      "pages": 256,
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "superpoderes-del-exito-para-gente-normal-mago-more",
+      "title": "Superpoderes del éxito para gente normal",
+      "author": "Mago More",
+      "themes": [
+        "desarrollo"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/58120552"
+      ],
+      "isbn": "9788416253128",
+      "year": 2016,
+      "publisher": "Booket",
+      "pages": 270,
+      "cover": "https://covers.openlibrary.org/b/id/13029154-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "testosterona-hormona-de-la-vida-antonio-hernandez",
+      "title": "Testosterona: hormona de la vida",
+      "author": "Antonio Hernández",
+      "themes": [
+        "salud"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/59119921"
+      ],
+      "buy_url": "https://amzn.to/3xbflH8",
+      "isbn": "9788413441122",
+      "year": 2022,
+      "publisher": "Alienta",
+      "pages": 312,
+      "cover": "https://covers.openlibrary.org/b/id/12794204-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "todo-es-cuestion-de-quimica-deborah-garcia-bello",
+      "title": "Todo es cuestión de química",
+      "author": "Deborah García Bello",
+      "themes": [
+        "ciencia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/29557348"
+      ],
+      "isbn": "9788449331886",
+      "year": 2016,
+      "publisher": "Ediciones Paidós",
+      "pages": 288,
+      "cover": "https://covers.openlibrary.org/b/id/7427437-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "todo-es-silencio-manuel-rivas",
+      "title": "Todo es silencio",
+      "author": "Manuel Rivas",
+      "themes": [
+        "novela",
+        "crimen"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/58498197"
+      ],
+      "isbn": "9788420406640",
+      "year": 2011,
+      "publisher": "Alfaguara",
+      "pages": 245,
+      "cover": "https://covers.openlibrary.org/b/id/6714734-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "todo-lo-demas-era-silencio-manuel-de-lorenzo",
+      "title": "Todo lo demás era silencio",
+      "author": "Manuel de Lorenzo",
+      "themes": [
+        "novela"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/38519014"
+      ],
+      "isbn": "9788491293422",
+      "year": 2019,
+      "publisher": "Penguin Random House Grupo Editorial",
+      "pages": 200,
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "todos-gordos-con-perdon-julio-basulto",
+      "title": "Todos gordos (con perdón)",
+      "author": "Julio Basulto",
+      "themes": [
+        "salud"
+      ],
+      "episodes": [
+        "76ebf785-c86d-409c-943f-affca19ea4b6"
+      ],
+      "buy_url": "https://amzn.to/4kQ3kvx",
+      "lookup": "none"
+    },
+    {
+      "id": "toni-peret-y-sus-hermanos-en-el-ritmo-david-cuevas",
+      "title": "Toni Peret y sus hermanos en el ritmo",
+      "author": "David Cuevas",
+      "themes": [
+        "arte",
+        "memorias"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/59353737"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "trauma-rafa-guerrero",
+      "title": "Trauma",
+      "author": "Rafa Guerrero",
+      "themes": [
+        "psicologia"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/62277015"
+      ],
+      "buy_url": "https://amzn.to/3TYwlcs",
+      "isbn": "9786075697703",
+      "year": 2024,
+      "publisher": "Editorial Planeta Mexicana",
+      "pages": 248,
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "tres-adioses-michela-murgia",
+      "title": "Tres adioses",
+      "author": "Michela Murgia",
+      "themes": [
+        "novela"
+      ],
+      "episodes": [
+        "f6281f78-d242-4650-a913-da4b57b9593c"
+      ],
+      "relation": "mencionado",
+      "lookup": "none"
+    },
+    {
+      "id": "tu-cerebro-con-psicodelicos-genis-ona",
+      "title": "Tu cerebro con psicodélicos",
+      "author": "Genís Oña",
+      "themes": [
+        "ciencia",
+        "psicologia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/94971703"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "un-plan-maestro-javier-sierra",
+      "title": "Un plan maestro",
+      "author": "Javier Sierra",
+      "themes": [
+        "arte",
+        "misterio"
+      ],
+      "episodes": [
+        "cfcc1331-f1ba-4edd-a061-b8b03ddbbb8d"
+      ],
+      "buy_url": "https://amzn.to/4jeeqZC",
+      "lookup": "none"
+    },
+    {
+      "id": "una-selva-de-sinapsis-ignacio-crespo",
+      "title": "Una selva de sinapsis",
+      "author": "Ignacio Crespo",
+      "themes": [
+        "ciencia"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/63344917"
+      ],
+      "buy_url": "https://amzn.to/4gei0S8",
+      "isbn": "9788449337215",
+      "year": 2020,
+      "publisher": "Ediciones Paidós",
+      "pages": 256,
+      "cover": "https://covers.openlibrary.org/b/id/10546887-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "urtain-retrato-de-una-epoca-felipe-de-luis",
+      "title": "Urtain: retrato de una época",
+      "author": "Felipe de Luis",
+      "themes": [
+        "deporte",
+        "historia"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/63510108"
+      ],
+      "buy_url": "https://amzn.to/3ZNDY7q",
+      "lookup": "none"
+    },
+    {
+      "id": "usted-se-encuentra-aqui-fabian-c-barrio",
+      "title": "Usted se encuentra aquí",
+      "author": "Fabián C. Barrio",
+      "themes": [
+        "filosofia",
+        "desarrollo"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/62485382"
+      ],
+      "buy_url": "https://amzn.to/4fhX5g4",
+      "lookup": "none"
+    },
+    {
+      "id": "veritas-estilo-jeosm",
+      "title": "Veritas-Estilo",
+      "author": "Jeosm",
+      "themes": [
+        "arte"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/106304573"
+      ],
+      "lookup": "none"
+    },
+    {
+      "id": "vida-mas-alla-de-la-vida-lujan-comas",
+      "title": "Vida más allá de la vida",
+      "author": "Luján Comas y Xavier Melo",
+      "themes": [
+        "espiritualidad",
+        "misterio"
+      ],
+      "episodes": [
+        "e634af5f-f903-4e60-9a00-aec3d44b7b01"
+      ],
+      "buy_url": "https://amzn.to/3WqVCgd",
+      "lookup": "none"
+    },
+    {
+      "id": "vive-mas-marcos-vazquez",
+      "title": "Vive más",
+      "author": "Marcos Vázquez",
+      "themes": [
+        "salud"
+      ],
+      "episodes": [
+        "https://api.spreaker.com/episode/61938483"
+      ],
+      "isbn": "9788425361821",
+      "year": 2024,
+      "publisher": "Penguin Random House Grupo Editorial",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "volviendo-a-neverland-pablo-rodriguez-lago",
+      "title": "Volviendo a Neverland",
+      "author": "Pablo Rodríguez Lago",
+      "themes": [
+        "arte",
+        "crimen"
+      ],
+      "episodes": [
+        "6f2bc293-b9b9-4c85-823d-9f4692c481df"
+      ],
+      "buy_url": "https://appleheadteam.com/producto/volviendo-a-neverland-todas-las-claves-de-las-acusaciones-hacia-michael-jackson/",
+      "isbn": "9788412064131",
+      "year": 2019,
+      "publisher": "Applehead Team Creaciones",
+      "pages": 510,
+      "cover": "https://covers.openlibrary.org/b/id/13485419-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "w-de-wikileaks-bruno-cardenosa",
+      "title": "W de Wikileaks",
+      "author": "Bruno Cardeñosa",
+      "themes": [
+        "sociedad"
+      ],
+      "episodes": [
+        "1b1d5056-c3bc-42f1-9fb7-5d23434cfd8a"
+      ],
+      "isbn": "9788448068929",
+      "year": 2011,
+      "publisher": "Libros Cúpula",
+      "pages": 336,
+      "cover": "https://covers.openlibrary.org/b/id/14041203-L.jpg",
+      "lookup": "openlibrary"
+    },
+    {
+      "id": "ya-no-comemos-como-antes-y-menos-mal-gemma-del-cano",
+      "title": "Ya no comemos como antes, ¡y menos mal!",
+      "author": "Gemma del Caño",
+      "themes": [
+        "salud",
+        "ciencia"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/55314794"
+      ],
+      "buy_url": "https://amzn.to/3kgm1Zo",
+      "lookup": "none"
+    },
+    {
+      "id": "yo-satanista-teresa-porqueras",
+      "title": "Yo, satanista",
+      "author": "Teresa Porqueras",
+      "themes": [
+        "misterio"
+      ],
+      "episodes": [
+        "https://www.ivoox.com/56201211"
+      ],
+      "buy_url": "https://amzn.to/3jcaHMt",
+      "lookup": "none"
+    }
+  ],
+  "updated_at": "2026-10-13T19:19:50+00:00"
+}

@@ -1,4 +1,4 @@
-name: Actualizar episodios y publicar web
+name: Actualizar episodios, libros y web
 
 on:
   schedule:
@@ -36,11 +36,15 @@ jobs:
         with:
           python-version: "3.13"
 
-      - name: Obtener episodios nuevos
+      - name: Obtener episodios nuevos y sus libros
         if: github.event_name != 'push'
+        env:
+          # Opcional: con una clave gratuita de Google Books hay más portadas.
+          GOOGLE_BOOKS_API_KEY: ${{ secrets.GOOGLE_BOOKS_API_KEY }}
         run: |
           pip install -r requirements.txt
           python scripts/fetch_episodes.py
+          python scripts/books.py
 
       - name: Commit si hay cambios
         id: commit
