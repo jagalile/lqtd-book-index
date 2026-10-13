@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LQTD Índice · Todos los episodios de Lo que tú digas</title>
+  <meta name="description" content="Índice fan no oficial de los episodios de Lo que tú digas con Álex Fidalgo: busca por invitado, tema o etiqueta y encuentra los libros recomendados.">
+  <meta name="color-scheme" content="light dark">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%23c2410c'/><text x='16' y='22' font-family='Georgia,serif' font-size='16' font-weight='700' text-anchor='middle' fill='white'>LQ</text></svg>">
+  <link rel="preload" href="episodes.json" as="fetch" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Índice fan · no oficial</p>
+      <h1>Lo que tú digas<span>, episodio a episodio</span></h1>
+      <p class="lede" id="lede">Todos los episodios del podcast de Álex Fidalgo, con buscador, filtros y enlaces para escucharlos o verlos.</p>
+    </div>
+  </header>
+
+  <div class="toolbar" id="toolbar">
+    <div class="wrap toolbar-inner">
+      <label class="search">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+        <input id="q" type="search" placeholder="Busca invitado, tema, libro o nº de episodio…" autocomplete="off" aria-label="Buscar episodios">
+      </label>
+      <div class="controls">
+        <select id="year" aria-label="Año"><option value="">Todos los años</option></select>
+        <select id="sort" aria-label="Orden">
+          <option value="new">Más recientes</option>
+          <option value="old">Más antiguos</option>
+          <option value="long">Más largos</option>
+          <option value="short">Más cortos</option>
+        </select>
+      </div>
+    </div>
+    <div class="wrap chips" id="chips" role="group" aria-label="Filtros"></div>
+  </div>
+
+  <main class="wrap">
+    <p class="count" id="count" aria-live="polite">Cargando episodios…</p>
+    <ol class="grid" id="grid"></ol>
+    <div id="sentinel" aria-hidden="true"></div>
+    <div class="empty" id="empty" hidden>
+      <p>No hay episodios que coincidan.</p>
+      <button type="button" id="reset">Quitar filtros</button>
+    </div>
+  </main>
+
+  <footer class="wrap footer">
+    <p>Web hecha por un fan, sin relación con Álex Fidalgo ni con <em>Lo que tú digas</em>. Los episodios se enlazan en sus plataformas oficiales; escúchalos allí para apoyar el podcast.</p>
+    <p id="updated"></p>
+  </footer>
+
+  <dialog id="detail" aria-labelledby="d-title">
+    <form method="dialog" class="close-form"><button class="close" aria-label="Cerrar">×</button></form>
+    <div class="media" id="d-media"></div>
+    <div class="d-body">
+      <p class="d-meta" id="d-meta"></p>
+      <h2 id="d-title"></h2>
+      <div class="tags" id="d-tags"></div>
+      <div class="links" id="d-links"></div>
+      <aside class="book" id="d-book" hidden></aside>
+      <div class="d-desc" id="d-desc"></div>
+    </div>
+  </dialog>
+
+  <script src="app.js" defer></script>
+</body>
+</html>

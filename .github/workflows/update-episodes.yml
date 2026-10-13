@@ -1,0 +1,80 @@
+name: Actualizar episodios y publicar web
+
+on:
+  schedule:
+    # Los episodios salen martes y viernes a las 07:00 (hora de Madrid), con el
+    # vídeo de YouTube unas horas antes. 08:00 UTC cae después en verano
+    # (CEST, 10:00) y en invierno (CET, 09:00).
+    - cron: "0 8 * * 2,5"
+    # Pasada diaria para los episodios fuera de calendario (ÚLTIMA HORA,
+    # algún lunes o jueves por la noche) y para los enlaces de iVoox/YouTube
+    # que aparezcan más tarde que el episodio. Sin novedades no publica nada.
+    - cron: "0 21 * * *"
+  push:
+    branches: [main]
+    paths: ["site/**", "data/**", "scripts/build_site.py", ".github/workflows/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: update-episodes
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - name: Obtener episodios nuevos
+        if: github.event_name != 'push'
+        run: |
+          pip install -r requirements.txt
+          python scripts/fetch_episodes.py
+
+      - name: Commit si hay cambios
+        id: commit
+        run: |
+          if git diff --quiet -- data/; then
+            echo "Sin episodios nuevos."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git commit -m "Actualizar episodios ($(date -u +%F))"
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Construir la web
+        if: steps.commit.outputs.changed == 'true' || github.event_name != 'schedule'
+        run: python scripts/build_site.py
+
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.commit.outputs.changed == 'true' || github.event_name != 'schedule'
+        with:
+          path: _site
+
+  deploy:
+    needs: update
+    # Las ejecuciones programadas sin episodios nuevos no republican.
+    if: needs.update.outputs.changed == 'true' || github.event_name != 'schedule'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
