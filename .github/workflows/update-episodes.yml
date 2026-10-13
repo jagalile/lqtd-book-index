@@ -30,12 +30,11 @@ jobs:
     outputs:
       changed: ${{ steps.commit.outputs.changed }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.13"
-          cache: pip
 
       - name: Obtener episodios nuevos
         if: github.event_name != 'push'
@@ -62,7 +61,7 @@ jobs:
         if: steps.commit.outputs.changed == 'true' || github.event_name != 'schedule'
         run: python scripts/build_site.py
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v4
         if: steps.commit.outputs.changed == 'true' || github.event_name != 'schedule'
         with:
           path: _site
