@@ -1,0 +1,41 @@
+name: Corrección de un libro
+description: Avisa de un error en la ficha de un libro (título, autor, portada, temática…) o de algo que no es un libro.
+title: "Corrección: "
+labels: ["corrección"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ¡Gracias por ayudar a mejorar la biblioteca! Si vienes desde la web, el libro y los episodios ya están rellenados.
+  - type: input
+    id: libro
+    attributes:
+      label: Libro
+      description: Título, autor y enlace a la ficha.
+    validations:
+      required: true
+  - type: dropdown
+    id: problema
+    attributes:
+      label: ¿Qué está mal?
+      options:
+        - El título o el autor están mal escritos
+        - No es un libro (película, serie, disco…)
+        - El libro no existe o no se menciona en el episodio
+        - La portada no es la de este libro
+        - La temática no encaja
+        - Es el libro del invitado, no uno mencionado (o al revés)
+        - Está repetido
+        - Otra cosa
+    validations:
+      required: true
+  - type: textarea
+    id: detalles
+    attributes:
+      label: Detalles
+      description: Cuál sería el dato correcto (título, autor, editorial, enlace…).
+  - type: textarea
+    id: episodio
+    attributes:
+      label: Episodios
+      description: Episodios en los que aparece el libro.

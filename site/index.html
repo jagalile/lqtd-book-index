@@ -6,6 +6,18 @@
   <title>La biblioteca de Lo que tú digas · Libros de los invitados</title>
   <meta name="description" content="Los libros de los invitados de Lo que tú digas con Álex Fidalgo y los que se mencionan en el podcast, clasificados por temática y enlazados a los episodios en los que se habló de ellos. Proyecto fan no oficial y sin ánimo de lucro.">
   <meta name="color-scheme" content="light dark">
+  <!-- Vista previa al compartir el enlace (WhatsApp, X, Telegram…) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:site_name" content="La biblioteca de Lo que tú digas">
+  <meta property="og:title" content="La biblioteca de Lo que tú digas">
+  <meta property="og:description" content="Los libros de los invitados de Álex Fidalgo y los que se mencionan en el programa, por temática y con el minuto exacto del episodio. Proyecto fan, no oficial.">
+  <meta property="og:url" content="https://jagalile.github.io/lqtd-index/">
+  <meta property="og:image" content="https://jagalile.github.io/lqtd-index/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="La biblioteca de Lo que tú digas: portadas de libros sobre el degradado azul del programa">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='%23012468'/><stop offset='1' stop-color='%2301c7d2'/></linearGradient></defs><rect width='32' height='32' rx='7' fill='url(%23g)'/><rect x='8' y='7' width='5' height='18' rx='1' fill='white'/><rect x='14.5' y='9' width='4' height='16' rx='1' fill='white' opacity='.85'/><rect x='20' y='8' width='4.5' height='17' rx='1' fill='%23fed869' transform='rotate(12 22 16)'/></svg>">
   <meta name="theme-color" content="#012468">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,9 +46,11 @@
         <option value="">Todos los libros</option>
         <option value="g">De los invitados</option>
         <option value="m">Mencionados</option>
+        <option value="l">Mi lista</option>
       </select>
       <select id="sort" aria-label="Orden">
         <option value="new">Más recientes</option>
+        <option value="cited">Más citados</option>
         <option value="title">Título (A–Z)</option>
         <option value="author">Autor (A–Z)</option>
       </select>
@@ -45,11 +59,14 @@
   </div>
 
   <main class="wrap" id="main">
-    <p class="count" id="count" aria-live="polite">Cargando libros…</p>
+    <div class="count-row">
+      <p class="count" id="count" aria-live="polite">Cargando libros…</p>
+      <button type="button" class="surprise" id="surprise">Sorpréndeme</button>
+    </div>
     <div id="shelves"></div>
     <ol class="grid" id="grid" hidden></ol>
     <div class="empty" id="empty" hidden>
-      <p>No hay libros que coincidan.</p>
+      <p id="empty-text">No hay libros que coincidan.</p>
       <button type="button" id="reset">Ver todos los libros</button>
     </div>
   </main>
@@ -98,6 +115,10 @@
         <p class="d-author" id="d-author"></p>
         <p class="d-meta" id="d-meta"></p>
         <div class="buy" id="d-buy"></div>
+        <div class="d-actions">
+          <button type="button" class="save" id="d-save" aria-pressed="false">☆ Guardar en mi lista</button>
+          <a class="report" id="d-report" href="#" target="_blank" rel="noopener">¿Algún error en esta ficha?</a>
+        </div>
       </div>
     </div>
     <section class="d-eps">

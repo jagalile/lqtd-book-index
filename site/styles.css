@@ -311,3 +311,32 @@ dialog::backdrop { background: rgb(20 17 15 / .6); backdrop-filter: blur(3px); }
 @media (max-width: 380px) {
   .toolbar-inner select { font-size: 14px; padding: 9px 28px 9px 12px; background-position: right 11px center; }
 }
+
+/* «Sorpréndeme», al lado del recuento */
+.count-row { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin: 22px 0 6px; }
+.count-row .count { margin: 0; }
+.surprise {
+  flex: none; display: inline-flex; align-items: center; gap: 6px;
+  border: 0; border-radius: 999px; padding: 7px 14px; cursor: pointer;
+  font: 700 14px var(--display); background: var(--yellow); color: var(--navy);
+  box-shadow: 0 1px 2px rgb(0 0 0 / .15);
+}
+.surprise::before { content: "🎲"; }
+.surprise:hover { filter: brightness(1.05); transform: translateY(-1px); }
+
+/* Ficha: guardar en mi lista y avisar de un error */
+.d-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; margin-top: 4px; }
+.save {
+  border: 1px solid var(--line); background: var(--surface); border-radius: 999px;
+  padding: 8px 14px; font-size: 14px; font-weight: 600; cursor: pointer;
+}
+.save[aria-pressed="true"] { background: var(--yellow); border-color: var(--yellow); color: var(--navy); }
+.report { font-size: 13px; color: var(--muted); }
+.report:hover { color: var(--ink); }
+
+/* Libro guardado: marca en la portada */
+.book.saved .cover::before {
+  content: "★"; position: absolute; z-index: 2; left: 10px; bottom: 8px;
+  width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center;
+  font-size: 14px; background: var(--yellow); color: var(--navy); box-shadow: 0 1px 3px rgb(0 0 0 / .3);
+}

@@ -15,11 +15,12 @@ const PLATFORMS = [
   ["am", "Amazon Music", "#25d1da", (v) => v],
 ];
 const SHELF_SIZE = 18;
+const REPO = "https://github.com/jagalile/lqtd-index";
 
 const $ = (id) => document.getElementById(id);
 const els = {
   q: $("q"), rel: $("rel"), sort: $("sort"), chips: $("chips"), shelves: $("shelves"), grid: $("grid"),
-  count: $("count"), empty: $("empty"), lede: $("lede"), updated: $("updated"), dialog: $("detail"),
+  count: $("count"), empty: $("empty"), emptyText: $("empty-text"), lede: $("lede"), updated: $("updated"), dialog: $("detail"),
 };
 
 let books = [];
@@ -28,6 +29,17 @@ const byId = new Map();
 const epBooks = new Map(); // episodio -> libros de los que se habló en él
 const epKey = (e) => `${e.date}|${e.title}`;
 const state = { q: "", theme: "", rel: "", sort: "new" };
+
+// --- Mi lista: libros guardados, solo en este navegador ----------------------
+
+const LIST_KEY = "lqtd:mi-lista";
+const myList = new Set((() => {
+  try { return JSON.parse(localStorage.getItem(LIST_KEY)) || []; } catch { return []; }
+})());
+function toggleSaved(id) {
+  myList.has(id) ? myList.delete(id) : myList.add(id);
+  try { localStorage.setItem(LIST_KEY, JSON.stringify([...myList])); } catch { /* modo privado */ }
+}
 
 // --- Utilidades --------------------------------------------------------------
 
@@ -55,8 +67,9 @@ document.addEventListener("error", (ev) => {
   }
 }, true);
 
-const bookHTML = (b) => `<button type="button" class="book" data-id="${esc(b.id)}">${coverHTML(b)}
-  <span class="bt">${esc(b.t)}</span><span class="ba">${esc(b.a || "")}</span></button>`;
+const bookHTML = (b, note = "") => `<button type="button" class="book${myList.has(b.id) ? " saved" : ""}" data-id="${esc(b.id)}">${coverHTML(b)}
+  <span class="bt">${esc(b.t)}</span><span class="ba">${esc(note || b.a || "")}</span></button>`;
+const citedNote = (b) => `En ${b.eps.length} episodios`;
 
 function tagHTML(t) {
   return `<button type="button" class="tag" data-theme="${esc(t)}" style="--h:${HUES[t] ?? 25}">${esc(themes[t] || t)}</button>`;
@@ -68,16 +81,17 @@ function readURL() {
   const p = new URLSearchParams(location.search);
   state.q = p.get("q") || "";
   state.theme = p.get("tema") || "";
-  state.rel = { invitados: "g", mencionados: "m" }[p.get("libros")] || "";
-  state.sort = p.get("orden") || "new";
+  state.rel = { invitados: "g", mencionados: "m", "mi-lista": "l" }[p.get("libros")] || "";
+  const orden = p.get("orden") || "new";
+  state.sort = orden === "citados" ? "cited" : orden;
 }
 
 function writeURL() {
   const p = new URLSearchParams();
   if (state.q) p.set("q", state.q);
   if (state.theme) p.set("tema", state.theme);
-  if (state.rel) p.set("libros", state.rel === "m" ? "mencionados" : "invitados");
-  if (state.sort !== "new") p.set("orden", state.sort);
+  if (state.rel) p.set("libros", { m: "mencionados", g: "invitados", l: "mi-lista" }[state.rel]);
+  if (state.sort !== "new") p.set("orden", state.sort === "cited" ? "citados" : state.sort);
   const qs = p.toString();
   history.replaceState(null, "", (qs ? `?${qs}` : location.pathname) + location.hash);
 }
@@ -88,31 +102,38 @@ const SORTS = {
   new: (a, b) => b.date.localeCompare(a.date) || collator.compare(a.t, b.t),
   title: (a, b) => collator.compare(a.t, b.t),
   author: (a, b) => collator.compare(a.a || "", b.a || "") || collator.compare(a.t, b.t),
+  cited: (a, b) => (b.eps?.length || 0) - (a.eps?.length || 0) || b.date.localeCompare(a.date),
 };
 
 function apply() {
   const terms = norm(state.q.trim()).split(/\s+/).filter(Boolean);
-  const filtering = terms.length || state.theme || state.rel;
+  // «Más citados» enseña el catálogo entero en ese orden, no las estanterías.
+  const filtering = terms.length || state.theme || state.rel || state.sort === "cited";
+  const rel = (b) => !state.rel || (state.rel === "l" ? myList.has(b.id) : (state.rel === "m") === !!b.m);
   const list = books
-    .filter((b) => (!state.theme || b.th?.includes(state.theme)) &&
-      (!state.rel || (state.rel === "m") === !!b.m) &&
+    .filter((b) => (!state.theme || b.th?.includes(state.theme)) && rel(b) &&
       terms.every((t) => b._hay.includes(t)))
     .sort(SORTS[state.sort] || SORTS.new);
 
   els.shelves.hidden = !!filtering;
   els.grid.hidden = !filtering;
   if (filtering) {
-    els.grid.innerHTML = list.map((b) => `<li>${bookHTML(b)}</li>`).join("");
+    const note = state.sort === "cited" ? citedNote : () => "";
+    els.grid.innerHTML = list.map((b) => `<li>${bookHTML(b, note(b))}</li>`).join("");
     const what = [
-      state.rel === "g" ? (list.length === 1 ? " de invitado" : " de invitados") : state.rel === "m" ? (list.length === 1 ? " mencionado" : " mencionados") : "",
+      state.rel === "g" ? (list.length === 1 ? " de invitado" : " de invitados") : state.rel === "m" ? (list.length === 1 ? " mencionado" : " mencionados") : state.rel === "l" ? " en tu lista" : "",
       state.theme ? ` de ${themes[state.theme] || state.theme}` : "",
     ].join("");
-    els.count.textContent = `${list.length} ${list.length === 1 ? "libro" : "libros"}${what}`;
+    els.count.textContent = `${list.length} ${list.length === 1 ? "libro" : "libros"}${what}` +
+      (state.sort === "cited" ? ", de más a menos citados" : "");
   } else {
     renderShelves(list);
     els.count.textContent = `${books.length} libros en ${Object.keys(themes).length} temáticas`;
   }
   els.empty.hidden = list.length > 0;
+  els.emptyText.textContent = state.rel === "l" && !myList.size
+    ? "Tu lista está vacía. Guarda libros desde su ficha con «Guardar en mi lista»."
+    : "No hay libros que coincidan.";
   renderChips();
   writeURL();
 }
@@ -121,12 +142,21 @@ function renderShelves(sorted) {
   const count = (t) => books.filter((b) => b.th?.includes(t)).length;
   const order = Object.keys(themes).filter(count).sort((a, b) => count(b) - count(a));
   const recent = [...books].sort(SORTS.new).slice(0, SHELF_SIZE);
-  const shelf = (id, title, list, total) => `<section class="shelf" style="--h:${HUES[id] ?? 25}">
+  // Los más citados: libros de los que se habló en más episodios.
+  const cited = [...books].filter((b) => (b.eps?.length || 0) > 2).sort(SORTS.cited);
+  const saved = [...books].filter((b) => myList.has(b.id)).sort(SORTS.title);
+  const more = {
+    _top: `<button type="button" class="more" data-sort="cited">Ver todos →</button>`,
+    _list: `<button type="button" class="more" data-rel="l">Ver todos →</button>`,
+  };
+  const shelf = (id, title, list, total, note) => `<section class="shelf" style="--h:${HUES[id] ?? { _top: 50, _list: 205 }[id] ?? 25}">
     <div class="shelf-head"><h2>${esc(title)} <small>${total}</small></h2>
-    ${id !== "_new" ? `<button type="button" class="more" data-theme="${esc(id)}">Ver todos →</button>` : ""}</div>
-    <ul class="row">${list.map((b) => `<li>${bookHTML(b)}</li>`).join("")}</ul></section>`;
+    ${more[id] ?? (id !== "_new" ? `<button type="button" class="more" data-theme="${esc(id)}">Ver todos →</button>` : "")}</div>
+    <ul class="row">${list.map((b) => `<li>${bookHTML(b, note?.(b))}</li>`).join("")}</ul></section>`;
   els.shelves.innerHTML =
+    (saved.length ? shelf("_list", "Mi lista", saved.slice(0, SHELF_SIZE), saved.length) : "") +
     shelf("_new", "Recién llegados", recent, "") +
+    shelf("_top", "Los más citados", cited.slice(0, SHELF_SIZE), "", citedNote) +
     order.map((t) => {
       const list = sorted.filter((b) => b.th?.includes(t));
       return shelf(t, themes[t], list.slice(0, SHELF_SIZE), list.length);
@@ -255,10 +285,41 @@ function openDetail(b, push = true) {
   $("d-author").textContent = b.a || "";
   $("d-meta").textContent = [b.y, b.pub, b.isbn && `ISBN ${b.isbn}`].filter(Boolean).join(" · ");
   $("d-buy").innerHTML = buyLinks(b);
+  renderSaveButton(b);
+  $("d-report").href = reportURL(b);
   $("d-eps").innerHTML = (b.eps || []).map((e) => epHTML(e, b)).join("");
   if (push) history.replaceState(null, "", location.pathname + location.search + "#" + encodeURIComponent(b.id));
   if (!els.dialog.open) els.dialog.showModal();
   els.dialog.scrollTop = 0;
+}
+
+function renderSaveButton(b) {
+  const btn = $("d-save");
+  const saved = myList.has(b.id);
+  btn.dataset.id = b.id;
+  btn.setAttribute("aria-pressed", saved);
+  btn.textContent = saved ? "★ En mi lista" : "☆ Guardar en mi lista";
+}
+
+// Incidencia de GitHub con el formulario de corrección ya rellenado.
+function reportURL(b) {
+  const p = new URLSearchParams({
+    template: "correccion.yml",
+    title: `Corrección: ${b.t}`,
+    libro: `${b.t}${b.a ? ` — ${b.a}` : ""} (${location.origin}${location.pathname}#${b.id})`,
+    episodio: (b.eps || []).map((e) => (e.n ? `#${e.n} ` : "") + e.title).join("\n"),
+  });
+  return `${REPO}/issues/new?${p}`;
+}
+
+// Un libro al azar de los que se ven ahora (o de todos).
+function surprise() {
+  const pool = [...document.querySelectorAll(els.grid.hidden ? "#shelves .book" : "#grid .book")]
+    .map((el) => byId.get(el.dataset.id));
+  const list = pool.length ? pool : books;
+  const b = list[Math.floor(Math.random() * list.length)];
+  const el = document.querySelector(`.book[data-id="${CSS.escape(b.id)}"]`);
+  return el && inView(el) ? openDetailFrom(b, el.querySelector(".cover")) : openDetail(b);
 }
 
 function openFromHash() {
@@ -277,13 +338,32 @@ function bind() {
   els.sort.addEventListener("change", () => { state.sort = els.sort.value; apply(); });
   els.rel.addEventListener("change", () => { state.rel = els.rel.value; apply(); });
   $("reset").addEventListener("click", () => {
-    Object.assign(state, { q: "", theme: "", rel: "" });
-    els.q.value = ""; els.rel.value = "";
+    Object.assign(state, { q: "", theme: "", rel: "", sort: "new" });
+    els.q.value = ""; els.rel.value = ""; els.sort.value = "new";
     apply();
   });
   document.addEventListener("click", (ev) => {
     const themeBtn = ev.target.closest("[data-theme]");
     if (themeBtn) return setTheme(themeBtn.dataset.theme);
+    if (ev.target.closest("#surprise")) return surprise();
+    const save = ev.target.closest("#d-save");
+    if (save) {
+      toggleSaved(save.dataset.id);
+      renderSaveButton(byId.get(save.dataset.id));
+      return apply();
+    }
+    const sortBtn = ev.target.closest("[data-sort]");
+    if (sortBtn) {
+      state.sort = els.sort.value = sortBtn.dataset.sort;
+      apply();
+      return document.querySelector(".toolbar").scrollIntoView({ block: "start" });
+    }
+    const relBtn = ev.target.closest("[data-rel]");
+    if (relBtn) {
+      state.rel = els.rel.value = relBtn.dataset.rel;
+      apply();
+      return document.querySelector(".toolbar").scrollIntoView({ block: "start" });
+    }
     const more = ev.target.closest("[data-more]");
     if (more) {
       more.parentElement.querySelectorAll("[hidden]").forEach((el) => { el.hidden = false; });

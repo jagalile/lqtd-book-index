@@ -84,6 +84,14 @@ python3 scripts/build_site.py && python3 -m http.server -d _site
 
 Portada con estanterías por temática, buscador (libro, autor, temática o episodio), filtros por temática en la URL (`?tema=salud`) y una ficha por libro (`/#id-del-libro`) con dónde comprarlo y los episodios en los que se habló de él. Los libros sin portada en Open Library muestran una portada generada con el color de su temática.
 
+También tiene:
+
+- **Los más citados:** estantería y orden (`?orden=citados`) con los libros de los que se habló en más episodios.
+- **Mi lista:** cada ficha tiene «Guardar en mi lista». Se guarda en el `localStorage` del navegador (sin cuentas ni servidor) y se ve como estantería y con `?libros=mi-lista`.
+- **Sorpréndeme:** abre un libro al azar de los que se ven en ese momento.
+- **«¿Algún error en esta ficha?»:** abre una incidencia de GitHub con el formulario `.github/ISSUE_TEMPLATE/correccion.yml` ya rellenado (libro, enlace y episodios). Las correcciones llegan con la etiqueta `corrección`; se arreglan editando `data/books.json`.
+- **Vista previa al compartir:** `site/og-image.jpg` (1200×630) y etiquetas Open Graph en `index.html`.
+
 ## Actualización y publicación automáticas
 
 `.github/workflows/update-episodes.yml`:
