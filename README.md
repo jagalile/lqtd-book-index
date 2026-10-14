@@ -16,6 +16,7 @@ python3 scripts/fetch_episodes.py
 - **Fuente principal:** el RSS de Spotify for Creators (`spreaker.com/show/5819922/episodes/feed`), con descripción completa, fecha, duración, MP3 y enlace de cada episodio.
 - **Enlaces de iVoox:** se sacan del listado paginado de iVoox (JSON-LD de cada página).
 - **Enlaces de YouTube:** se sacan del canal [@loquetudigas](https://www.youtube.com/@loquetudigas) con yt-dlp. Los títulos de YouTube son distintos de los del podcast, así que se emparejan por número de episodio, por similitud de título, por el nombre del invitado y por duración, respetando el orden cronológico. `--youtube-full` fuerza el listado completo del canal.
+- **Enlaces de Amazon Music:** `scripts/amazon_music.py`. Amazon Music no tiene RSS ni API pública, así que abre la página del programa con un navegador sin interfaz (Playwright) y empareja los episodios por título, que es el mismo que en el RSS. Solo busca los episodios sin enlace; la Action instala Playwright únicamente cuando hace falta.
 - **Incremental:** el fichero hace también de estado. Los episodios que ya están no se tocan; `--refresh` vuelve a escribir los campos de origen sin borrar los añadidos.
 
 Los episodios #181–#258 (salvo #238, #240 y #256) no están publicados en abierto.

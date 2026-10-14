@@ -11,6 +11,7 @@ const PLATFORMS = [
   ["yt", "YouTube", "#ff0000", (v) => `https://www.youtube.com/watch?v=${v}`],
   ["sp", "Spotify", "#1db954", (v) => v],
   ["iv", "iVoox", "#f79c00", (v) => v],
+  ["am", "Amazon Music", "#25d1da", (v) => v],
 ];
 const SHELF_SIZE = 18;
 

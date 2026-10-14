@@ -34,6 +34,7 @@ def compact_episode(ep):
         "yt": ep.get("youtube_id"),
         "sp": ep.get("spotify_url"),
         "iv": ep.get("ivoox_url"),
+        "am": ep.get("amazon_url"),
     }
     return {k: v for k, v in out.items() if v not in (None, "")}
 

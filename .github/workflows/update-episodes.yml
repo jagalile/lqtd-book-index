@@ -49,6 +49,12 @@ jobs:
           # Libros mencionados en la conversación (subtítulos de YouTube + Gemini).
           # Si YouTube bloquea o no hay cuota, no falla: se reintenta otro día.
           python scripts/transcripts.py --limit 10 || echo "::warning::transcripts.py falló; se reintentará"
+          # Enlaces de Amazon Music (necesita un navegador sin interfaz): solo se
+          # instala Playwright si hay episodios sin enlace.
+          if python scripts/amazon_music.py --check; then
+            pip install playwright && python -m playwright install --with-deps chromium &&
+              python scripts/amazon_music.py || echo "::warning::amazon_music.py falló; se reintentará"
+          fi
 
       - name: Commit si hay cambios
         id: commit
