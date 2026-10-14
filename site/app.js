@@ -11,6 +11,7 @@ const PLATFORMS = [
   ["yt", "YouTube", "#ff0000", (v) => `https://www.youtube.com/watch?v=${v}`],
   ["sp", "Spotify", "#1db954", (v) => v],
   ["iv", "iVoox", "#f79c00", (v) => v],
+  ["ap", "Apple Podcasts", "#a855f7", (v) => v],
   ["am", "Amazon Music", "#25d1da", (v) => v],
 ];
 const SHELF_SIZE = 18;
@@ -24,6 +25,8 @@ const els = {
 let books = [];
 let themes = {};
 const byId = new Map();
+const epBooks = new Map(); // episodio -> libros de los que se habló en él
+const epKey = (e) => `${e.date}|${e.title}`;
 const state = { q: "", theme: "", rel: "", sort: "new" };
 
 // --- Utilidades --------------------------------------------------------------
@@ -173,7 +176,17 @@ function mentionHTML(e) {
     <footer>${who ? `Lo menciona ${esc(who)}` : "Se menciona"}${at ? ` en el minuto ${at}` : ""}</footer></blockquote>`;
 }
 
-function epHTML(e) {
+// Los demás libros del mismo episodio, para saltar de uno a otro desde la ficha.
+function alsoHTML(e, current) {
+  const others = (epBooks.get(epKey(e)) || []).filter((x) => x !== current);
+  if (!others.length) return "";
+  const MAX = 8;
+  const btn = (x, i) => `<button type="button" data-book="${esc(x.id)}"${i >= MAX ? " hidden" : ""}>${esc(x.t)}</button>`;
+  const more = others.length > MAX ? `<button type="button" class="more-also" data-more>y ${others.length - MAX} más</button>` : "";
+  return `<p class="ep-also"><span>También se habló de</span> ${others.map(btn).join("")}${more}</p>`;
+}
+
+function epHTML(e, current) {
   const thumb = e.yt
     ? `<img src="https://i.ytimg.com/vi/${esc(e.yt)}/mqdefault.jpg" alt="" loading="lazy">`
     : (e.n ? `#${e.n}` : "LQTD");
@@ -183,6 +196,7 @@ function epHTML(e) {
     <p class="ep-title">${esc(e.title)}</p>
     <p class="ep-meta">${[e.n ? `Episodio #${e.n}` : "", fmtDate(e.date)].filter(Boolean).join(" · ")}</p>
     ${mentionHTML(e)}
+    ${alsoHTML(e, current)}
     <div class="ep-links">${links}</div></div></li>`;
 }
 
@@ -241,7 +255,7 @@ function openDetail(b, push = true) {
   $("d-author").textContent = b.a || "";
   $("d-meta").textContent = [b.y, b.pub, b.isbn && `ISBN ${b.isbn}`].filter(Boolean).join(" · ");
   $("d-buy").innerHTML = buyLinks(b);
-  $("d-eps").innerHTML = (b.eps || []).map(epHTML).join("");
+  $("d-eps").innerHTML = (b.eps || []).map((e) => epHTML(e, b)).join("");
   if (push) history.replaceState(null, "", location.pathname + location.search + "#" + encodeURIComponent(b.id));
   if (!els.dialog.open) els.dialog.showModal();
   els.dialog.scrollTop = 0;
@@ -270,6 +284,13 @@ function bind() {
   document.addEventListener("click", (ev) => {
     const themeBtn = ev.target.closest("[data-theme]");
     if (themeBtn) return setTheme(themeBtn.dataset.theme);
+    const more = ev.target.closest("[data-more]");
+    if (more) {
+      more.parentElement.querySelectorAll("[hidden]").forEach((el) => { el.hidden = false; });
+      return more.remove();
+    }
+    const also = ev.target.closest("[data-book]");
+    if (also) { fromCover = null; return openDetail(byId.get(also.dataset.book)); }
     const book = ev.target.closest(".book");
     if (book) openDetailFrom(byId.get(book.dataset.id), book.querySelector(".cover"));
   });
@@ -307,6 +328,10 @@ async function init() {
     b._hay = norm([b.t, b.a, b.pub, b.isbn, ...(b.th || []).map((t) => themes[t]),
       ...(b.eps || []).map((e) => `${e.title} #${e.n || ""}`)].join(" "));
     byId.set(b.id, b);
+    for (const e of b.eps || []) {
+      if (!epBooks.has(epKey(e))) epBooks.set(epKey(e), []);
+      epBooks.get(epKey(e)).push(b);
+    }
   });
   els.q.value = state.q;
   els.sort.value = state.sort;

@@ -434,6 +434,32 @@ def enrich_with_youtube(episodes, recent_limit, full, log):
 
 # --- Principal ---------------------------------------------------------------
 
+APPLE_LOOKUP_URL = ("https://itunes.apple.com/lookup?id=1245349669&entity=podcastEpisode"
+                    "&limit=200&country=es")
+
+
+def enrich_with_apple(episodes, log):
+    """Enlaces de Apple Podcasts con la API pública de iTunes (sin clave).
+
+    Solo devuelve los 200 episodios más recientes, de sobra para ir al día;
+    los más antiguos se quedan sin enlace. Se emparejan por GUID, que Apple
+    copia del RSS."""
+    try:
+        results = json.loads(fetch(APPLE_LOOKUP_URL) or "{}").get("results", [])
+    except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as e:
+        log(f"  Apple Podcasts no responde ({e}); se reintentará")
+        return 0
+    urls = {r["episodeGuid"]: r["trackViewUrl"].split("&uo=")[0]
+            for r in results if r.get("wrapperType") == "podcastEpisode" and r.get("episodeGuid")}
+    added = 0
+    for ep in episodes:
+        url = urls.get(ep["id"])
+        if url and ep.get("apple_url") != url:
+            ep["apple_url"] = url
+            added += 1
+    return added
+
+
 def load(path):
     if path.exists():
         return json.loads(path.read_text(encoding="utf-8"))
@@ -495,6 +521,9 @@ def main():
         log("Buscando vídeos de YouTube…")
         yt_new = enrich_with_youtube(episodes, args.youtube_recent, args.youtube_full, log)
         log(f"  {yt_new} episodios enlazados ahora con YouTube")
+
+    log("Buscando enlaces de Apple Podcasts…")
+    log(f"  {enrich_with_apple(episodes, log)} episodios enlazados ahora con Apple Podcasts")
 
     # Solo se escribe si algo cambió, para no generar commits vacíos.
     if json.dumps(episodes, sort_keys=True) != before:

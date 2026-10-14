@@ -16,6 +16,7 @@ python3 scripts/fetch_episodes.py
 - **Fuente principal:** el RSS de Spotify for Creators (`spreaker.com/show/5819922/episodes/feed`), con descripción completa, fecha, duración, MP3 y enlace de cada episodio.
 - **Enlaces de iVoox:** se sacan del listado paginado de iVoox (JSON-LD de cada página).
 - **Enlaces de YouTube:** se sacan del canal [@loquetudigas](https://www.youtube.com/@loquetudigas) con yt-dlp. Los títulos de YouTube son distintos de los del podcast, así que se emparejan por número de episodio, por similitud de título, por el nombre del invitado y por duración, respetando el orden cronológico. `--youtube-full` fuerza el listado completo del canal.
+- **Enlaces de Apple Podcasts:** con la API pública de iTunes (sin clave), emparejados por GUID. Solo da los 200 episodios más recientes: los anteriores no tienen enlace, pero cada episodio nuevo lo tendrá.
 - **Enlaces de Amazon Music:** `scripts/amazon_music.py`. Amazon Music no tiene RSS ni API pública, así que abre la página del programa con un navegador sin interfaz (Playwright) y empareja los episodios por título, que es el mismo que en el RSS. Solo busca los episodios sin enlace; la Action instala Playwright únicamente cuando hace falta.
 - **Incremental:** el fichero hace también de estado. Los episodios que ya están no se tocan; `--refresh` vuelve a escribir los campos de origen sin borrar los añadidos.
 
@@ -36,10 +37,33 @@ Para corregir algo (una portada equivocada, un autor, una temática) se edita `d
 
 ### Libros mencionados en la conversación: `scripts/transcripts.py`
 
-```sh
-echo "GEMINI_API_KEY=tu_clave" > .env   # clave gratuita de Google AI Studio; .env está en .gitignore
-python3 scripts/transcripts.py --limit 40
-```
+**Se ejecuta en local, no en la Action**: YouTube bloquea la descarga de subtítulos desde los servidores de GitHub («Sign in to confirm you're not a bot»). Desde una conexión normal funciona sin problema.
+
+#### Cómo ejecutarlo
+
+Requisitos: Python 3, Git, [Node.js](https://nodejs.org) (yt-dlp lo usa para leer YouTube) y permiso para hacer push al repo.
+
+1. Crea una clave gratuita de Gemini en [Google AI Studio](https://aistudio.google.com/apikey) y guárdala en `.env` (está en `.gitignore`, no se sube nunca):
+
+   ```sh
+   echo "GEMINI_API_KEY=tu_clave" > .env
+   ```
+
+2. Después de que salgan episodios nuevos (martes y viernes), ejecuta:
+
+   ```sh
+   ./scripts/update_local.sh
+   ```
+
+   El script crea un entorno virtual en `.venv/` (solo la primera vez), hace `git pull` para traer los episodios que haya añadido la Action, busca los libros de los episodios pendientes, completa sus fichas y portadas y, si hay cambios, hace commit y push de `data/`. La Action publica la web en un minuto.
+
+   - `NO_PUSH=1 ./scripts/update_local.sh` lo deja todo en local para revisarlo antes de subirlo.
+   - Las opciones extra se pasan a `transcripts.py`, por ejemplo `./scripts/update_local.sh --limit 5`.
+   - `python3 scripts/transcripts.py --dry-run --episode 554` muestra lo que encontraría en un episodio sin guardar nada.
+
+3. Revisa de vez en cuando los libros nuevos en `data/books.json`: a veces se cuela alguna película o un título mal transcrito.
+
+#### Qué hace
 
 Para los episodios con vídeo que no estén en `transcripts_checked`:
 
@@ -48,7 +72,7 @@ Para los episodios con vídeo que no estén en `transcripts_checked`:
 3. Se descartan los títulos que no aparecen en la transcripción (libros inventados o menciones en las que solo se nombra al autor) y se buscan los demás en Open Library; los que no encuentra quedan con `review: true`. Aun así se cuelan películas, series y discos: conviene revisar a mano los libros nuevos de vez en cuando.
 4. Cada mención se guarda en el libro como `mentions: [{episode, t, by, quote}]`: la web enseña la cita y enlaza al minuto exacto del vídeo.
 
-Es reanudable: guarda tras cada episodio y, si Gemini no está disponible, para y sigue en la siguiente ejecución. `--dry-run --episode 554` muestra lo que encontraría sin guardar nada.
+Es reanudable: guarda tras cada episodio y, si Gemini no está disponible, para y sigue en la siguiente ejecución.
 
 ## Web
 
@@ -64,6 +88,6 @@ Portada con estanterías por temática, buscador (libro, autor, temática o epis
 
 `.github/workflows/update-episodes.yml`:
 
-- Los martes y viernes a las 08:00 UTC (los episodios salen esos días a las 07:00, hora de Madrid) y todos los días a las 21:00 UTC ejecuta `fetch_episodes.py`, `books.py` y `transcripts.py` (hasta 10 episodios por ejecución; necesita el secret `GEMINI_API_KEY`). Si `data/` cambia, hace commit y vuelve a publicar la web.
+- Los martes y viernes a las 08:00 UTC (los episodios salen esos días a las 07:00, hora de Madrid) y todos los días a las 21:00 UTC ejecuta `fetch_episodes.py`, `books.py` y `amazon_music.py`. Si `data/` cambia, hace commit y vuelve a publicar la web.
 - Cada push a `main` que toque la web o los datos la vuelve a publicar.
 - Para usar Google Books, añade la clave como *secret* `GOOGLE_BOOKS_API_KEY` en *Settings → Secrets and variables → Actions*.
