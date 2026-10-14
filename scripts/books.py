@@ -20,6 +20,7 @@ tenga valor. Solo usa la librería estándar.
 
 import argparse
 import difflib
+import html
 import json
 import os
 import re
@@ -230,6 +231,53 @@ def lookup_openlibrary(book):
     return None
 
 
+AGAPEA_ITEM = re.compile(
+    r'href="[^"]*?-(97[89]\d{10})-i\.htm".*?src="(https://cdn\.agapea\.com/[^" ]+?\.jpg)'
+    r'.*?alt="([^"]*)".*?</h4><ul><li>([^<]*)</li>(.*?)</ul>', re.S)
+
+
+def lookup_agapea(book):
+    """Portada de la librería Agapea (su robots.txt permite el buscador).
+
+    Solo para libros sin portada en Open Library: suele tener las ediciones
+    españolas recientes. Se usa la miniatura de 175×256 (i1n); la grande es
+    una imagen genérica cuando no hay portada."""
+    author = re.split(r"\s+y\s+|,", book.get("author") or "")[0]
+    if not author:  # sin autor, el título solo da demasiados falsos positivos
+        return None
+    # El buscador no entiende las tildes en UTF-8: se buscan sin ellas.
+    query = unicodedata.normalize("NFKD", f"{short_title(book['title'])} {author}")
+    url = "https://www.agapea.com/buscar/buscador.php?" + urllib.parse.urlencode(
+        {"texto": query.encode("ascii", "ignore").decode()})
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        page = resp.read().decode("utf-8", errors="replace")
+    surname = norm(author).split()[-1:]
+    items = [m.groups() for m in map(AGAPEA_ITEM.search, page.split('<li class=" resumen-mini">')[1:]) if m]
+    # Con un solo resultado, Agapea abre directamente la ficha del libro.
+    og = dict(re.findall(r'<meta property="og:(title|image|type)" content="([^"]*)"', page))
+    if og.get("type") == "book" and og.get("image"):
+        parts = html.unescape(og["title"]).rsplit(" - ", 2)
+        if len(parts) == 3:
+            items = [(parts[2], og["image"], parts[0], parts[1], "")]
+    for isbn, src, alt, item_author, rest in items:
+        alt = html.unescape(alt)
+        same_title = difflib.SequenceMatcher(None, norm(short_title(book["title"])), norm(short_title(alt))).ratio() >= 0.85
+        if not same_title or surname[0] not in norm(html.unescape(item_author)):
+            continue
+        cover = re.sub(r"-i\d+n(\d+)\.jpg$", r"-i1n\1.jpg", src)
+        req = urllib.request.Request(cover, headers={"User-Agent": USER_AGENT})
+        try:
+            with urllib.request.urlopen(req, timeout=30) as resp:
+                ok = resp.headers.get_content_type() == "image/jpeg" and len(resp.read()) > 2000
+        except urllib.error.HTTPError:
+            ok = False
+        lis = re.findall(r"<li>([^<]*)</li>", rest)
+        publisher = html.unescape(lis[1]).strip() if len(lis) > 1 else None
+        return {"cover": cover if ok else None, "isbn": isbn, "publisher": publisher}
+    return None
+
+
 def lookup_google(book, key):
     author = re.split(r"\s+y\s+|,", book["author"])[0]
     q = f'intitle:"{short_title(book["title"])}" inauthor:"{author}"'
@@ -275,6 +323,27 @@ def enrich(books, limit, delay):
     return len(pending)
 
 
+def agapea_covers(books, limit, delay):
+    """Busca en Agapea las portadas que no tiene Open Library (una vez por libro)."""
+    pending = [b for b in books["books"]
+               if not b.get("cover") and "lookup" in b and "cover_lookup" not in b][:limit]
+    found = 0
+    for b in pending:
+        try:
+            info = lookup_agapea(b)
+        except (urllib.error.URLError, TimeoutError) as e:
+            log(f"  ! {b['title']}: {e} (se reintentará)")
+            continue
+        for k, v in (info or {}).items():
+            if v and not b.get(k):
+                b[k] = v
+        b["cover_lookup"] = "agapea"
+        found += bool(b.get("cover"))
+        log(f"  {'✓' if b.get('cover') else '·'} {b['title']}")
+        time.sleep(delay)
+    return found, len(pending)
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--no-detect", action="store_true", help="no busca libros en episodios nuevos")
@@ -294,6 +363,8 @@ def main():
     if not args.no_enrich:
         log("Completando fichas…")
         log(f"  {enrich(books, args.limit, args.delay)} libros consultados")
+        log("Portadas que faltan, en Agapea…")
+        log("  {} de {} encontradas".format(*agapea_covers(books, args.limit, max(args.delay, 1.0))))
 
     books["books"].sort(key=lambda b: b["id"])
     if json.dumps(books, sort_keys=True) != before:

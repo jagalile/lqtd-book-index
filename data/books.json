@@ -550,7 +550,8 @@
           "by": "invitado",
           "quote": "Jaron Lanier es el que escribió 10 razones para borrar tus redes sociales de inmediato."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "12-reglas-para-la-vida-jordan-peterson",
@@ -574,7 +575,8 @@
           "by": "Álex",
           "quote": "él ha escrito una suerte del libro de autoayuda con base en la psicología que se llama 12 reglas para la vida"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "21-lecciones-para-el-siglo-xxi-yuval-noah-harari",
@@ -598,7 +600,11 @@
           "by": "invitado",
           "quote": "junto con Homo Deus y con 21 lecciones para el siglo XXI."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/DEBOLSILLO/21-lecciones-para-el-siglo-XXI-i1n21413645.jpg",
+      "isbn": "9788466361200",
+      "publisher": "DEBOLSILLO",
+      "cover_lookup": "agapea"
     },
     {
       "id": "7-de-julio-chapu-apaolaza",
@@ -621,7 +627,10 @@
           "quote": "Me acerqué a los encierros Porque leí un libro de Chapu Apaolaza que se llama 7 de julio"
         }
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover": "https://cdn.agapea.com/Libros-del-KO-SLL/7-De-Julio-i1n13584365.jpg",
+      "isbn": "9788416001576",
+      "cover_lookup": "agapea"
     },
     {
       "id": "80-recomendaciones-para-evitar-los-toxicos-nicolas-olea",
@@ -644,7 +653,10 @@
           "quote": "Para saber más, 80 recomendaciones para evitar los tóxicos."
         }
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover": "https://cdn.agapea.com/RBA-Integral/80-recomendaciones-para-eliminar-los-toxicos-i1n26257860.jpg",
+      "isbn": "9788491182788",
+      "cover_lookup": "agapea"
     },
     {
       "id": "80-recomendaciones-para-evitar-toxicos-nicolas-olea",
@@ -657,7 +669,10 @@
         "6f69ec8d-dfe8-420c-b8a9-17b96f27c3db"
       ],
       "buy_url": "https://amzn.to/4owDAWo",
-      "lookup": "none"
+      "lookup": "none",
+      "cover": "https://cdn.agapea.com/RBA-Integral/80-recomendaciones-para-eliminar-los-toxicos-i1n26257860.jpg",
+      "isbn": "9788491182788",
+      "cover_lookup": "agapea"
     },
     {
       "id": "a-los-que-vienen-manuela-carmena",
@@ -751,7 +766,11 @@
           "by": "invitado",
           "quote": "una de las mayores joyas de la literatura quizá yo que no tengo el gusto tan refinado sí aprecio un libro así A sangre fría de truman capote"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Anagrama-S-A-U-/A-sangre-fria-i1n25133895.jpg",
+      "isbn": "9788433928184",
+      "publisher": "Editorial Anagrama S.A.U.",
+      "cover_lookup": "agapea"
     },
     {
       "id": "a-solas-silvia-congost",
@@ -801,7 +820,8 @@
           "quote": "tuvimos la presentación del libro y llegué a casa con un poco con la adrenalina"
         }
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover_lookup": "agapea"
     },
     {
       "id": "abre-los-ojos-conchi-lillo",
@@ -814,7 +834,10 @@
       "episodes": [
         "https://www.ivoox.com/111243967"
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover": "https://cdn.agapea.com/Next-Door-Publishers-S-L-/Abre-Los-Ojos--i1n23704176.jpg",
+      "isbn": "9788412565928",
+      "cover_lookup": "agapea"
     },
     {
       "id": "agenda-2030-libertad-o-tirania-cristina-martin-jimenez",
@@ -834,7 +857,8 @@
           "by": "Álex",
           "quote": "y hoy Estás con otro aquí un año después más o menos que es agenda 2030 libertad o tiranía"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "agente-rossini-la-historia-del-hombre-que-pudo-haber-evitado-el-11-s-alvaro-soto",
@@ -858,7 +882,10 @@
           "quote": "Álvaro Soto es el autor de Agente Rosini, la historia del hombre que pudo haber evitado el 11-S."
         }
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover": "https://cdn.agapea.com/B/Agente-Rossini-i1n26892059.jpg",
+      "isbn": "9788466673860",
+      "cover_lookup": "agapea"
     },
     {
       "id": "al-filo-de-la-escalada-cesar-perez-de-tudela",
@@ -967,7 +994,8 @@
           "by": "invitado",
           "quote": "Hay un poemario precioso de Dulce Chacón que se lo escribe a su hermana, se llama Alas."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "alicia-en-el-pais-de-las-maravillas-lewis-carroll",
@@ -1042,7 +1070,11 @@
           "by": "invitado",
           "quote": "Hay un libro maravilloso de Oliver Sacks que se llama Alucinaciones lo editó en su momento Anagrama."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Anagrama-S-A-/Alucinaciones-i1n17221647.jpg",
+      "isbn": "9788433960290",
+      "publisher": "Editorial Anagrama S.A.",
+      "cover_lookup": "agapea"
     },
     {
       "id": "amor-al-segundo-intento-antoni-bolinches",
@@ -1075,7 +1107,9 @@
           "by": "invitado",
           "quote": "Los cuatro parámetros que yo tipifiqué en Amor al segundo intento y en Sexo sabio."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Urano/Amor-al-segundo-intento-i1n25115373.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "amor-curiosidad-prozac-y-dudas-lucia-etxebarria",
@@ -1177,7 +1211,8 @@
           "by": "invitado",
           "quote": "Hay este libro que se llama es muy fácil muy sencillo que se llama amor y odio de divulgación un ensayo de divulgación"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "ana-karenina-leon-tolstoi",
@@ -1224,7 +1259,9 @@
           "by": "invitado",
           "quote": "Y luego estoy pegado una paliza de talk de tolstoi y porque me parece muy interesante el momento en el que entra en crisis"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/CREATESPACE/Ana-Karenina-i1n11311875.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "ananga-ranga-kalyana-malla",
@@ -1364,7 +1401,11 @@
           "quote": "Quien habla muy bien de esto es Susan Sontag, El dolor de los demás."
         }
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover": "https://cdn.agapea.com/Debolsillo/Ante-el-dolor-de-los-demas-i1n2178930.jpg",
+      "isbn": "9788499082370",
+      "publisher": "Debolsillo",
+      "cover_lookup": "agapea"
     },
     {
       "id": "antes-del-olvido-jorge-javier-vazquez",
@@ -1404,7 +1445,8 @@
           "by": "invitado",
           "quote": "Una selección de estos artículos lo publiqué en esta en este en este libro que se llama antropológicamente."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "apocalipsis-juan-de-patmos",
@@ -1427,7 +1469,11 @@
           "by": "invitado",
           "quote": "Creo que el Apocalipsis es un libro escrito para una persecución en el siglo primero"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Wunderkammer/Apocalipsis-i1n23745468.jpg",
+      "isbn": "9788412401097",
+      "publisher": "Wunderkammer",
+      "cover_lookup": "agapea"
     },
     {
       "id": "apologia-de-socrates-platon",
@@ -1530,7 +1576,10 @@
           "by": "Álex",
           "quote": "tú ya sabes que yo trabajo en varios programas y estoy cansado de callarme que cuando tú ves una tertulia muchas veces hay gente que ha puesto los partidos políticos"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Debate/Arden-las-redes-La-postcensura-y-el-nuevo-mundo-virtual-i1n15462008.jpg",
+      "isbn": "9788499927527",
+      "cover_lookup": "agapea"
     },
     {
       "id": "armas-germenes-y-acero-jared-diamond",
@@ -1553,7 +1602,10 @@
           "quote": "Un sociólogo norteamericano que escribió un libro, este de Germenes, acero y fuego..."
         }
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "isbn": "9791388387692",
+      "publisher": "DEBATE",
+      "cover_lookup": "agapea"
     },
     {
       "id": "artificial-la-nueva-inteligencia-y-el-contorno-de-lo-humano-mariano-sigman",
@@ -1591,7 +1643,9 @@
           "by": "invitado",
           "quote": "ha escrito uno que yo creo que se llama artificial sobre la Inteligencia artificial"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/DEBATE/Artificial-La-nueva-inteligencia-y-el-contorno-de-lo-humano-i1n23754220.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "asalto-al-octagono-alvaro-colmenero",
@@ -1619,7 +1673,10 @@
           "by": "Álex",
           "quote": "Tu primer libro. Mi primer libro. ¿Cómo se vive eso? Wow, es un alumbramiento."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/HarperCollins/Asalto-al-octagono-i1n26468704.jpg",
+      "isbn": "9788410645882",
+      "cover_lookup": "agapea"
     },
     {
       "id": "asi-funciona-la-justicia-natalia-velilla",
@@ -1661,7 +1718,8 @@
           "by": "invitado",
           "quote": "Hubo un escritor fantástico que se llamaba José Seserna, que era allí un abogado muy notable que escribió un libro que era un diccionario de la Mancha y se llamaba Así habla la mancha"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "asi-hablo-zaratustra-friedrich-nietzsche",
@@ -1718,7 +1776,10 @@
           "quote": "y creo que ahora en mi último libro lo pongo bien tal en mi último y así salir del infierno de las drogas digo así salir del infierno de las drogas"
         }
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover": "https://cdn.agapea.com/Kailas-Editorial-S-L-/Asi-sali-del-infienro-de-las-drogas-i1n15706691.jpg",
+      "isbn": "9788416523924",
+      "cover_lookup": "agapea"
     },
     {
       "id": "asi-se-vence-al-demonio-jose-maria-zavala",
@@ -1742,7 +1803,10 @@
           "quote": "el libro magnífico de José María Zavala así se vence el demonio"
         }
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover": "https://cdn.agapea.com/Spiritu-Media/Asi-se-vence-al-demonio-i1n6540234.jpg",
+      "isbn": "9788492654949",
+      "cover_lookup": "agapea"
     },
     {
       "id": "astrofisica-para-gente-con-prisa-neil-degrasse-tyson",
@@ -1765,7 +1829,11 @@
           "by": "Álex",
           "quote": "Hace poco empezaba a leer un libro de nil grass y sí que se supone que es uno de los mejores divulgadores del mundo"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Booket/Astrofisica-para-gente-con-prisas-i1n21049350.jpg",
+      "isbn": "9788408247487",
+      "publisher": "Booket",
+      "cover_lookup": "agapea"
     },
     {
       "id": "atencion-plena-dokusho-villalba",
@@ -1805,7 +1873,10 @@
           "by": "Álex",
           "quote": "con el libro de Isabel, que se llama Atmosfera de bulos"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/B/Atmosfera-de-bulos-i1n25628998.jpg",
+      "isbn": "9788466679466",
+      "cover_lookup": "agapea"
     },
     {
       "id": "atrevete-a-liderar-brene-brown",
@@ -1829,7 +1900,8 @@
           "by": "Lorena",
           "quote": "Un libro que para mí realmente me marcó y mira que es difícil que yo diga esto es de Brené Brown, Dare to Lead, que lo menciono aquí también."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "aunque-seas-rara-y-pajaro-lua-mosquetera",
@@ -1841,7 +1913,8 @@
       "episodes": [
         "https://www.ivoox.com/48728820"
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover_lookup": "agapea"
     },
     {
       "id": "aunque-seas-rara-y-seas-pajaro-lua-mosquetera",
@@ -1863,7 +1936,8 @@
           "by": "Álex",
           "quote": "Esta chica imparable está a punto de publicar su segundo poemario llamado aunque seas rara y seas pájaro"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "bajo-el-volcan-malcolm-lowry",
@@ -1913,7 +1987,8 @@
           "by": "invitado",
           "quote": "...mi libro preferido de relatos en el que le tengo mucho cariño es Barbacoa de Bernardo Atxaga."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "basta-de-historias-andres-oppenheimer",
@@ -2006,7 +2081,8 @@
       "episodes": [
         "https://api.spreaker.com/episode/56974857"
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover_lookup": "agapea"
     },
     {
       "id": "biografia-de-la-luz-pablo-d-ors",
@@ -2095,7 +2171,11 @@
           "by": "invitado",
           "quote": "Justo cuando él se hace famoso, que es cuando saca el libro Breve historia del tiempo..."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Critica/Brevisima-historia-del-tiempo-i1n10568166.jpg",
+      "isbn": "9788498927948",
+      "publisher": "Editorial Crítica",
+      "cover_lookup": "agapea"
     },
     {
       "id": "brevisima-historia-del-tiempo-stephen-hawking",
@@ -2118,7 +2198,11 @@
           "by": "invitado",
           "quote": "El instituto Rosalía de Castro había hecho la presentación de sus dos libros: Brevísima historia del tiempo."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Critica/Brevisima-historia-del-tiempo-i1n10568166.jpg",
+      "isbn": "9788498927948",
+      "publisher": "Editorial Crítica",
+      "cover_lookup": "agapea"
     },
     {
       "id": "caballo-de-troya-jj-benitez",
@@ -2201,7 +2285,8 @@
           "by": "invitado",
           "quote": "hay un ensayo que me encanta que se llama Cállate Mira simplemente y habla también de de que transmite autoridad"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "cambia-el-chip-chip-heath",
@@ -2280,7 +2365,9 @@
           "by": "invitado",
           "quote": "Yo llegué a escribir uno de mis libros Camino hacia la cultura para indicar lecturas"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Planeta-S-A-/El-camino-hacia-la-cultura-Lo-que-hay-que-leer-ver-y-escuchar-i1n671914.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "canastas-sagradas-phil-jackson",
@@ -2373,7 +2460,9 @@
           "by": "Joaquín",
           "quote": "El último libro que leí en verano fue caos de Tom oil y habla sobre los asesinatos"
         }
-      ]
+      ],
+      "isbn": "9780316477550",
+      "cover_lookup": "agapea"
     },
     {
       "id": "cara-a-cara-con-satanas-teresa-porqueras",
@@ -2455,7 +2544,11 @@
           "by": "invitado",
           "quote": "Otro delantero después de uno entero de Carpanta que se vendía menos."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Bruguera/Carapanta-i1n22590401.jpg",
+      "isbn": "9788402427878",
+      "publisher": "Bruguera",
+      "cover_lookup": "agapea"
     },
     {
       "id": "carta-al-padre-franz-kafka",
@@ -2506,7 +2599,10 @@
           "by": "Álex",
           "quote": "Mi padre está muy interesado en un libro de Benito Bermejo que se llama Cartas desde Mauthausen."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Espasa-Libros-S-L-/Cartas-desde-Mauthausen-i1n13501755.jpg",
+      "isbn": "9788467047516",
+      "cover_lookup": "agapea"
     },
     {
       "id": "cataluna-en-la-espana-moderna-pierre-vilar",
@@ -2529,7 +2625,11 @@
           "by": "invitado",
           "quote": "Y él empieza allí su tesis doctoral, Cataluña en la España moderna."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Critica/Cataluna-en-la-Espana-moderna-vol-2-i1n15793046.jpg",
+      "isbn": "9788498929911",
+      "publisher": "Editorial Crítica",
+      "cover_lookup": "agapea"
     },
     {
       "id": "catching-fire-richard-wrangham",
@@ -2580,7 +2680,8 @@
           "by": "invitado",
           "quote": "Mira del libro Cenando con Darwin y La sexta extinción sí..."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "cerebro-de-pan-david-perlmutter",
@@ -2885,7 +2986,8 @@
           "quote": "hay un libro maravilloso de un escritor y periodista estadounidense que se llama laurens write... cienciología de Lawrence wright"
         }
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover_lookup": "agapea"
     },
     {
       "id": "cincuenta-sombras-de-grey-e-l-james",
@@ -2926,7 +3028,9 @@
           "by": "Álex",
           "quote": "estudios que dicen como que 50 sombras de Grey ha modificado un poco el comportamiento sexual"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Debolsillo/Cincuenta-sombras-de-Grey-i1n9674537.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "claves-ocultas-del-poder-mundial-miguel-pedrero",
@@ -2973,7 +3077,8 @@
           "quote": "tuviste que Julio basulto me sí un libro come [&nbsp;__&nbsp;] que es un gran libro"
         }
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover_lookup": "agapea"
     },
     {
       "id": "comemos-lo-que-somos-jm-mulet",
@@ -3002,7 +3107,10 @@
           "by": "Álex",
           "quote": "comemos lo que somos es el último libro"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Ediciones-Destino/Comemos-lo-que-somos-i1n22839967.jpg",
+      "isbn": "9788423362776",
+      "cover_lookup": "agapea"
     },
     {
       "id": "comer-sin-miedo-jm-mulet",
@@ -3037,7 +3145,11 @@
           "by": "Álex",
           "quote": "Haber escrito los libros comer sin miedo medicina sin engaños los productos naturales vaya timo y la ciencia en la sombra"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Booket/Comer-sin-miedo-i1n10565257.jpg",
+      "isbn": "9788423348862",
+      "publisher": "Booket",
+      "cover_lookup": "agapea"
     },
     {
       "id": "comer-y-correr-julio-basulto",
@@ -3060,7 +3172,11 @@
           "by": "invitado",
           "quote": "Bueno, me pasó con el libro Comer y Correr, que lo publiqué con el doctor Juanjo Cáceres."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Debolsillo/Comer-y-correr-i1n9794300.jpg",
+      "isbn": "9788490328002",
+      "publisher": "Debolsillo",
+      "cover_lookup": "agapea"
     },
     {
       "id": "comida-fantastica-laura-caorsi",
@@ -3086,7 +3202,9 @@
           "by": "invitado",
           "quote": "Laura Corsi es una pervista especializada en alimentación que tiene un libro que se llama Comida fantástica, que habla de etiquetas de alimentos."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Vergara/Comida-fantastica-i1n24912274.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "como-acabar-definitivamente-con-la-cultura-woody-allen",
@@ -3110,7 +3228,8 @@
           "by": "invitado",
           "quote": "Woody Allen- mundiales no solo sus películas también también sus libros cuentos sin plumas cómo acabar definitivamente con la cultura"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "como-cambiar-tu-mente-michael-pollan",
@@ -3134,7 +3253,10 @@
           "by": "invitado",
           "quote": "Como es la aparición del libro de Michael Polland de Cómo cambiar tu mente, que fue un bestseller a nivel internacional"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Debate/COMO-CAMBIAR-TU-MENTE-i1n17404580.jpg",
+      "isbn": "9788499929064",
+      "cover_lookup": "agapea"
     },
     {
       "id": "como-educar-a-un-genio-leontxo-garcia",
@@ -3157,7 +3279,8 @@
           "by": "invitado",
           "quote": "Yo estoy tengo medio escrito un libro sobre el actual campeón del mundo el noruego magnus carlsen que va a llevar como título cómo educar a un género"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "como-leer-mentes-pablo-raijenstein",
@@ -3179,7 +3302,11 @@
           "by": "invitado",
           "quote": "Mi libro que he sacado como leer mentes, hablo de ello."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Luciernaga-CAS/Como-leer-mentes-i1n26793571.jpg",
+      "isbn": "9791387667719",
+      "publisher": "Luciérnaga CAS",
+      "cover_lookup": "agapea"
     },
     {
       "id": "como-mueren-las-democracias-steven-levitsky",
@@ -3203,7 +3330,11 @@
           "by": "invitado",
           "quote": "hay un libro que es muy recomendable estos días aunque aunque te choca un poco leerlo pero es bueno saberlo que es cómo mueren las democracias"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Booket/Como-mueren-las-democracias-i1n20063820.jpg",
+      "isbn": "9788408239345",
+      "publisher": "Booket",
+      "cover_lookup": "agapea"
     },
     {
       "id": "como-salir-del-pozo-andres-oppenheimer",
@@ -3262,7 +3393,9 @@
           "by": "invitado",
           "quote": "Ha escrito un libro que se llama Cómo salir del pozo"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/DEBATE/Como-salir-del-pozo-i1n23754380.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "como-siempre-lo-de-siempre-lucia-taboada",
@@ -3311,7 +3444,10 @@
           "by": "Álex",
           "quote": "Cuentos para Ulises es otro de tus libros y el que más me llama la atención que es cómo superar las penas de amor con Newton"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Planeta-S-A-/Como-superar-las-penas-de-amor-con-Newton-i1n11957274.jpg",
+      "isbn": "9788408144663",
+      "cover_lookup": "agapea"
     },
     {
       "id": "como-viven-la-muerte-los-animales-susana-monso",
@@ -3334,7 +3470,8 @@
           "by": "invitado",
           "quote": "es el primero la zarigüeya de redingers"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "con-hormonas-y-a-lo-loco-clotilde-vazquez",
@@ -3410,7 +3547,8 @@
           "by": "invitado",
           "quote": "Uno se llama concentración e introspección y el otro se llama posturas de yoga"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "conclave-la-iglesia-despues-de-francisco-eric-frattini",
@@ -3431,7 +3569,11 @@
           "by": "invitado",
           "quote": "Cónclave, la Iglesia después de Francisco."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Espasa/Conclave-i1n25861299.jpg",
+      "isbn": "9788467078664",
+      "publisher": "Espasa",
+      "cover_lookup": "agapea"
     },
     {
       "id": "conexiones-perdidas-johann-hari",
@@ -3504,7 +3646,11 @@
           "by": "Álex",
           "quote": "tres conexiones perdidas de Johan Harry..."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/CAPITAN-SWING-S-L/CONEXIONES-PERDIDAS-Causas-reales-y-soluciones-inesperadas-para-la-depresion-i1n19291526.jpg",
+      "isbn": "9788412064438",
+      "publisher": "CAPITAN SWING S.L",
+      "cover_lookup": "agapea"
     },
     {
       "id": "confesiones-de-un-comedor-de-opio-ingles-thomas-de-quincey",
@@ -3628,7 +3774,8 @@
           "by": "invitado",
           "quote": "por eso su libro contacto cero por eso aconseja el contacto cero con el sujeto o sujeta psicópata y para mí es un un gran referente"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "contacto-miguel-pedrero",
@@ -3653,7 +3800,9 @@
           "by": "invitado",
           "quote": "Escribí un libro solo sobre este fenómeno que se tituló Contacto."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Edaf-S-L-/Contacto-i1n207452.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "contra-la-juventud-pablo-d-ors",
@@ -3731,7 +3880,8 @@
           "by": "Álex",
           "quote": "presentabas en aquel momento un libro sobre los grandes oligarcas del planeta y es contra nosotros eso es"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "contrato-con-dios-will-eisner",
@@ -3755,7 +3905,11 @@
           "by": "invitado",
           "quote": "Hay una novela gráfica de Will Eisner se llama Contrato con Dios que es de las cosas mejores que se pueden leer en este mundo"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Norma-Editorial-S-A-/CONTRATO-CON-DIOS-i1n179481.jpg",
+      "isbn": "9788479044619",
+      "publisher": "Norma Editorial, S.A.",
+      "cover_lookup": "agapea"
     },
     {
       "id": "convencidos-pero-equivocados",
@@ -3778,7 +3932,8 @@
           "by": "invitado",
           "quote": "Hay un libro que se llama Convencidos pero equivocados. Un segundo, perdón."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "conversacion-en-la-catedral-mario-vargas-llosa",
@@ -4077,7 +4232,8 @@
           "by": "invitado",
           "quote": "le compré un libro que era cuentos a través de las emociones"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "cuentos-para-sonar-con-un-mundo-mejor-manuela-carmena",
@@ -4089,7 +4245,10 @@
       "episodes": [
         "https://www.ivoox.com/68103382"
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover": "https://cdn.agapea.com/B-de-Blok-Ediciones-B-/Cuentos-para-sonar-un-mundo-mejor-i1n19352198.jpg",
+      "isbn": "9788417921002",
+      "cover_lookup": "agapea"
     },
     {
       "id": "cuentos-para-ulises-juan-carlos-ortega",
@@ -4164,7 +4323,9 @@
       "isbn": "9788420477671",
       "year": 2024,
       "publisher": "Penguin Random House Grupo Editorial",
-      "lookup": "openlibrary"
+      "lookup": "openlibrary",
+      "cover": "https://cdn.agapea.com/ALFAGUARA/Cuentos-verdaderos-i1n24544840.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "culturas-olvidadas-historias-de-rincones-anibal-bueno",
@@ -4185,7 +4346,11 @@
           "by": "Álex",
           "quote": "A raíz de leer tu libro culturas olvidadas he aprendido acerca de la figura del fixer."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-UOC-S-L-/Culturas-olvidadas-i1n19567663.jpg",
+      "isbn": "9788491807179",
+      "publisher": "Editorial UOC, S.L.",
+      "cover_lookup": "agapea"
     },
     {
       "id": "curso-de-oregones-para-foranos-jose-videgain",
@@ -4306,7 +4471,11 @@
           "by": "invitado",
           "quote": "Acabas de publicar Bueno no sé si acabas de publicarlo sí sí hace dos meses tres meses de qué nos sirve ser tan listos correcto"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Booket/-De-que-nos-sirve-ser-tan-listos--i1n25708651.jpg",
+      "isbn": "9788423367979",
+      "publisher": "Booket",
+      "cover_lookup": "agapea"
     },
     {
       "id": "de-senectute-ciceron",
@@ -4423,7 +4592,8 @@
           "by": "invitado",
           "quote": "Y hay un español que tiene, que también me lo leí, muy gracioso, que tiene un libro dejar de fumar es difícil"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "del-asesinato-considerado-como-una-de-las-bellas-artes-thomas-de-quincey",
@@ -4538,7 +4708,8 @@
       "episodes": [
         "https://www.ivoox.com/63441786"
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover_lookup": "agapea"
     },
     {
       "id": "desde-el-silencio-eduardo-strauch",
@@ -4580,7 +4751,8 @@
           "by": "invitado",
           "quote": "Me estoy acordando de otro libro maravilloso que se llama Despedidas elegantes y es el relato de las despedidas de grandes maestros."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "despues-de-lo-trans-elisa-duval",
@@ -4604,7 +4776,11 @@
           "by": "Ernesto",
           "quote": "publicó hace un par de años un libro llamado después de lo trans"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/La-Caja-Books/Despues-de-lo-trans-i1n24227075.jpg",
+      "isbn": "9788417496807",
+      "publisher": "La Caja Books",
+      "cover_lookup": "agapea"
     },
     {
       "id": "devocion-pablo-d-ors",
@@ -4625,7 +4801,11 @@
           "by": "invitado",
           "quote": "Ahora, ahora he publicado un libro que se llama Devoción y la última página hablo de uno de esos momentos de conexión"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Galaxia-Gutenberg-S-L-/Devocion-i1n25514504.jpg",
+      "isbn": "9788410317239",
+      "publisher": "Galaxia Gutenberg, S.L.",
+      "cover_lookup": "agapea"
     },
     {
       "id": "diario-anonimo",
@@ -4683,7 +4863,8 @@
           "quote": "Sabes que publicó un libro llamado Diario de infelicidad o el Diario de la infelicidad."
         }
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover_lookup": "agapea"
     },
     {
       "id": "diario-de-un-agente-de-homicidios-oscar-tarruella",
@@ -4733,7 +4914,9 @@
           "by": "Álex",
           "quote": "Tu libro Diario de un médium cuando cuando salió en junio salió de este año 2022 y es con Penguin"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Vergara/Diario-de-un-medium-i1n21659462.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "diario-de-una-ninfomana-valerie-tasso",
@@ -4791,7 +4974,11 @@
           "by": "invitado",
           "quote": "He leído libro de invitos dos veces. es el de cómo piensan los estoicos el de Marcos. Sí, diario para estoicos, tal."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Reverte/Diario-para-estoicos-i1n19859644.jpg",
+      "isbn": "9788417963156",
+      "publisher": "Editorial Reverte",
+      "cover_lookup": "agapea"
     },
     {
       "id": "diario-secreto-de-jordan-chandler-victor-gutierrez",
@@ -4814,7 +5001,8 @@
           "by": "invitado",
           "quote": "Este periodista chileno después de la acusación después del acuerdo extrajudicial publica un libro diario secreto de Jordan Chandler."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "diarios-etty-hillesum",
@@ -4838,7 +5026,11 @@
           "by": "invitado",
           "quote": "Etty Hillesum, esta judía holandesa que murió en Auschwitz con 28, 29 años, que dejó un diario escrito."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Assirio-Alvim/Diario-i1n19772787.jpg",
+      "isbn": "9789723721041",
+      "publisher": "Assírio & Alvim",
+      "cover_lookup": "agapea"
     },
     {
       "id": "dibujo-luego-pienso-javirroyo",
@@ -4888,7 +5080,10 @@
           "quote": "Un historiador holandés al que admiro mucho que se llama Rutger Bregman y que es el autor de un libro que se llama Dignos de ser humano."
         }
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover": "https://cdn.agapea.com/Editorial-Anagrama-S-A-/Dignos-de-ser-humanos-i1n21066021.jpg",
+      "isbn": "9788433964731",
+      "cover_lookup": "agapea"
     },
     {
       "id": "dinero-facil-jens-lapidus",
@@ -4958,7 +5153,9 @@
       "year": 2024,
       "publisher": "Editorial Oceano de Mexico",
       "pages": 536,
-      "lookup": "openlibrary"
+      "lookup": "openlibrary",
+      "cover": "https://cdn.agapea.com/Editorial-Funambulista-S-L-/Dios-La-ciencia-Las-pruebas-i1n23755810.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "dioses-azules-jj-benitez",
@@ -4981,7 +5178,8 @@
           "by": "Álex",
           "quote": "La vida después de la muerte, las experiencias cercanas a la muerte son un poco el eje central del libro que presentas ahora. que se llama Dioses azul."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "dmt-la-molecula-espiritual-rick-strassman",
@@ -5007,7 +5205,9 @@
           "quote": "Y él publicó un libro que se titula The Spirit Molecule, la molécula espiritual en la que equiparaba las experiencias cercanas a la muerte"
         }
       ],
-      "lookup": "openlibrary"
+      "lookup": "openlibrary",
+      "cover": "https://cdn.agapea.com/Inner-Traditions-en-Espanol-/DMT-La-molecula-del-espiritu-i1n10166377.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "don-juan-gonzalo-torrente-ballester",
@@ -5168,7 +5368,11 @@
           "by": "invitado",
           "quote": "¿Dónde están las llaves? Es el último."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/GeoPlaneta/-Donde-estan-las-llaves--i1n24078457.jpg",
+      "isbn": "9788408273486",
+      "publisher": "GeoPlaneta",
+      "cover_lookup": "agapea"
     },
     {
       "id": "dossier-de-lo-insolito-david-cuevas",
@@ -5270,7 +5474,8 @@
           "by": "Álex",
           "quote": "más conocido como el autor de drogopedia, psicofarmacólogo, divulgador"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "dsm-5-asociacion-psiquiatrica-americana",
@@ -5301,7 +5506,8 @@
           "by": "invitado",
           "quote": "Tú sabes lo que les pasa el primer año en psicología a los alumnos que te vas leyendo al DSM 5."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "ecomitos-los-bulos-ecologicos-que-agravan-la-crisis-ambiental-victor-resco-de-di",
@@ -5324,7 +5530,10 @@
           "by": "Álex",
           "quote": "Ecomitos, el libro de Víctor Roco que me ha traído Los bulos ecológicos que agravan la crisis ambiental"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Plataforma-Editorial-S-L-/Ecomitos-i1n24541474.jpg",
+      "isbn": "9788410079021",
+      "cover_lookup": "agapea"
     },
     {
       "id": "educar-en-lenguaje-positivo-luis-castellanos",
@@ -5382,7 +5591,11 @@
           "by": "invitado",
           "quote": "Él hizo el prólogo de mi segundo libro, Ego y supraconciencia."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Planeta/Ego-y-Supraconciencia-i1n25998056.jpg",
+      "isbn": "9788408307402",
+      "publisher": "Editorial Planeta",
+      "cover_lookup": "agapea"
     },
     {
       "id": "einstein-su-vida-y-su-universo-walter-isaacson",
@@ -5556,7 +5769,8 @@
           "by": "invitado",
           "quote": "Lo que yo he denominado el amor cero en las relaciones de pareja o las familias cero en las relaciones familiares"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-amor-es-imposible-dario-sztajnszrajber",
@@ -5571,7 +5785,9 @@
       "isbn": "9786075694443",
       "year": 2023,
       "publisher": "Editorial Planeta, S. A.",
-      "lookup": "openlibrary"
+      "lookup": "openlibrary",
+      "cover": "https://cdn.agapea.com/Editorial-Ariel/El-amor-es-imposible-i1n23755143.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-angel-perdido-javier-sierra",
@@ -5622,7 +5838,11 @@
           "by": "invitado",
           "quote": "este libro que que trata sobre sobre el trabajo común sobre el bien común el apoyo mutuo"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Pepitas-de-calabaza/El-apoyo-mutuo-un-factor-de-evolucion-i1n13795613.jpg",
+      "isbn": "9788415862727",
+      "publisher": "Pepitas de calabaza",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-arco-y-la-lira-octavio-paz",
@@ -5702,7 +5922,9 @@
           "by": "invitado",
           "quote": "Eso lo explico en mi libro, El arte de enamorar."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/DeBolsillo/El-arte-de-enamorar-i1n2042905.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-arte-de-la-entrevista-rosa-montero",
@@ -5724,7 +5946,11 @@
           "by": "invitado",
           "quote": "tengo en ese libro que tienes ahí el arte de la entrevista la tengo al final la tengo al final fotocopiada y tal"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/DEBATE-EDITORIAL/El-arte-de-la-entrevista-i1n17472047.jpg",
+      "isbn": "9788499929439",
+      "publisher": "DEBATE EDITORIAL",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-arte-de-la-felicidad-alfred-sonnenfeld",
@@ -5746,7 +5972,8 @@
           "by": "Álex",
           "quote": "Tal y como decías tú en el libro El arte de la felicidad mente cerebro y genes herramientas para su buen uso dices..."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-arte-de-la-guerra-sun-tzu",
@@ -5810,7 +6037,8 @@
           "by": "invitado",
           "quote": "saca el libro The Art of the deal el arte de la negociación creo que es la traducción al español en el libro"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-arte-de-la-pareja-ramiro-calle",
@@ -5861,7 +6089,10 @@
           "by": "invitado",
           "quote": "...el que me ha llamado mucho la atención es El arte de la quietud de Pico Iyer..."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Empresa-Activa/El-arte-de-la-quietud-i1n12401051.jpg",
+      "isbn": "9788492921348",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-arte-de-matar-daniel-sueiro",
@@ -5886,7 +6117,8 @@
           "by": "invitado",
           "quote": "Hay un libro maravilloso que se llama el arte de matar de Daniel sueiro en el que compendi"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-arte-de-morir-peter-fenwick",
@@ -5938,7 +6170,8 @@
           "by": "Enric Benito",
           "quote": "El camino de la alegría es cuando tú estás conectado contigo mismo y eres coherente con tus valores."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-artesano-de-la-calle-oviedo-rafael-lechowski",
@@ -5950,7 +6183,8 @@
       "episodes": [
         "https://www.ivoox.com/99910339"
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-buscon-francisco-de-quevedo",
@@ -5975,7 +6209,10 @@
           "by": "invitado",
           "quote": "España es El buscón"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Anaya-Educacion/El-Buscon-i1n2076014.jpg",
+      "isbn": "9788466792479",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-cambio-psicologico-antoni-bolinches",
@@ -5998,7 +6235,11 @@
           "by": "invitado",
           "quote": "Tanto es así que a partir de ella escribí mi primer libro, El cambio psicológico, y hasta hoy."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Ediciones-Paidos/El-cambio-psicologico-i1n19034345.jpg",
+      "isbn": "9788449336379",
+      "publisher": "Ediciones Paidós",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-camino-del-corazon-fernando-sanchez-drago",
@@ -6184,7 +6425,8 @@
           "by": "invitado",
           "quote": "Hay uno que se llama el cerebro en la noche fundamentos científicos de los sueños precognitivos que habla precisamente de esto"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-cerebro-hackeado-aaron-fernandez-del-olmo",
@@ -6205,7 +6447,8 @@
           "by": "Álex",
           "quote": "Al leer el libro en el que tú al final eh se llama El cerebro hackeado, pero tú realmente, o sea, uno le ve la portada y puede creer que es un libro alarmista y luego es todo lo contrario."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-cerebro-humano-explicado-por-el-dr-santiago-ramon-y-cajal-pablo-barrecheguren",
@@ -6217,7 +6460,8 @@
       "episodes": [
         "https://www.ivoox.com/95900867"
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-cerebro-optimista-mikel-alonso",
@@ -6239,7 +6483,11 @@
           "by": "Álex",
           "quote": "Tu libro se llama El cerebro optimista."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Books4pocket/El-cerebro-optimista-i1n26440268.jpg",
+      "isbn": "9788419130945",
+      "publisher": "Books4pocket",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-cielo-que-olvida-sus-estrellas-saul-martinez-horta",
@@ -6262,7 +6510,10 @@
           "by": "Álex",
           "quote": "Pero el último último último es El cielo que olvida sus estrellas."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/GeoPlaneta/El-cielo-que-olvida-sus-estrellas-i1n26256848.jpg",
+      "isbn": "9788408302773",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-club-bilderberg-la-realidad-sobre-los-amos-del-mundo-cristina-martin-jimenez",
@@ -6341,7 +6592,8 @@
           "by": "invitado",
           "quote": "El último libro que se publicó de Solzhenitsyn en España que fue El colapso de Rusia lo traduje yo"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-completo-manual-del-suicidio-wataru-tsurumi",
@@ -6364,7 +6616,8 @@
           "quote": "Un libro que se llama El perfecto manual del suicida allí en Japón esto es un problema tremendo."
         }
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-conde-de-montecristo-alexandre-dumas",
@@ -6510,7 +6763,8 @@
           "by": "Álex",
           "quote": "Bruno Cardeñosa, que escribió un libro sobre Trump que se llama El cuarto Reich."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-cuerpo-lleva-la-cuenta-bessel-van-der-kolk",
@@ -6541,7 +6795,11 @@
           "by": "invitado",
           "quote": "Pero hay un libro muy famoso que se llama este van derc que es el cuerpo lleva la cuenta."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Booket/El-cuerpo-lleva-la-cuenta-i1n26768131.jpg",
+      "isbn": "9788408318484",
+      "publisher": "Booket",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-cuerpo-perfecto-en-4-horas-timothy-ferriss",
@@ -6565,7 +6823,11 @@
           "quote": "El cuerpo perfecto en cuatro horas, voy a dejar la grabadora"
         }
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover": "https://cdn.agapea.com/Prh-Grupo-Editorial/El-Cuerpo-Perfecto-En-4-Horas-Una-Guia-Para-Perder-Peso-En-Poco-Tiempo-Disfrutar-Al-Maximo-del-Sexo-Y-Convertirse-En-Superhumano-The-4-Hour-Body-i1n25843597.jpg",
+      "isbn": "9798890983244",
+      "publisher": "Prh Grupo Editorial",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-dardo-en-la-palabra-fernando-lazaro-carreter",
@@ -6723,7 +6985,8 @@
           "by": "invitado",
           "quote": "escribió un libro que se llamaba They after Roswell el día después de Roswell que venía firmado además por sus superiores"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-dia-que-nos-inventamos-la-realidad-kike-arguelles",
@@ -6747,7 +7010,8 @@
           "by": "invitado",
           "quote": "Estoy parafraseando a un periodista Argü en su último libro El día que nos inventamos la realidad, que sus primeros capítulos los vuelvo a releer porque me han fascinado."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-dolor-cronico-no-es-para-siempre-arturo-goicoechea",
@@ -6760,7 +7024,10 @@
         "https://api.spreaker.com/episode/58580482"
       ],
       "buy_url": "https://amzn.to/3OseU0T",
-      "lookup": "none"
+      "lookup": "none",
+      "cover": "https://cdn.agapea.com/Vergara/El-dolor-cronico-no-es-para-siempre-i1n23754294.jpg",
+      "isbn": "9788419248695",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-elemento-ken-robinson",
@@ -6811,7 +7078,11 @@
           "by": "invitado",
           "quote": "Siddhartha Mukherjee que es el escritor del emperador de todos los males una biografía sobre el cáncer"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/DEBATE/El-emperador-de-todos-los-males-i1n24087891.jpg",
+      "isbn": "9788419951267",
+      "publisher": "DEBATE",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-estreno-pablo-d-ors",
@@ -6905,7 +7176,8 @@
           "quote": "Este es el tema de mi novela más vendida que lleva 25 ediciones. El Fakir lo tiene todo"
         }
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-fenomeno-milei-alberto-mayol",
@@ -6928,7 +7200,11 @@
           "by": "Álex",
           "quote": "Tu último libro creo que es el último libro corrígeme si me equivoco es el fenómeno Miley sobre Javier Miley."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Catalonia/El-fenomeno-Milei-i1n26243697.jpg",
+      "isbn": "9789564150895",
+      "publisher": "Editorial Catalonia",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-festin-de-babette-isak-dinesen",
@@ -6978,7 +7254,10 @@
           "by": "invitado",
           "quote": "Un librito que se llama El final de una época dice mi oficio... se parece al del cirujano."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Barril-Barral-Editores-S-L-/El-fin-de-una-epoca-i1n2227866.jpg",
+      "isbn": "9788493770747",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-forastero-misterioso-mark-twain",
@@ -7028,7 +7307,10 @@
           "by": "invitado",
           "quote": "Esto esto lo planteamos también en en el libro nuestro, en el fracaso de la felicidad."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/HarperCollins/El-fracaso-de-la-felicidad-i1n26468705.jpg",
+      "isbn": "9788410644922",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-francotirador-paciente-arturo-perez-reverte",
@@ -7120,7 +7402,10 @@
           "by": "Álex",
           "quote": "Publicó en los 70 si no me equivoco que se llama el Gen egoísta..."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Veles-i-Vents-Edicions/El-gen-egoista-CAT-i1n26966076.jpg",
+      "isbn": "9788412992694",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-gobierno-invisible-bruno-cardenosa",
@@ -7133,7 +7418,10 @@
       "episodes": [
         "1b1d5056-c3bc-42f1-9fb7-5d23434cfd8a"
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover": "https://cdn.agapea.com/Ediciones-Espejo-de-Tinta-S-L-/EL-GOBIERNO-INVISIBLE-Think-tank-Los-hilos-que-manejan-el-mundo-i1n679404.jpg",
+      "isbn": "9788496892002",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-gran-cuaderno-de-podcasting-francisco-izuzquiza",
@@ -7173,7 +7461,8 @@
           "quote": "la historia de mi mujer es otra novela es una novela de amor además no se va a escribir está escrita está ahorita está escrita está escrita ya está escrita en mi vida en juego si no no no está escrita en el gran golpe de"
         }
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-heroe-olvidado-michael-smith",
@@ -7196,7 +7485,10 @@
           "by": "invitado",
           "quote": "Hoy tengo el temperamento más de El héroe olvidado, un libro que ha sacado Capitán Swing."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Capitan-Swing-Libros/Un-heroe-olvidado-i1n25362007.jpg",
+      "isbn": "9788412878622",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-hombre-de-hielo-philip-carlo",
@@ -7289,7 +7581,11 @@
           "by": "Álex",
           "quote": "Hay un libro maravilloso que se llama el hombre en busca de sentido de un psiquiatra víctor frankl"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Herder-Editorial/El-hombre-en-busca-de-sentido-i1n13241693.jpg",
+      "isbn": "9788425432026",
+      "publisher": "Herder Editorial",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-hombre-eterno-g-k-chesterton",
@@ -7313,7 +7609,11 @@
           "by": "invitado",
           "quote": "Hay un pasaje maravilloso en Chesterton en un libro titulado El hombre eterno, en donde él discute las teorías o hipótesis evolucionistas."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Ediciones-Cristiandad-S-L-/El-hombre-eterno-i1n1163677.jpg",
+      "isbn": "9788470575020",
+      "publisher": "Ediciones Cristiandad, S.L.",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-hombre-que-confundio-a-su-mujer-con-un-sombrero-oliver-sacks",
@@ -7358,7 +7658,10 @@
           "by": "Álex",
           "quote": "Eso me ha llevado a un pasaje del libro El hombre que confundió a su mujer con un sombrero de Oliver Sacks."
         }
-      ]
+      ],
+      "isbn": "9788476694213",
+      "publisher": "El Aleph Editores",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-humor-de-mi-vida-paz-padilla",
@@ -7488,7 +7791,10 @@
         "1b1d5056-c3bc-42f1-9fb7-5d23434cfd8a"
       ],
       "buy_url": "https://amzn.to/4sNWomq",
-      "lookup": "none"
+      "lookup": "none",
+      "cover": "https://cdn.agapea.com/Editorial-Planeta/El-IV-Reich-i1n26256907.jpg",
+      "isbn": "9788408310600",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-juego-interior-del-tenis-w-timothy-gallwey",
@@ -7537,7 +7843,10 @@
           "by": "Álex",
           "quote": "has escrito un libro muy necesario el laberinto de cristal"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Plataforma-Editorial-S-L-/El-laberinto-de-cristal-i1n24971243.jpg",
+      "isbn": "9788410079939",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-laberinto-sentimental-jose-antonio-marina",
@@ -7593,7 +7902,11 @@
           "by": "invitado",
           "quote": "Si tuviera que resumir mi vida profesional pondría tres cosas: Mareas Vivas, El lápiz del carpintero y la canción Galicia Caníbal."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Punto-de-Lectura/EL-LAPIZ-DEL-CARPINTERO-CV-07-i1n998337.jpg",
+      "isbn": "9788466320450",
+      "publisher": "Punto de Lectura",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-largo-camino-hacia-la-libertad-nelson-mandela",
@@ -7617,7 +7930,11 @@
           "by": "invitado",
           "quote": "El largo camino hacia la libertad, la autobiografía de Nelson Mandela."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Aguilar/El-largo-camino-hacia-la-libertad-i1n9351601.jpg",
+      "isbn": "9788403013858",
+      "publisher": "Aguilar",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-largo-viaje-jorge-semprun",
@@ -7722,7 +8039,8 @@
           "by": "Juan Soto Ivars",
           "quote": "El maravilloso libro de las leyendas urbanas como un sustituto a que mola mola."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-libro-de-los-muertos-anonimo",
@@ -7763,7 +8081,10 @@
         "d35a9249-0fb8-41a0-ab56-d65b1c8b2875"
       ],
       "buy_url": "https://amzn.to/4jBqWD2",
-      "lookup": "none"
+      "lookup": "none",
+      "cover": "https://cdn.agapea.com/Luciernaga-CAS/El-libro-de-los-ojos-abiertos-i1n23673223.jpg",
+      "isbn": "9788419164681",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-libro-egipcio-de-los-muertos-anonimo",
@@ -7983,7 +8304,10 @@
           "by": "invitado",
           "quote": "Tengo un libro que se llama el loco que está tenemos tres ejemplares ahora mismo en la mesa"
         }
-      ]
+      ],
+      "isbn": "9788411157650",
+      "publisher": "Grupo Editorial Círculo Rojo SL",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-maestro-del-prado-javier-sierra",
@@ -8034,7 +8358,11 @@
           "quote": "si no ve la película de martian no del Marciano que es maravillosa"
         }
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover": "https://cdn.agapea.com/B-Ediciones-B-/El-marciano-i1n10566100.jpg",
+      "isbn": "9788466655057",
+      "publisher": "B (Ediciones B)",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-miedo-a-la-libertad-erich-fromm",
@@ -8058,7 +8386,11 @@
           "by": "invitado",
           "quote": "Ya había un libro de Erich Fromm que se llamaba El miedo a la libertad."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Ediciones-Paidos/El-miedo-a-la-libertad-i1n25120639.jpg",
+      "isbn": "9788449342844",
+      "publisher": "Ediciones Paidós",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-milagro-de-la-cope-federico-jimenez-losantos",
@@ -8081,7 +8413,8 @@
           "by": "invitado",
           "quote": "En su libro que tiene el Señor Jiménez Losantos que era El milagro de la Cope, él cuenta que uno de sus momentos de celebración es cuando le pasan el dato..."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-misterio-de-las-catedrales-fulcanelli",
@@ -8149,7 +8482,8 @@
           "by": "invitado",
           "quote": "Ya Platón lo refería con el en uno de sus libros, El mito de Er, un soldado que revive justo."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-mono-desnudo-desmond-morris",
@@ -8206,7 +8540,11 @@
           "by": "invitado",
           "quote": "sagan escribió un libro maravilloso que se llama el mundo y sus demonios en el que ataca a todas las pseudociencias"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Critica/El-mundo-y-sus-demonios-La-ciencia-como-una-luz-en-la-oscuridad-i1n26954153.jpg",
+      "isbn": "9788491999225",
+      "publisher": "Editorial Crítica",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-nino-que-se-enfado-con-la-muerte-enric-benito",
@@ -8235,7 +8573,10 @@
           "by": "Enric Benito",
           "quote": "Me pidió que dijera el prólogo de su libro y en ese prólogo que ella cuando presentó el libro aquí me escucharon hablar."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/HarperCollins/El-nino-que-se-enfado-con-la-muerte-i1n24592600.jpg",
+      "isbn": "9788410021877",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-nombre-de-la-rosa-umberto-eco",
@@ -8274,7 +8615,9 @@
           "by": "Juan Gómez-Jurado",
           "quote": "Un año después publicó El nombre de la rosa que todos sabemos lo que sucedió con ese libro."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/LUMEN/El-nombre-de-la-rosa-La-novela-grafica-i1n26427725.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-olvido-de-si-pablo-d-ors",
@@ -8387,7 +8730,11 @@
           "by": "invitado",
           "quote": "Yo escribí en su día una que se llama el otro lado de la niebla de la prehistoria"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Ediciones-Destino/Al-otro-lado-de-la-niebla-i1n24668495.jpg",
+      "isbn": "9788423364978",
+      "publisher": "Ediciones Destino",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-paciente-a-el-historial-medico-de-adolf-hitler-eric-frattini",
@@ -8409,7 +8756,11 @@
           "by": "Álex",
           "quote": "de tu libro Paciente A, tú mencionaste que tenías un libro de entrevistas."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Espasa/El-paciente-A-i1n25384271.jpg",
+      "isbn": "9788467075601",
+      "publisher": "Espasa",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-paciente-juan-gomez-jurado",
@@ -8459,7 +8810,9 @@
           "by": "Álex",
           "quote": "publicas este libro El paciente la historia médica de adolf Hitler"
         }
-      ]
+      ],
+      "isbn": "9786073929714",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-peligro-de-estar-cuerda-rosa-montero",
@@ -8586,7 +8939,11 @@
           "quote": "Sabes que en el libro mencionas a una persona varias veces..."
         }
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover": "https://cdn.agapea.com/DEBOLSILLO/El-poder-de-las-palabras-i1n25094440.jpg",
+      "isbn": "9788466376686",
+      "publisher": "DEBOLSILLO",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-poder-de-las-palabras-mariano-sigman",
@@ -8636,7 +8993,11 @@
           "by": "invitado",
           "quote": "Mariano sigman neurocientífico argentino maravilloso que publicó recientemente el poder de las palabras"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/DEBOLSILLO/El-poder-de-las-palabras-i1n25094440.jpg",
+      "isbn": "9788466376686",
+      "publisher": "DEBOLSILLO",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-poder-del-ahora-eckhart-tolle",
@@ -8700,7 +9061,8 @@
           "by": "Álex",
           "quote": "Una cosa que yo percibí con la que me quedé de tu libro es que tienes un gran respeto por la medicina tradicional"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-precio-de-la-verdad-jesus-cintora",
@@ -8721,7 +9083,11 @@
           "by": "invitado",
           "quote": "Intento reflejar en libros como El precio de la verdad"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/B/El-precio-de-la-verdad-i1n24592004.jpg",
+      "isbn": "9788466678292",
+      "publisher": "B",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-principio-esperanza-ernst-bloch",
@@ -8744,7 +9110,11 @@
           "quote": "Bloch tiene un libro precioso, El principio de esperanza."
         }
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover": "https://cdn.agapea.com/Editorial-Trotta-S-A-/El-principio-esperanza-I-i1n103866.jpg",
+      "isbn": "9788481646962",
+      "publisher": "Editorial Trotta, S.A.",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-principito-antoine-de-saint-exupery",
@@ -8811,7 +9181,9 @@
           "by": "invitado",
           "quote": "Y kafka después No yo me leí todo el proceso el castillo carta al padre digo Dios mío que nadie"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Debolsillo/El-proceso-i1n66317.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-psicopata-integrado-vicente-garrido",
@@ -8833,7 +9205,8 @@
           "by": "invitado",
           "quote": "En mi libro justamente en mi libro dedico una parte importante de mi capítulo psicópatas de la empresa a hablar de hablar de las empresas"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-puente-donde-habitan-las-mariposas-nazareth-castellanos",
@@ -8883,7 +9256,10 @@
           "by": "Álex",
           "quote": "fue director de los servicios psiquiátricos públicos de Nueva York y autor de este libro, El regalo de los años claves para envejecer felices."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/HarperCollins/El-regalo-de-los-anos-i1n26560673.jpg",
+      "isbn": "9788410642478",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-resplandor-stephen-king",
@@ -8907,7 +9283,11 @@
           "by": "invitado",
           "quote": "mucho por stephen king mucho por it mucho por el resplandor"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/DEBOLSILLO/El-resplandor-i1n21059467.jpg",
+      "isbn": "9788466357319",
+      "publisher": "DEBOLSILLO",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-retorno-de-la-derecha-federico-jimenez-losantos",
@@ -9000,7 +9380,11 @@
           "by": "invitado",
           "quote": "saber quién era simon de beauvoir o las típicas frases de frida kahlo"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Ediciones-Catedra/El-segundo-sexo-i1n26762284.jpg",
+      "isbn": "9788437650111",
+      "publisher": "Ediciones Cátedra",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-sendero-de-la-mano-izquierda-fernando-sanchez-drago",
@@ -9049,7 +9433,11 @@
           "by": "invitado",
           "quote": "La novela de William Golding, El señor de las moscas."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Ed-Alianza/El-senor-de-las-moscas-i1n2138426.jpg",
+      "isbn": "9788420674179",
+      "publisher": "Ed. Alianza",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-senor-de-los-anillos-j-r-r-tolkien",
@@ -9107,7 +9495,9 @@
       "isbn": "9788418114021",
       "year": 2019,
       "publisher": "Amat",
-      "lookup": "openlibrary"
+      "lookup": "openlibrary",
+      "cover": "https://cdn.agapea.com/Amat-Editorial/El-sindrome-de-las-supermujeres-Cuando-las-mujeres-se-hacen-grandes-no-encuentran-hombres-de-su-talla-i1n26365174.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-sindrome-woody-allen-edu-galan",
@@ -9191,7 +9581,11 @@
           "by": "Álex",
           "quote": "Cuando cuando vendió el de arte, sutil arte de que todo te importa una mierda Eso eso."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/HarperCollins-Iberica/El-sutil-arte-de-que-casi-todo-te-importe-una-mierda-i1n15800320.jpg",
+      "isbn": "9788491392286",
+      "publisher": "HarperCollins Iberica",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-talento-de-mr-ripley-patricia-highsmith",
@@ -9215,7 +9609,11 @@
           "by": "invitado",
           "quote": "Y luego recomendaría pues algún clásico como por ejemplo El talento de Mr. Ripley..."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Anagrama-S-A-/El-talento-de-Mr-Ripley-i1n22124765.jpg",
+      "isbn": "9788433961068",
+      "publisher": "Editorial Anagrama S.A.",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-tercer-cerebro",
@@ -9362,7 +9760,8 @@
           "by": "invitado",
           "quote": "14 años después publico el libro para ella y para todas las que tienen esa pregunta."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-universo-isaac-asimov",
@@ -9387,7 +9786,9 @@
           "by": "invitado",
           "quote": "Y en el primer había vendiendo los libros en la primera entrega el primer fascículo y era el universo de Isaac Asimov y el lobo estepario de Hermann Hesse."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Alianza-Editorial/El-Universo-i1n14182.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-universo-no-es-plano-miguel-pedrero",
@@ -9475,7 +9876,9 @@
           "quote": "En el año 1999 se escribió un libro... que se llamó creo Cómo era el título El Vaticano contra Dios."
         }
       ],
-      "review": true
+      "review": true,
+      "cover": "https://cdn.agapea.com/B-Ediciones-B-/El-Vaticano-contra-Dios-i1n119461.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-viaje-de-mi-vida-ramiro-calle",
@@ -9526,7 +9929,8 @@
           "quote": "En el prólogo del libro se dice del Yunque no es una secta es algo peor."
         }
       ],
-      "lookup": "openlibrary"
+      "lookup": "openlibrary",
+      "cover_lookup": "agapea"
     },
     {
       "id": "el-yunque-la-sociedad-secreta-que-divide-a-los-catolicos-santiago-mata",
@@ -9543,7 +9947,8 @@
       "isbn": "9798713859688",
       "year": 2021,
       "publisher": "Independently Published",
-      "lookup": "openlibrary"
+      "lookup": "openlibrary",
+      "cover_lookup": "agapea"
     },
     {
       "id": "elogio-de-la-duda-victoria-camps",
@@ -9593,7 +9998,8 @@
           "by": "Álex",
           "quote": "Su nuevo libro que está a punto de salir se llama Elogio del afecto y habla precisamente de esto."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "elogio-del-amor-rafael-narbona",
@@ -9621,7 +10027,11 @@
           "by": "invitado",
           "quote": "Mi próximo libro el nombre es Elogio del amor."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Roca-Editorial/Elogio-del-amor-i1n25548435.jpg",
+      "isbn": "9788410096981",
+      "publisher": "Roca Editorial",
+      "cover_lookup": "agapea"
     },
     {
       "id": "elon-musk-walter-isaacson",
@@ -9751,7 +10161,8 @@
           "by": "Álex",
           "quote": "Su libro se llama en defensa de la infelicidad."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "en-el-limite-ramiro-calle",
@@ -9774,7 +10185,11 @@
           "by": "invitado",
           "quote": "En un libro mío que lo tiene Kailas publicado, que se llama En el límite"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Kailas-Editorial-S-L-/EN-EL-LIMITE-i1n2146634.jpg",
+      "isbn": "9788489624757",
+      "publisher": "Kailas Editorial, S.L.",
+      "cover_lookup": "agapea"
     },
     {
       "id": "en-la-cocina-con-la-doctora-arponen-sari-arponen",
@@ -9786,7 +10201,11 @@
       "episodes": [
         "https://api.spreaker.com/episode/57173047"
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover": "https://cdn.agapea.com/Alienta-Editorial/En-la-cocina-con-la-doctora-Arponen-i1n23311804.jpg",
+      "isbn": "9788413442273",
+      "publisher": "Alienta Editorial",
+      "cover_lookup": "agapea"
     },
     {
       "id": "en-la-piel-del-asesino-elena-merino",
@@ -9825,7 +10244,8 @@
           "by": "invitado",
           "quote": "Eso es una cosa que comento en el libro, En la selva de sinapsis."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "en-los-oscuros-lugares-del-saber-peter-kingsley",
@@ -9876,7 +10296,11 @@
           "by": "invitado",
           "quote": "Un solo cuento en un libro que publiqué de mi anecdotario que se llama En mistrese."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Aguilar/EN-MIS-TRECE-ESTO-NO-ES-LA-HISTORIA-DE-MARTES-Y-TRECE-i1n93330.jpg",
+      "isbn": "9788403094192",
+      "publisher": "Aguilar",
+      "cover_lookup": "agapea"
     },
     {
       "id": "encuentra-tu-persona-vitamina-marian-rojas-estape",
@@ -9929,7 +10353,9 @@
           "by": "invitado",
           "quote": "y colaboré con él en un libro suyo, Encuentros."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Edaf-S-L-/Encuentros-i1n68854.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "eneida-virgilio",
@@ -10124,7 +10550,9 @@
           "by": "Álex",
           "quote": "tu último libro era de idiotas que no paras de escribir"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Ariel/Era-de-idiotas-Educar-en-la-confianza-para-crecer-en-sana-convivencia-i1n25120666.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "era-necesario-morir-cesar-perez-de-tudela",
@@ -10225,7 +10653,11 @@
       "episodes": [
         "https://www.ivoox.com/58492882"
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover": "https://cdn.agapea.com/Miraguano-Ediciones/Es-lo-que-Es-Traduccion-y-comentarios-del-SHobogenzo-Inmo-de-Eihei-Dogen-i1n19773563.jpg",
+      "isbn": "9788478134939",
+      "publisher": "Miraguano Ediciones",
+      "cover_lookup": "agapea"
     },
     {
       "id": "es-necesaria-la-ciencia-max-perutz",
@@ -10248,7 +10680,8 @@
           "by": "JM Mulet",
           "quote": "que se llamaba es necesaria la ciencia me llamó la atención el título es así en pregunta es necesaria la ciencia que es de un premio Nobel que es Max perut"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "escribo-porque-me-gusta-ganar-dinero-isra-bravo",
@@ -10269,7 +10702,9 @@
           "by": "Álex",
           "quote": "Y tu libro se llama escribo porque me gusta ganar dinero"
         }
-      ]
+      ],
+      "isbn": "9786075694207",
+      "cover_lookup": "agapea"
     },
     {
       "id": "escuela-de-parejas-jose-antonio-marina",
@@ -10292,7 +10727,11 @@
           "by": "invitado",
           "quote": "De hecho aproveche porque escribir un libro que se llamaba escuela de parejas"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Ariel/Escuela-de-parejas-i1n6973707.jpg",
+      "isbn": "9788434404861",
+      "publisher": "Editorial Ariel",
+      "cover_lookup": "agapea"
     },
     {
       "id": "esencialismo-greg-mckeown",
@@ -10325,7 +10764,9 @@
           "by": "Álex",
           "quote": "Esencialismo, Essentialism."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/CONECTA/Esencialismo-El-Planner-i1n26407519.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "espana-amor-y-odio-james-rhodes",
@@ -10348,7 +10789,8 @@
           "quote": "nada Comparado con lo que haces tú con tu libro Pues si Hablamos Este sí desea expuesto y mira no hay toro en este libro"
         }
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover_lookup": "agapea"
     },
     {
       "id": "esplendor-y-gloria-de-la-internacional-papanatas-quim-monzo",
@@ -10371,7 +10813,11 @@
           "by": "Álex",
           "quote": "Me encanta de tener un libro que era esplendor y gloria de la internacional papanatas."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Acantilado/Esplendor-y-gloria-de-la-Internacional-Papanatas-i1n2064911.jpg",
+      "isbn": "9788492649334",
+      "publisher": "Acantilado",
+      "cover_lookup": "agapea"
     },
     {
       "id": "esta-vez-si-luis-muino",
@@ -10383,7 +10829,10 @@
       "episodes": [
         "https://www.ivoox.com/54739358"
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "isbn": "9788409264353",
+      "publisher": "Podcast y Mente Studio SL",
+      "cover_lookup": "agapea"
     },
     {
       "id": "estado-islamico-geopolitica-del-caos-javier-martin",
@@ -10428,7 +10877,11 @@
           "by": "invitado",
           "quote": "El libro se llama Están aquí. ¿Desde hace cuánto están aquí? desde siempre, desde que el mundo es mundo, probablemente."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Planeta/Estan-aqui-Que-ocultan-los-militares-sobre-los-ovnis--i1n26073802.jpg",
+      "isbn": "9788408305941",
+      "publisher": "Editorial Planeta",
+      "cover_lookup": "agapea"
     },
     {
       "id": "este-libro-te-hara-vivir-mas-o-por-lo-menos-mejor-tamara-pazos",
@@ -10449,7 +10902,11 @@
           "by": "invitado",
           "quote": "Está muy relacionada con tu nuevo libro Con este libro."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Booket/Este-libro-te-hara-vivir-mas-o-por-lo-menos-mejor--i1n25384216.jpg",
+      "isbn": "9788408297543",
+      "publisher": "Booket",
+      "cover_lookup": "agapea"
     },
     {
       "id": "este-libro-te-hara-vivir-mas-y-no-se-si-lo-voy-a-terminar-viva-tamara-pazos",
@@ -10472,7 +10929,8 @@
           "by": "Álex",
           "quote": "Mi cuerpo un libro que se titula este libro te hará vivir más y no sé si lo voy a terminar viva."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "esto-es-agua-david-foster-wallace",
@@ -10545,7 +11003,8 @@
           "by": "Álex",
           "quote": "Don Miguel Rellán, don Álex Fidalgo, muy bienvenido, bien hallado, que se ha de decir."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "etica-demostrada-segun-el-orden-geometrico-baruch-spinoza",
@@ -10623,7 +11082,11 @@
           "by": "Álex",
           "quote": "Yo he escuchado gran parte de Ética para desconfiados en audiolibro."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Ariel/etica-para-desconfiados-i1n23648991.jpg",
+      "isbn": "9788434436237",
+      "publisher": "Editorial Ariel",
+      "cover_lookup": "agapea"
     },
     {
       "id": "etimologias-san-isidoro-de-sevilla",
@@ -10646,7 +11109,8 @@
           "by": "invitado",
           "quote": "la obra primera de la literatura española son las etimologías"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "eva-y-juan-cintia",
@@ -10669,7 +11133,8 @@
           "by": "invitado",
           "quote": "Mi mujer en uno de sus libros, Eva y Juan, escribió una frase muy fuerte."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "evaluacion-y-tratamiento-del-trastorno-postraumatico-enrique-baca",
@@ -10681,7 +11146,8 @@
       "episodes": [
         "https://www.ivoox.com/63441786"
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover_lookup": "agapea"
     },
     {
       "id": "existe-la-muerte-ciencia-vida-y-trascendencia-lujan-comas",
@@ -10730,7 +11196,8 @@
           "quote": "...un cómic que se llama éxito de perdedores..."
         }
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover_lookup": "agapea"
     },
     {
       "id": "expande-tu-mente-anton-gomez-escolar",
@@ -10753,7 +11220,10 @@
           "by": "Antón",
           "quote": "de eso va el libro que publicar y todo el trabajo que yo hago, Expande tu mente"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/GRIJALBO/Expande-tu-mente-i1n25489208.jpg",
+      "isbn": "9788425366901",
+      "cover_lookup": "agapea"
     },
     {
       "id": "extraterrestres-ellos-estan-entre-nosotros-lorenzo-fernandez-bueno",
@@ -10766,7 +11236,11 @@
         "https://api.spreaker.com/episode/62567025"
       ],
       "buy_url": "https://amzn.to/4fpL5ZZ",
-      "lookup": "none"
+      "lookup": "none",
+      "cover": "https://cdn.agapea.com/LA-ESFERA-DE-LOS-LIBROS-S-L-/Extraterrestres-i1n23766180.jpg",
+      "isbn": "9788413846446",
+      "publisher": "LA ESFERA DE LOS LIBROS, S.L.",
+      "cover_lookup": "agapea"
     },
     {
       "id": "fahrenheit-451-ray-bradbury",
@@ -10977,7 +11451,10 @@
           "by": "invitado",
           "quote": "Una psiquiatra que ha publicado un libro que yo recomiendo a todo el mundo, Felices los normales."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Espasa/Felices-los-normales-i1n23719216.jpg",
+      "isbn": "9788408274391",
+      "cover_lookup": "agapea"
     },
     {
       "id": "fenomenologia-del-espiritu-georg-wilhelm-friedrich-hegel",
@@ -11026,7 +11503,8 @@
           "by": "Álex",
           "quote": "alberto de cuenca que a mí me encanta"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "filomeno-a-mi-pesar-gonzalo-torrente-ballester",
@@ -11083,7 +11561,10 @@
           "by": "invitado",
           "quote": "En uno de sus libros, creo recordar que es Filosofía en 11 frases, ha vendido 300.000 ejemplares."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Ariel/Filosofia-en-once-frases-i1n17485731.jpg",
+      "isbn": "9788434429949",
+      "cover_lookup": "agapea"
     },
     {
       "id": "filosofia-para-desconfiados-david-pastor-vico",
@@ -11106,7 +11587,10 @@
           "by": "Álex",
           "quote": "Tus libros al menos a los que aludo yo se llaman Filosofía para desconfiados y Ética para desconfiados."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/PLANETA-PUB-CORP/Filosofia-Para-Desconfiados-i1n22661863.jpg",
+      "isbn": "9786070758621",
+      "cover_lookup": "agapea"
     },
     {
       "id": "final-del-juego-julio-cortazar",
@@ -11233,7 +11717,8 @@
           "by": "invitado",
           "quote": "el libro que acaba de sacar hoy galán que qué bueno que es un escritor que a mí me gusta muchísimo... se titula fuerte"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "fundamentos-de-scientology-l-ronald-hubbard",
@@ -11257,7 +11742,8 @@
           "quote": "Eso está explicado en un libro que se llama tiene los fundamentos de scientology"
         }
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover_lookup": "agapea"
     },
     {
       "id": "gargoris-y-habidis-una-historia-magica-de-espana-fernando-sanchez-drago",
@@ -11322,7 +11808,8 @@
           "by": "Álex",
           "quote": "hay un psicólogo social que se llama Jonathan hy que acaba de sacar un libro que se llama generación ansiedad"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "gente-normal-sally-rooney",
@@ -11345,7 +11832,11 @@
           "by": "invitado",
           "quote": "O por ejemplo que he leído recientemente de Sally Rooney me ha gustado mucho, Gente normal..."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/DEBOLSILLO/Gente-normal-i1n24912305.jpg",
+      "isbn": "9788466374767",
+      "publisher": "DEBOLSILLO",
+      "cover_lookup": "agapea"
     },
     {
       "id": "gestars-ivone-olfa",
@@ -11369,7 +11860,8 @@
           "by": "invitado",
           "quote": "Hay un libro que recomiendo y se llama Gestars, de Ivone Olfa, que te habla de la relación maternofiliar en la gestación."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "gracias-por-la-propina-ferran-torrent",
@@ -11418,7 +11910,8 @@
           "by": "invitado",
           "quote": "Guárdate del éxito"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "guerra-y-paz-leon-tolstoi",
@@ -11596,7 +12089,8 @@
           "by": "invitado",
           "quote": "Hay un libro muy guay que se llama Hacia un futuro vegano, el autor es un autor belga."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "hambriento-nach",
@@ -11777,7 +12271,8 @@
           "by": "invitado",
           "quote": "Las chicas que me contactaron habían leído una historia mía que se llama, que por cierto la estoy novelizando ahora... He visto ilucionadas y relámpagos"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "hechos-y-valores-en-psiquiatria-enrique-baca",
@@ -11790,7 +12285,10 @@
       "episodes": [
         "https://www.ivoox.com/63441786"
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover": "https://cdn.agapea.com/Editorial-Triacastela/Hechos-y-valores-en-psiquiatr-a-i1n186421.jpg",
+      "isbn": "9788495840042",
+      "cover_lookup": "agapea"
     },
     {
       "id": "historia-de-espana-rafael-altamira",
@@ -11856,7 +12354,11 @@
           "by": "invitado",
           "quote": "para mí es mucho más creíble historia de O que que 50 sombras de Grey"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Tusquets-Editores/Historia-de-O-i1n2229813.jpg",
+      "isbn": "9788483835791",
+      "publisher": "Tusquets Editores",
+      "cover_lookup": "agapea"
     },
     {
       "id": "historia-de-un-aleman-sebastian-haffner",
@@ -11932,7 +12434,11 @@
           "by": "Álex",
           "quote": "Cuando estaba escribiendo este último libro La la historia Universal de las soluciones"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Ariel/Historia-universal-de-las-soluciones-i1n24542057.jpg",
+      "isbn": "9788434437340",
+      "publisher": "Editorial Ariel",
+      "cover_lookup": "agapea"
     },
     {
       "id": "historias-de-este-reino-del-piru-juan-santa-cruz-pachacuti-yamqui",
@@ -11955,7 +12461,8 @@
           "by": "invitado",
           "quote": "cronista medio peruano medio español que escribe un libro que se llama historias de este Reino del Pirú"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "historias-de-roma-enrique-gonzalez",
@@ -12033,7 +12540,10 @@
           "by": "invitado",
           "quote": "De hecho creo que es la doctora martinon Torres la autora de homo imperfecto es la que sostiene que no estamos programados para la felicidad"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Ediciones-Destino/Homo-imperfectus-i1n21613763.jpg",
+      "isbn": "9788423361557",
+      "cover_lookup": "agapea"
     },
     {
       "id": "homo-imperfectus-maria-martinon-torres",
@@ -12085,7 +12595,8 @@
           "by": "invitado",
           "quote": "el otro de horizontes verticales también me gusta el libro mío"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "humillacion-en-las-redes-jon-ronson",
@@ -12109,7 +12620,10 @@
           "by": "Álex",
           "quote": "Un autor que se llama Ron Johnson que escribió un libro llamado Humillación en las redes."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/B-Ediciones-B-/Humillacion-en-las-redes-i1n12671058.jpg",
+      "isbn": "9788466657976",
+      "cover_lookup": "agapea"
     },
     {
       "id": "if-rudyard-kipling",
@@ -12204,7 +12718,10 @@
           "by": "invitado",
           "quote": "Indefensión de seligman que me ha encontrado en la librería"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Debate/INDEFENSION-i1n121507.jpg",
+      "isbn": "9788474440515",
+      "cover_lookup": "agapea"
     },
     {
       "id": "indistractable-nir-eyal",
@@ -12252,7 +12769,10 @@
           "by": "Álex",
           "quote": "El libro indomable antepéntete a tu entorno en conquístalo las autoeditado verdad."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Independently-Published/Indomable-Anteponte-a-tu-entorno-y-conquistalo-i1n23349647.jpg",
+      "isbn": "9798362184117",
+      "cover_lookup": "agapea"
     },
     {
       "id": "inexplicado-david-cuevas",
@@ -12289,7 +12809,8 @@
       "episodes": [
         "https://api.spreaker.com/episode/56398321"
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover_lookup": "agapea"
     },
     {
       "id": "influencia-robert-cialdini",
@@ -12315,7 +12836,9 @@
           "by": "invitado",
           "quote": "Si quieres vender algo en tu vida lee a Cialdini es influencia el libro."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/HarperCollins/Influencia-la-psicologia-de-la-persuasion-i1n21441516.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "inmenso-estrecho-ramiro-calle",
@@ -12365,7 +12888,9 @@
           "by": "Álex",
           "quote": "En algo que tiene relación con tu libro Con inmunofitness que es el La ciencia la ciencia en televisión o en la radio"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Alienta-Editorial/Inmunofitness-i1n22839970.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "inspiracion-y-composicion-arthur-m-abel",
@@ -12389,7 +12914,8 @@
           "by": "invitado",
           "quote": "Hay un libro precioso de un periodista norteamericano que inspiración y composición escrito por Arthur M Abel"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "instrumental-james-rhodes",
@@ -12428,7 +12954,10 @@
           "by": "Álex",
           "quote": "El libro de Antonio Damasio se llama Inteligencia natural y la lógica de la consciencia."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Ediciones-Destino/Inteligencia-natural-y-la-logica-de-la-consciencia-i1n26256949.jpg",
+      "isbn": "9788423368730",
+      "cover_lookup": "agapea"
     },
     {
       "id": "introduccion-a-la-etica-de-scientology-l-ronald-hubbard",
@@ -12610,7 +13139,8 @@
           "by": "invitado",
           "quote": "Tienes que trabajar que se llama Justin tiene dos novelas que son Juliet y Justin."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "juventud-j-m-coetzee",
@@ -12661,7 +13191,8 @@
           "by": "invitado",
           "quote": "el más conocido es el kamasutra pero también existe el ananga ranga"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "kitchen-confidential-anthony-bourdain",
@@ -12701,7 +13232,8 @@
       "episodes": [
         "https://www.ivoox.com/58492882"
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-autentica-felicidad-martin-seligman",
@@ -12908,7 +13440,8 @@
           "by": "invitado",
           "quote": "gale sugirió que yo pensara la posibilidad de adaptar la Casa de La Rosa"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-casa-de-los-espiritus-isabel-allende",
@@ -13066,7 +13599,11 @@
           "by": "invitado",
           "quote": "Y te he traído un libro mío que acaba de salir, la ciencia de vivir"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Kailas-Editorial-S-L-/La-ciencia-de-vivir-i1n25741221.jpg",
+      "isbn": "9791387534080",
+      "publisher": "Kailas Editorial, S.L.",
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-ciencia-del-lenguaje-positivo-luis-castellanos",
@@ -13148,7 +13685,9 @@
           "by": "Álex",
           "quote": "Haber escrito los libros comer sin miedo medicina sin engaños los productos naturales vaya timo y la ciencia en la sombra"
         }
-      ]
+      ],
+      "isbn": "9786075696898",
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-cirugia-que-protege-el-alma-jesus-martin-fernandez",
@@ -13171,7 +13710,8 @@
           "by": "Álex",
           "quote": "Invitado/s: Jesús Martín-Fernández - La Cirugía Que Protege El Alma."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-ciudad-interior-pierre-hadot",
@@ -13194,7 +13734,10 @@
           "quote": "Por eso Pier Hadot, este autor que tiene un libro que se llama La ciudad del interior, que te recomiendo leer"
         }
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover": "https://cdn.agapea.com/Ediciones-Alpha-Decay-S-A-/La-ciudadela-interior-i1n9314570.jpg",
+      "isbn": "9788492837472",
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-ciudad-y-los-perros-mario-vargas-llosa",
@@ -13244,7 +13787,11 @@
           "by": "invitado",
           "quote": "Brevísima historia del tiempo y otro que escribía con su hija, La clave secreta del universo."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/DeBols-llo/La-clave-secreta-del-universo-i1n2104236.jpg",
+      "isbn": "9788499083728",
+      "publisher": "DeBols!llo",
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-colmena-camilo-jose-cela",
@@ -13337,7 +13884,11 @@
           "by": "invitado",
           "quote": "Y esto no lo digo solamente yo, lo dice Hanaren en la condición humana, que ella era agnóstica"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Austral/La-condicion-humana-i1n19284353.jpg",
+      "isbn": "9788408224860",
+      "publisher": "Austral",
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-conquista-de-la-felicidad-bertrand-russell",
@@ -13421,7 +13972,10 @@
           "by": "Álex",
           "quote": "hace poco charl con la jueza Natalia velilla que ha escrito un libro que se llama la crisis de autoridad"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Arpa-Editores/La-crisis-de-la-autoridad-i1n24052832.jpg",
+      "isbn": "9788419558244",
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-crisis-de-la-autoridad-natalia-velilla",
@@ -13463,7 +14017,10 @@
           "by": "invitado",
           "quote": "El libro se llama La crisis de la autoridad, no necesita mucho más explicación ese título."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Arpa-Editores/La-crisis-de-la-autoridad-i1n24052832.jpg",
+      "isbn": "9788419558244",
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-crisis-de-la-narracion-byung-chul-han",
@@ -13487,7 +14044,11 @@
           "by": "invitado",
           "quote": "Acabo de leer un libro de de biun chul hanang que se llama la crisis de la narración"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Herder-Editorial/La-crisis-de-la-narracion-i1n23760066.jpg",
+      "isbn": "9788425450433",
+      "publisher": "Herder Editorial",
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-cronica-del-rey-pasmado-gonzalo-torrente-ballester",
@@ -13510,7 +14071,11 @@
           "by": "invitado",
           "quote": "Incluso novelas que habría quien pensaría que son menores como La crónica del rey pasmado es una gran novela corta"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Planeta-S-A-/Cronica-del-rey-pasmado-i1n117069.jpg",
+      "isbn": "9788408030355",
+      "publisher": "Editorial Planeta, S.A.",
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-curva-de-la-felicidad-eduardo-galan",
@@ -13559,7 +14124,8 @@
           "by": "JJ Benítez",
           "quote": "Yo escribí sobre ese factor mi primera novela, que es la dama azul. La dama azul es la historia de una monja del siglo X."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-danza-de-la-realidad-alejandro-jodorowsky",
@@ -13609,7 +14175,8 @@
           "by": "invitado",
           "quote": "Él rescató un libro de un antiguo sociólogo, Neil Postman, que era catedrático de la Universidad de Nueva York, y que en 1982 él escribió un libro que se llamaba La desaparición de la infancia."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-destruccion-planificada-de-la-infancia-miguel-angel-ruiz",
@@ -13638,7 +14205,10 @@
           "by": "Álex",
           "quote": "un libro que se llama La destrucción planificada de la infancia."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Ediciones-Cydonia/La-destruccion-planificada-de-la-infancia-i1n26408503.jpg",
+      "isbn": "9791399001723",
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-dictadura-silenciosa-federico-jimenez-losantos",
@@ -13689,7 +14259,8 @@
           "by": "invitado",
           "quote": "Me envió a mi casa el libro de la dieta SCD... la dieta de los carbohidratos específicos."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-divina-comedia-dante-alighieri",
@@ -13816,7 +14387,10 @@
           "by": "invitado",
           "quote": "de eso va tu último libro la escritura que cura"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Desclee-De-Brouwer/La-escritura-que-cura-Manual-de-escritura-expresiva-para-no-profesionales-i1n25010524.jpg",
+      "isbn": "9788433032621",
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-espiral-del-silencio-elisabeth-noelle-neumann",
@@ -13912,7 +14486,8 @@
           "by": "invitado",
           "quote": "O las familias cero y este es el trabajo que os he querido presentar"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-familia-de-pascual-duarte-camilo-jose-cela",
@@ -14025,7 +14600,9 @@
           "by": "Álex",
           "quote": "tu libro destila admiración la felicidad estil la admiración también por dolina"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Ediciones-Paidos/La-felicidad-i1n24542043.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-felicidad-personal-antoni-bolinches",
@@ -14048,7 +14625,11 @@
           "by": "invitado",
           "quote": "De hecho, en mi libro, La felicidad personal defiende esta hipótesis."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Debolsillo/La-felicidad-personal-i1n124480.jpg",
+      "isbn": "9788497930321",
+      "publisher": "Debolsillo",
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-fiesta-del-chivo-mario-vargas-llosa",
@@ -14141,7 +14722,11 @@
           "by": "invitado",
           "quote": "Jonathan Haidt está haciendo toda una cruzada para generación ansiosa, ¿no? Es el último libro."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Planeta-Publishing-Corporation/La-Generacion-Ansiosa-Por-Que-Las-Redes-Sociales-Estan-Causando-Una-Epidemia-de-Enfermedades-Mentales-Entre-Nuestros-Jovenes-The-Anxious-Generation-i1n25252292.jpg",
+      "isbn": "9786075697550",
+      "publisher": "Planeta Publishing Corporation",
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-gota-de-sangre-emilia-pardo-bazan",
@@ -14192,7 +14777,10 @@
           "quote": "Te tengo aquí para que me la cuentes bien. Eh, ¿te parece si empezamos tal y como empiezas tú en tu libro La Gran Prisión?"
         }
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover": "https://cdn.agapea.com/Voz-de-Papel/La-Gran-Prision-i1n26753677.jpg",
+      "isbn": "9788412946208",
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-gran-traicion-enrique-de-diego",
@@ -14215,7 +14803,10 @@
           "by": "invitado",
           "quote": "Cuando Enrique de Diego publicó un libro que se llamaba La gran traición que era un libro donde hablaba de mi salida de radio"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Lulu-Press/LA-GRAN-TRAICIoN-i1n22797355.jpg",
+      "isbn": "9781471705885",
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-guerra-del-arte-steven-pressfield",
@@ -14246,7 +14837,9 @@
           "by": "Álex",
           "quote": "Hay un libro que le recomiendo encarecidamente a la audiencia que se llama la guerra del arte de Steven Pressfield."
         }
-      ]
+      ],
+      "isbn": "9781936891160",
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-guerra-no-tiene-rostro-de-mujer-svetlana-aleksievich",
@@ -14277,7 +14870,8 @@
           "by": "Luis Castellanos",
           "quote": "Esto le dice también Svetlana Alexiévich, que es la poeta de... esta es la escritora bielorrusa que le dio el Premio Nobel 2015. La guerra no tiene rostro de mujer."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-hipotesis-de-la-felicidad-jonathan-haidt",
@@ -14308,7 +14902,11 @@
           "quote": "Jonathan Haidt que lo cuenta en la hipótesis de la felicidad que es un librazo."
         }
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover": "https://cdn.agapea.com/Deusto/La-hipotesis-de-la-felicidad-i1n26465635.jpg",
+      "isbn": "9788423439843",
+      "publisher": "Deusto",
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-humanidad-en-crisis-manuel-sans-segarra",
@@ -14331,7 +14929,11 @@
           "by": "invitado",
           "quote": "Por esto escrito un libro que es La humanidad en crisis."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Planeta/La-Humanidad-en-crisis-i1n26954126.jpg",
+      "isbn": "9788408325062",
+      "publisher": "Editorial Planeta",
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-ignorancia-milan-kundera",
@@ -14504,7 +15106,11 @@
           "by": "invitado",
           "quote": "Lo comentaba Berman en sus memorias, la linterna mágica decía"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Tusquets-Editores-S-A-/Linterna-magica-i1n22203791.jpg",
+      "isbn": "9788411071581",
+      "publisher": "Tusquets Editores S.A.",
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-llama-doble-octavio-paz",
@@ -14558,7 +15164,9 @@
           "by": "invitado",
           "quote": "...o un libro como La Lozana andaluza, escrito por un cura..."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Consejeria-de-Cultura-Andalucia-/La-lozana-andaluza-i1n152757.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-madre-annie-ernaux",
@@ -14582,7 +15190,8 @@
           "by": "invitado",
           "quote": "escribí un libro que era la madre es un libro muy cortito escrito de una manera muy original"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-maldicion-del-hombre-mono-emiliano-bruner",
@@ -14611,7 +15220,10 @@
           "by": "Álex",
           "quote": "El último que es el sobre el que hablamos también se llama La maldición del hombre mono"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Critica/La-maldicion-del-hombre-mono-i1n25708731.jpg",
+      "isbn": "9788491997825",
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-mascara-moral-edu-galan",
@@ -14660,7 +15272,8 @@
           "by": "invitado",
           "quote": "Estaba leyendo ahora un libro sobre precisamente el libro se llama La melancolía de Lincoln de Abraham Lincoln si era el depresivo sí señor."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-memoria-del-comunismo-federico-jimenez-losantos",
@@ -14683,7 +15296,11 @@
           "by": "invitado",
           "quote": "yo he hecho un tocho así que no hay nada en español parecido la memoria del comunismo que es una historia del comunismo"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/LA-ESFERA-DE-LOS-LIBROS-S-L-/Memoria-del-comunismo-i1n24107500.jpg",
+      "isbn": "9788413846736",
+      "publisher": "LA ESFERA DE LOS LIBROS, S.L.",
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-memoria-esculting-i-montserrat-andreu-soler",
@@ -14706,7 +15323,8 @@
           "by": "invitado",
           "quote": "Es el famoso libro que le publicaron aquel que le publicara La memoria, esculting i Montserrat escrito por Andreu Soler."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-mente-del-futuro-luis-muino",
@@ -14772,7 +15390,8 @@
           "by": "invitado",
           "quote": "De hecho, hay un libro que lo cuenta muy bien que le cito en este libro que se llama La microfísica sexista del poder."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-montana-del-alma-gao-xingjian",
@@ -14795,7 +15414,11 @@
           "by": "invitado",
           "quote": "gao sin Jean Premio Nobel de literatura el de la montaña del alma que sos un libro que es una joya"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Nuevas-Ediciones-de-Bolsillo/La-montana-del-alma-i1n5990264.jpg",
+      "isbn": "9788499894133",
+      "publisher": "Nuevas Ediciones de Bolsillo",
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-montana-magica-thomas-mann",
@@ -14913,7 +15536,11 @@
           "by": "invitado",
           "quote": "Es algo que expuso en su obra La nueva mente del emperador, pero también la creatividad entra en las emociones."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Debolsillo/La-nueva-mente-del-emperador-i1n626076.jpg",
+      "isbn": "9788483461174",
+      "publisher": "Debolsillo",
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-odisea-homero",
@@ -14999,7 +15626,8 @@
           "by": "invitado",
           "quote": "este otro era de la patagonia país de los gigantes sobre todo este otro era necesario morir"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-peninsula-de-las-casas-vacias-david-ucles",
@@ -15050,7 +15678,8 @@
           "by": "invitado",
           "quote": "La piel del oso creo que se llamaba"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-politica-de-los-chimpances-frans-de-waal",
@@ -15074,7 +15703,11 @@
           "by": "invitado",
           "quote": "Decías Fran Wall, la política de los chimpancés, no?, que escribe este libro y es completamente así."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Alianza-Editorial/La-politica-de-los-chimpances-i1n21554965.jpg",
+      "isbn": "9788413627557",
+      "publisher": "Alianza Editorial",
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-prueba-del-cielo-eben-alexander",
@@ -15152,7 +15785,8 @@
           "by": "Álex",
           "quote": "tuve la semana pasada aquí a la química debora García bello que acaba de publicar el libro la química del vello"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-realidad-no-existe-jaime-rodriguez-de-santiago",
@@ -15421,7 +16055,11 @@
           "by": "invitado",
           "quote": "Mira del libro Cenando con Darwin y La sexta extinción sí..."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Critica/La-sexta-extincion-una-historia-nada-natural-i1n19034210.jpg",
+      "isbn": "9788491991649",
+      "publisher": "Editorial Crítica",
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-sociedad-de-la-comodidad-josep-maria-fericgla",
@@ -15443,7 +16081,8 @@
           "by": "invitado",
           "quote": "Mis tres primeros libros los escribí con una máquina de escribir olivetti"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-sociedad-transparente-gianni-vattimo",
@@ -15466,7 +16105,10 @@
           "by": "Juan Gómez-Jurado",
           "quote": "Esto se viene diciendo desde hace muchos años, desde que Gianni Vattimo escribió La sociedad transparente."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Ediciones-Paidos-Iberica/La-sociedad-transparente-i1n87338.jpg",
+      "isbn": "9788475096025",
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-soledad-gabriel-rolon",
@@ -15487,7 +16129,11 @@
           "by": "Álex",
           "quote": "Has publicado libro nuevo, La soledad."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Ediciones-Paidos/La-soledad-i1n26465746.jpg",
+      "isbn": "9788449344770",
+      "publisher": "Ediciones Paidós",
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-supraconciencia-existe-manuel-sans-segarra",
@@ -15516,7 +16162,9 @@
           "by": "Álex",
           "quote": "Enhorabuena primero porque su libro La supraconciencia existe vida después de la vida sale hoy pero ya en su tercera edición"
         }
-      ]
+      ],
+      "isbn": "9786073923156",
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-tempestad-juan-manuel-de-prada",
@@ -15529,7 +16177,11 @@
         "https://www.ivoox.com/26234916"
       ],
       "year": 1997,
-      "lookup": "openlibrary"
+      "lookup": "openlibrary",
+      "cover": "https://cdn.agapea.com/Booket/La-tempestad-i1n25461467.jpg",
+      "isbn": "9788408298489",
+      "publisher": "Booket",
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-tercera-guerra-mundial-ya-esta-aqui-cristina-martin-jimenez",
@@ -15576,7 +16228,8 @@
           "by": "Álex",
           "quote": "Y en la tierra oculta has reunido muchos de de tus relatos y los has revisado los has tocado mucho"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-torre-oscura-stephen-king",
@@ -15658,7 +16311,10 @@
           "by": "invitado",
           "quote": "Escribo el libro, escribo La trampa del amor diciendo..."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/AGUILAR/La-trampa-del-amor-i1n25433891.jpg",
+      "isbn": "9788403525269",
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-trampa-del-confort-michael-easter",
@@ -15682,7 +16338,11 @@
           "by": "invitado",
           "quote": "Aquí te recomiendo un libro de Michael Easter que me gusta mucho. Se llama La trampa del confort en español."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Ediciones-Peninsula/La-trampa-del-confort-i1n24541116.jpg",
+      "isbn": "9788411002325",
+      "publisher": "Ediciones Península",
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-ultima-pagina-raul-del-pozo",
@@ -15706,7 +16366,8 @@
           "by": "invitado",
           "quote": "Tiene una cabeza privilegiada y que vosotros conocéis muy bien porque escribe todos los días la última página del mundo y casi todos empiezan por la última página que es Raúl del Pozo."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-venganza-del-tiburon-dani-el-rojo",
@@ -15728,7 +16389,10 @@
           "by": "invitado",
           "quote": "aunque esa la venganza del tiburón me salió justo también en abril y parecía que iba a ser para la para para paso que la había sacado para sant jordi"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Timun-Mas-Narrativa/La-venganza-de-Tiburon-i1n9910985.jpg",
+      "isbn": "9788448019150",
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-verdad-de-la-pandemia-cristina-martin-jimenez",
@@ -15867,7 +16531,11 @@
           "by": "invitado",
           "quote": "El último libro que he leído es libro de Andrew O'Hagan que se llama La vida secreta..."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Anagrama-S-A-/La-vida-secreta-i1n19247229.jpg",
+      "isbn": "9788433964465",
+      "publisher": "Editorial Anagrama S.A.",
+      "cover_lookup": "agapea"
     },
     {
       "id": "la-zarigueya-de-schrodinger-susana-monso",
@@ -15983,7 +16651,11 @@
         "https://api.spreaker.com/episode/62170598"
       ],
       "buy_url": "https://amzn.to/3zB8b0F",
-      "lookup": "none"
+      "lookup": "none",
+      "cover": "https://cdn.agapea.com/Arpa-Editores/LAS-50-LEYES-DEL-PODER-EN-EL-PADRINO-i1n23667604.jpg",
+      "isbn": "9788418741289",
+      "publisher": "Arpa Editores",
+      "cover_lookup": "agapea"
     },
     {
       "id": "las-cloacas-de-los-medios-j-f-lamata",
@@ -16005,7 +16677,8 @@
           "quote": "y estábamos hablando Juan Francisco la mata usted es uno de los mayores expertos en nuestro país en el campo de los medios de comunicación"
         }
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover_lookup": "agapea"
     },
     {
       "id": "las-edades-de-lulu-almudena-grandes",
@@ -16070,7 +16743,9 @@
           "by": "Álex",
           "quote": "Judith escribió un libro llamado las leyes del deseo e impartió clases de sexo"
         }
-      ]
+      ],
+      "isbn": "9788403099845",
+      "cover_lookup": "agapea"
     },
     {
       "id": "las-mascaras-del-heroe-juan-manuel-de-prada",
@@ -16127,7 +16802,11 @@
           "by": "JM Mulet",
           "quote": "las metamorfosis de ovideo de mitología que me lo he leído cuatro o cinco veces"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Juventud-S-A-/Z-LAS-METAMORFOSIS-i1n316983.jpg",
+      "isbn": "9788426125927",
+      "publisher": "Editorial Juventud, S.A.",
+      "cover_lookup": "agapea"
     },
     {
       "id": "las-pequenas-muertes-luis-cortes-brinol",
@@ -16202,7 +16881,8 @@
           "by": "JJ Benítez",
           "quote": "Y me pidieron un segundo libro que fue Las Puertas Templarias. Eso fue lo más difícil."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "las-tres-muertes-ramiro-calle",
@@ -16225,7 +16905,8 @@
           "by": "invitado",
           "quote": "En Kailas hay un libro donde relato la historia de la muerte de mi abuelo y le llamo Las tres muertes"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "las-victimas-de-la-violencia-enrique-baca",
@@ -16266,7 +16947,11 @@
           "by": "invitado",
           "quote": "...de Eugenides te recomendaría Las vírgenes suicidas o sobre todo Middlesex..."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Anagrama-S-A-U-/Las-virgenes-suicidas-i1n25180122.jpg",
+      "isbn": "9788433927620",
+      "publisher": "Editorial Anagrama S.A.U.",
+      "cover_lookup": "agapea"
     },
     {
       "id": "latin-queen-mariah-oliver",
@@ -16377,7 +17062,8 @@
           "by": "invitado",
           "quote": "El último es León XIV, el Papa de la nueva era, publicado hace unos días, ¿no?"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "leonardo-da-vinci-walter-isaacson",
@@ -16428,7 +17114,10 @@
           "by": "invitado",
           "quote": "hay un libro que es buenísimo que era de Marcelo Alonso se llama leyendas del valetudo Super recomendable"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Budo-International-Publishing-Company-S-L-/LEYENDAS-DEL-VALE-TUDO-i1n1437356.jpg",
+      "isbn": "9788492484041",
+      "cover_lookup": "agapea"
     },
     {
       "id": "liberate-de-toxicos-dr-nicolas-olea",
@@ -16451,7 +17140,11 @@
           "by": "Álex",
           "quote": "El anterior tenía un problema porque se ha liberado todos tóxicos, se ha vendido muy bien y todo."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/RBA-Libros/Liberate-de-toxicos-i1n24580624.jpg",
+      "isbn": "9788411326285",
+      "publisher": "RBA Libros",
+      "cover_lookup": "agapea"
     },
     {
       "id": "libertad-zero-inaki-pinuel",
@@ -16464,7 +17157,11 @@
       "episodes": [
         "https://www.ivoox.com/109440159"
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover": "https://cdn.agapea.com/LA-ESFERA-DE-LOS-LIBROS-S-L-/Libertad-Zero-i1n23685311.jpg",
+      "isbn": "9788413845838",
+      "publisher": "LA ESFERA DE LOS LIBROS, S.L.",
+      "cover_lookup": "agapea"
     },
     {
       "id": "libro-de-estilo-el-pais",
@@ -16541,7 +17238,11 @@
           "by": "Álex",
           "quote": "he escuchado bueno realmente te he leído en el inicio de tu libro de libro de reclamaciones tus memorias o algo así"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Libros-Cupula/Libro-de-reclamaciones-i1n15793842.jpg",
+      "isbn": "9788448024208",
+      "publisher": "Libros Cúpula",
+      "cover_lookup": "agapea"
     },
     {
       "id": "liquidacion-por-derribo-lucia-etxebarria",
@@ -16593,7 +17294,8 @@
           "by": "Álex",
           "quote": "Estuvo hace poco aquí Pedro Piqueras, que tiene un libro, que se llama Llegar, estar y saber irse o algo así."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "lo-dejo-todo-beatriz-montanez",
@@ -16615,7 +17317,8 @@
           "by": "Álex",
           "quote": "Muchas de las conversaciones así con toda la naturalidad del mundo."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "lo-que-aprendi-de-mi-gato-ramiro-calle",
@@ -16664,7 +17367,8 @@
           "by": "invitado",
           "quote": "En esta portada que tengo aquí de mi libro Lo que tú digas ahí abajo está Paloma Navarrete..."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "loba-negra-juan-gomez-jurado",
@@ -16756,7 +17460,8 @@
           "by": "invitado",
           "quote": "la retomamos con temas de hoy del grupo espasa y con el título Los amos del mundo están al acecho"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "los-cinco-arrepentimientos-de-los-moribundos-bronnie-ware",
@@ -16780,7 +17485,8 @@
           "by": "Xavier",
           "quote": "Era las 5, estaba en inglés de five regre, sí, los arrepentimientos y las cinco personas enfermera australiana Bonnie Brown."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "los-comedores-de-patatas-manuel-rivas",
@@ -16802,7 +17508,11 @@
           "by": "invitado",
           "quote": "después de un millón de vacas del libro de relatos hay una novela que es los comedores de patatas"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Edicions-Xerais/Os-comedores-de-patacas-i1n21044158.jpg",
+      "isbn": "9788491219323",
+      "publisher": "Edicións Xerais",
+      "cover_lookup": "agapea"
     },
     {
       "id": "los-cuervos-del-vaticano-eric-frattini",
@@ -16881,7 +17591,8 @@
           "by": "invitado",
           "quote": "Tituló sus memorias Los días de nuestra muerte."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "los-duenos-del-planeta-cristina-martin-jimenez",
@@ -16948,7 +17659,11 @@
       "episodes": [
         "https://www.ivoox.com/41140784"
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover": "https://cdn.agapea.com/Booket/Los-enganos-de-la-mente-i1n7989245.jpg",
+      "isbn": "9788423346356",
+      "publisher": "Booket",
+      "cover_lookup": "agapea"
     },
     {
       "id": "los-escritores-suicidas-jose-antonio-perez-rojo",
@@ -16996,7 +17711,8 @@
           "by": "Álex",
           "quote": " un libro que se llama escritores suicidas "
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "los-estados-de-animo-william-davies",
@@ -17020,7 +17736,8 @@
           "by": "invitado",
           "quote": "o William Davies en Los estados de ánimo"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "los-genios-jaime-bayly",
@@ -17175,7 +17892,8 @@
           "by": "invitado",
           "quote": "O los juegos del hambre que ofrece la camicular la trilogía pero qué horror"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "los-limites-del-amor-walter-riso",
@@ -17350,7 +18068,10 @@
           "by": "Álex",
           "quote": "Haber escrito los libros comer sin miedo medicina sin engaños los productos naturales vaya timo y la ciencia en la sombra"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Laetoli/Los-productos-naturales-vaya-timo--i1n4998725.jpg",
+      "isbn": "9788492422289",
+      "cover_lookup": "agapea"
     },
     {
       "id": "los-santos-inocentes-miguel-delibes",
@@ -17400,7 +18121,11 @@
           "by": "Álex",
           "quote": "En tu libro Los silencios del larguero hablas haces una referencia una reflexión muy interesante acerca del éxito"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Aguilar/Los-silencios-del-larguero-25-anos-despues-i1n10476777.jpg",
+      "isbn": "9788403014466",
+      "publisher": "Aguilar",
+      "cover_lookup": "agapea"
     },
     {
       "id": "los-sin-rostro-david-cuevas",
@@ -17492,7 +18217,9 @@
           "by": "Álex",
           "quote": "de ficción dumas Los tres mosqueteros el conde de Montecristo..."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/CREATESPACE/Los-Tres-Mosqueteros-i1n18812955.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "los-ultimos-dias-de-hitler-hugh-trevor-roper",
@@ -17515,7 +18242,11 @@
           "by": "invitado",
           "quote": "Crea una historia que se llama los últimos días de Hitler"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Critica/Los-ultimos-dias-de-Hitler-i1n19823556.jpg",
+      "isbn": "9788491992332",
+      "publisher": "Editorial Crítica",
+      "cover_lookup": "agapea"
     },
     {
       "id": "los-vencejos-fernando-aramburu",
@@ -17649,7 +18380,8 @@
           "by": "invitado",
           "quote": "la edición original se titulaba LSD, mi hijo problemático, ¿vale? No, ya Albert Hoffman en el 76..."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "luces-de-bohemia-ramon-maria-del-valle-inclan",
@@ -17709,7 +18441,9 @@
           "by": "invitado",
           "quote": "Como he escrito un libro sobre la felicidad, Maestros de la felicidad."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Roca-Bolsillo/Maestros-de-la-felicidad-i1n25431505.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "magnifica-humanitas-leon-xiv",
@@ -17760,7 +18494,8 @@
           "by": "Álex",
           "quote": "Mi padre tenía un tío si no me equivoqué emigrado en Argentina Cándido que escribía y llegó a publicar un libro que se llamaba Mal de ojo"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "mala-mujer-la-revolucion-que-te-hara-libre-noemi-casquet",
@@ -17808,7 +18543,10 @@
           "by": "Álex",
           "quote": "y el libro se llama mala sangre está muy bien el libro"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Capitan-Swing-Libros-S-l-/Mala-sangre-i1n18986634.jpg",
+      "isbn": "9788412064513",
+      "cover_lookup": "agapea"
     },
     {
       "id": "malaherba-manuel-jabois",
@@ -17889,7 +18627,8 @@
           "by": "Álex",
           "quote": "Ha escrito el libro Mamá quiero ser DJ y da clases a futuros compañeros de su gremio"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "mama-quiero-ser-youtuber",
@@ -17962,7 +18701,8 @@
           "by": "invitado",
           "quote": "Cuando se publica una edición la tercera edición del manual de diagnóstico y estadística de los trastornos mentales que edita la asociación americana de psiquiatría."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "manual-de-prevencion-de-riesgos-laborales-en-la-profesion-de-especialista-de-cin",
@@ -17984,7 +18724,8 @@
           "by": "invitado",
           "quote": "yo tengo un libro que he escrito un libro que se llama manual de prevención de riesgos laborales en la profesión de especialista de cine"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "manual-de-vida-epicteto",
@@ -18032,7 +18773,11 @@
           "by": "Álex",
           "quote": "Sé que tú has hablado en manual para la serenidad también de cómo eh sobrellevarlo y te preguntaré después por eso."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Plataforma-Editorial-S-L-/Manual-para-la-serenidad-i1n24967537.jpg",
+      "isbn": "9788410079878",
+      "publisher": "Plataforma Editorial S.L.",
+      "cover_lookup": "agapea"
     },
     {
       "id": "marcas-con-historia-ruben-galgo",
@@ -18054,7 +18799,10 @@
           "by": "Álex",
           "quote": "Rubén ha publicado recientemente el libro marcas con historia el año pasado o este año el año pasado el año pasado"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Exlibric/MARCAS-CON-HISTORIA-i1n24115133.jpg",
+      "isbn": "9788419827821",
+      "cover_lookup": "agapea"
     },
     {
       "id": "martes-con-mi-viejo-profesor-mitch-albom",
@@ -18105,7 +18853,8 @@
           "by": "invitado",
           "quote": "Por ejemplo ahí hay una que se llama Más allá de la luz que está basada en un hombre que existe"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "mas-alla-del-bien-y-del-mal-virginia-barber",
@@ -18173,7 +18922,8 @@
           "by": "invitado",
           "quote": "Tengo incluso escrito un libro que no se ha publicado todavía que se llama se titula Más que sueños"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "materia-reservada-jj-benitez",
@@ -18258,7 +19008,11 @@
           "by": "Álex",
           "quote": "Estás ahora en plena gira promocional de medicina psicélica manual para pacientes clínicos, usuarios y curiosos."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Kairos-SA/Medicina-psiquedelica-i1n26149754.jpg",
+      "isbn": "9788411212410",
+      "publisher": "Editorial Kairós SA",
+      "cover_lookup": "agapea"
     },
     {
       "id": "medicina-psiquedelica-jose-carlos-bouso",
@@ -18271,7 +19025,11 @@
       "episodes": [
         "13b4cce8-7dcc-46aa-8c89-8f0a254dbe60"
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover": "https://cdn.agapea.com/Editorial-Kairos-SA/Medicina-psiquedelica-i1n26149754.jpg",
+      "isbn": "9788411212410",
+      "publisher": "Editorial Kairós SA",
+      "cover_lookup": "agapea"
     },
     {
       "id": "medicina-sin-enganos-jm-mulet",
@@ -18300,7 +19058,11 @@
           "by": "Álex",
           "quote": "Haber escrito los libros comer sin miedo medicina sin engaños los productos naturales vaya timo y la ciencia en la sombra"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Ediciones-Destino/Medicina-sin-enganos-i1n10618288.jpg",
+      "isbn": "9788423349043",
+      "publisher": "Ediciones Destino",
+      "cover_lookup": "agapea"
     },
     {
       "id": "meditacion-y-psicoanalisis",
@@ -18324,7 +19086,8 @@
           "by": "invitado",
           "quote": "En aquel momento di con un libro, un libro que me regaló un amigo. Este libro trataba sobre meditación y psicoanálisis."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "meditaciones-marco-aurelio",
@@ -18419,7 +19182,11 @@
       "episodes": [
         "https://api.spreaker.com/episode/62539823"
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover": "https://cdn.agapea.com/Contraluz-Editorial/Melina-i1n24073189.jpg",
+      "isbn": "9788418945854",
+      "publisher": "Contraluz Editorial",
+      "cover_lookup": "agapea"
     },
     {
       "id": "memento-mori-cesar-perez-gellida",
@@ -18468,7 +19235,8 @@
           "by": "invitado",
           "quote": "El libro se llama Memoria del silencio, es este que tiene aquí detrás, Andrea."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "memorial-de-los-espanoles-deportados-a-los-campos-nazis-benito-bermejo",
@@ -18490,7 +19258,8 @@
           "by": "Álex",
           "quote": "Con Sandra Checa publicas el libro Memorial de españoles deportados a los campos nazis."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "memorias-albert-speer",
@@ -18539,7 +19308,8 @@
           "by": "Álex",
           "quote": "Santiago Vázquez - Memorias de Lo Paranormal"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "memorias-de-un-exnazi-david-saavedra",
@@ -18604,7 +19374,8 @@
           "by": "Álex",
           "quote": "estoy leyendo ahora un ensayo de un neurocientífico que se llama Sam Harris sobre la mentira sobre el mentir"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "mi-amigo-michael-frank-cascio",
@@ -18687,7 +19458,10 @@
           "by": "invitado",
           "quote": "Que yo sepa Mi mente intergaláctica y el último es este que tenemos aquí tocando las estrellas, que este último está más centrado en el toc."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Europa-Ediciones/MI-MENTE-INTERCALACTICA-i1n25123968.jpg",
+      "isbn": "9791220151108",
+      "cover_lookup": "agapea"
     },
     {
       "id": "mi-pie-izquierdo-christy-brown",
@@ -18738,7 +19512,10 @@
           "by": "invitado",
           "quote": "isadora duncan he visto he leído el libro y se titula mi vida"
         }
-      ]
+      ],
+      "isbn": "9789500372879",
+      "publisher": "EDITORIAL LOSADA",
+      "cover_lookup": "agapea"
     },
     {
       "id": "mican-manuel-rivas",
@@ -18760,7 +19537,8 @@
           "by": "invitado",
           "quote": "Y bueno estos dos libros por ejemplo uno es es un libro en galego que se llama mikania se titula mican"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "michigan-acaso-michigan-anton-reixa",
@@ -18799,7 +19577,11 @@
           "by": "Álex",
           "quote": "Antón es escritor y acaba de publicar Michigan, ¡caso Michigan!, un libro que recomiendo encarecidamente."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Circulo-de-Tiza/MICHIGAN-ACASO-MICHIGAN-i1n17408932.jpg",
+      "isbn": "9788494913105",
+      "publisher": "Círculo de Tiza",
+      "cover_lookup": "agapea"
     },
     {
       "id": "middlesex-jeffrey-eugenides",
@@ -18902,7 +19684,11 @@
           "by": "invitado",
           "quote": "ahora esta última mil ojos esconde la noche que están ambientadas en grandes ciudades"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Espasa/Estuche-Mil-ojos-esconde-la-noche-i1n26411995.jpg",
+      "isbn": "9788467078947",
+      "publisher": "Espasa",
+      "cover_lookup": "agapea"
     },
     {
       "id": "millennium-stieg-larsson",
@@ -18953,7 +19739,11 @@
           "by": "invitado",
           "quote": "Yo recomiendo mucho un libro que se llama Minimalismo digital de un autor que se llama Cal Newport."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Ediciones-Paidos/Minimalismo-digital-i1n19399161.jpg",
+      "isbn": "9788449337055",
+      "publisher": "Ediciones Paidós",
+      "cover_lookup": "agapea"
     },
     {
       "id": "mis-memorias-antes-de-que-se-me-olviden-andres-pajares",
@@ -18968,7 +19758,8 @@
       "isbn": "9788417797904",
       "year": 2020,
       "publisher": "Almuzara Estudios S A",
-      "lookup": "openlibrary"
+      "lookup": "openlibrary",
+      "cover_lookup": "agapea"
     },
     {
       "id": "mis-memorias-ramiro-calle",
@@ -18991,7 +19782,8 @@
           "by": "invitado",
           "quote": "Y en el libro que tienes ahí fuera, mis memorias, digo que es que no aprendí de niño nada importante."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "mis-montanas-sebastian-alvaro",
@@ -19005,7 +19797,11 @@
         "https://api.spreaker.com/episode/64461391"
       ],
       "buy_url": "https://amzn.to/4b9ak1U",
-      "lookup": "none"
+      "lookup": "none",
+      "cover": "https://cdn.agapea.com/Anaya-Touring/Mis-montanas-Toda-una-vida-al-filo-de-lo-imposible-i1n25123292.jpg",
+      "isbn": "9788491588481",
+      "publisher": "Anaya Touring",
+      "cover_lookup": "agapea"
     },
     {
       "id": "miss-marte-manuel-jabois",
@@ -19149,7 +19945,10 @@
           "by": "Álex",
           "quote": "Y lo he vuelto a comprobar leyendo muertes nada accidentales no he tenido tiempo de terminarlo"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Rosameron/Muertes-nada-accidentales-i1n24106503.jpg",
+      "isbn": "9788412661682",
+      "cover_lookup": "agapea"
     },
     {
       "id": "murio-hitler-en-el-bunker-eric-frattini",
@@ -19499,7 +20298,8 @@
           "by": "Álex",
           "quote": "Ana estoy muy mu nos damos las manos estoy muy contento de que hayas venido esto lleva in the making Cuántos años cinco o se mínimo antes prepandemia"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "no-mas-dieta-julio-basulto",
@@ -19577,7 +20377,9 @@
           "by": "invitado",
           "quote": "Se publicó un volumen mío de memorias que se titula No vine para quedarme: Memorias de un disidente"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Plaza-Janes/No-vine-para-quedarme-i1n9481045.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "novela-de-ajedrez-stefan-zweig",
@@ -19600,7 +20402,11 @@
           "by": "leoncho",
           "quote": "una de las más apasionantes es novela de ajedrez que además se lee en un pispas es una novela corta"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Acantilado/Novela-de-ajedrez-i1n127158.jpg",
+      "isbn": "9788495359452",
+      "publisher": "Acantilado",
+      "cover_lookup": "agapea"
     },
     {
       "id": "novelas-ejemplares-miguel-de-cervantes",
@@ -19651,7 +20457,8 @@
           "by": "Álex",
           "quote": "El libro se llama si no me equivoco Howard Inner beast nuestra bestia interior"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "nunca-la-jodas-jens-lapidus",
@@ -19702,7 +20509,8 @@
           "by": "invitado",
           "quote": "nunca negocies la mitad para ti"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "nutricion-habitos-y-entrenamiento-saul-sanchez",
@@ -19725,7 +20533,8 @@
           "quote": "he estado ojeando tu libro eh nutrición hábitos y entrenamiento Gracias por mandármelo además dedicado"
         }
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover_lookup": "agapea"
     },
     {
       "id": "oblomov-ivan-goncharov",
@@ -19775,7 +20584,8 @@
           "by": "José Antonio Marina",
           "quote": "A todos les leía siempre el mismo poema que era la oda al alcachofa de Pablo Neruda tuvieran la edad que tuvieran"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "ojos-verdes-bruno-cardenosa",
@@ -19795,7 +20605,8 @@
           "by": "invitado",
           "quote": "tu libro ojos verdes ahora ya me has dicho eso"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "olvidate-de-tu-lenguaje-corporal-javier-cebreiros",
@@ -19818,7 +20629,8 @@
           "by": "invitado",
           "quote": "fíjate hay un libro de Javier Cebreiros que se llama olvida tu lenguaje corporal"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "onu-historia-de-la-corrupcion-eric-frattini",
@@ -19937,7 +20749,10 @@
           "by": "invitado",
           "quote": "Truman Capote publicó otras voces, otros ámbitos, y yo voy a cumplir 25"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/RANDOM-HOUSE-ESPANOL/Otras-Voces-Otros-Ambitos-i1n9344536.jpg",
+      "isbn": "9786073114172",
+      "cover_lookup": "agapea"
     },
     {
       "id": "oubina-toda-la-verdad-laureano-oubina",
@@ -19960,7 +20775,8 @@
           "quote": "Esta charla la comenzamos hablando de su libro Oubiña toda la verdad"
         }
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover_lookup": "agapea"
     },
     {
       "id": "outliers-malcolm-gladwell",
@@ -20028,7 +20844,8 @@
           "by": "invitado",
           "quote": "En uno de mis últimos libros en OVNIS mensajeros de la conciencia global, ahí publico varias portadas."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "pachita-jacobo-grinberg",
@@ -20122,7 +20939,9 @@
           "by": "invitado",
           "quote": "El libro este de Padre rico padre pobre"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Punto-de-Lectura/Padre-rico-padre-pobre-i1n10590650.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "para-que-nos-sirve-ser-tan-listos-manuel-martin-loeches",
@@ -20146,7 +20965,11 @@
           "quote": "cuando estuvo aquí el neurocientífico Manuel Martín Loeches en su libro siempre me olvido las cosas Para qué nos sirve ser tan listos"
         }
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover": "https://cdn.agapea.com/Ediciones-Destino/-De-que-nos-sirve-ser-tan-listos--i1n23738826.jpg",
+      "isbn": "9788423363865",
+      "publisher": "Ediciones Destino",
+      "cover_lookup": "agapea"
     },
     {
       "id": "paradero-desconocido-kressmann-taylor",
@@ -20293,7 +21116,11 @@
           "by": "invitado",
           "quote": "Lo que contaba Kahneman en Pensar rápido pensar despacio."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Debolsillo/Pensar-rapido-pensar-despacio-i1n9389482.jpg",
+      "isbn": "9788490322505",
+      "publisher": "Debolsillo",
+      "cover_lookup": "agapea"
     },
     {
       "id": "pequeno-nemo-en-el-pais-de-los-suenos-winsor-mccay",
@@ -20316,7 +21143,8 @@
           "by": "invitado",
           "quote": "Dibujó una serie que era el Pequeño Nemo en el País de los Sueños"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "perdidos-cristina-martin-jimenez",
@@ -20363,7 +21191,10 @@
           "by": "Ernesto",
           "quote": "en esta segunda entrega de la trilogía se llama de la libertad"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Ediciones-Temas-de-Hoy/Perictione-o-de-la-libertad-i1n22839964.jpg",
+      "isbn": "9788499989501",
+      "cover_lookup": "agapea"
     },
     {
       "id": "personas-toxicas-silvia-congost",
@@ -20387,7 +21218,9 @@
           "by": "Álex",
           "quote": "Que se animen a leer tu último libro Personas tóxicas que da muchas claves"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Zenith/Personas-toxicas-i1n21561447.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "persuasion-y-poder-fernando-miralles",
@@ -20408,7 +21241,11 @@
           "by": "Álex",
           "quote": "se publicó tu libro que está ahí detrás que lo estamos viendo persuasión y poder y te dije Oye vamos a esperar"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Vanir/Persuasion-y-poder-descubre-el-secreto-de-los-lideres-mas-brillantes-i1n24924894.jpg",
+      "isbn": "9788417932879",
+      "publisher": "Editorial Vanir",
+      "cover_lookup": "agapea"
     },
     {
       "id": "peter-pan-puede-crecer-antoni-bolinches",
@@ -20539,7 +21376,8 @@
           "by": "invitado",
           "quote": "se llama ponte creativo sobre todo para los creativos y tal"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "por-que-compramos-la-burra-ramon-nogueras",
@@ -20640,7 +21478,11 @@
           "by": "Álex",
           "quote": "un libro que así aprovecho y se lo recomiendo a la audiencia que se llama porque dormimos del neurocientífico matthew walker"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Capitan-Swing-Libros-S-L-/Por-que-dormimos-i1n19094138.jpg",
+      "isbn": "9788412064520",
+      "publisher": "Capitán Swing Libros S.L.",
+      "cover_lookup": "agapea"
     },
     {
       "id": "por-que-las-cebras-no-tienen-ulceras-robert-sapolsky",
@@ -20698,7 +21540,8 @@
           "by": "invitado",
           "quote": "Usted ahora tiene un voto de celibato, se dice así."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "por-que-si-somos-tan-inteligentes-hacemos-tantas-estupideces-jose-antonio-marina",
@@ -20721,7 +21564,8 @@
           "quote": "Yo ahora estoy terminando un libro sobre los errores mentales es decir los errores cognitivos las estupideces que hacemos título es en realidad Por qué si somos tan inteligentes hacemos tantas estupideces"
         }
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover_lookup": "agapea"
     },
     {
       "id": "por-que-sonamos-pablo-barrecheguren",
@@ -20743,7 +21587,10 @@
           "by": "invitado",
           "quote": "Tu último libro se llama... porque soñamos."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Plataforma-Editorial-S-L-/-Por-que-sonamos--i1n24967539.jpg",
+      "isbn": "9788410079830",
+      "cover_lookup": "agapea"
     },
     {
       "id": "por-quien-doblan-las-campanas-ernest-hemingway",
@@ -20821,7 +21668,11 @@
           "by": "Álex",
           "quote": "Estás ahora con la promo de posesión de tu último retoño."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/LA-ESFERA-DE-LOS-LIBROS-S-L-/Posesion-i1n26871549.jpg",
+      "isbn": "9788410943469",
+      "publisher": "LA ESFERA DE LOS LIBROS, S.L.",
+      "cover_lookup": "agapea"
     },
     {
       "id": "posesiones-y-exorcismos-en-profundidad-sebastian-darbo",
@@ -20844,7 +21695,8 @@
           "by": "invitado",
           "quote": "Y yo a mi padre con 13 años le dije que quería ser periodista todo esto con un libro que era posesiones Y exorcismos en profundidad"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "posturas-de-yoga-y-ejercicios-de-control-respiratorio-ramiro-calle",
@@ -20867,7 +21719,8 @@
           "by": "invitado",
           "quote": "el otro se llama posturas de yoga y ejercicios de control respiratorio"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "primos-hermanos-roger-fouts",
@@ -20892,7 +21745,8 @@
           "by": "invitado",
           "quote": "Hay un libro que es este libro es muy bonito que lo escribió Roger Foch, que es e es que en español no me acuerdo cómo se llama, eh Primos Hermanos en español"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "protege-a-tus-hijos-de-la-sobreexposicion-en-la-red-natalia-diaz-medianoche",
@@ -20913,7 +21767,8 @@
           "by": "Álex",
           "quote": "En tu libro Protege a tus hijos de la sobreexposición en la red cuentas que hay antecedentes antes de las redes sociales."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "psicoanalisis-de-los-cuentos-de-hadas-bruno-bettelheim",
@@ -21015,7 +21870,8 @@
           "by": "invitado",
           "quote": "Yo estoy escribiendo ahora unos libros sobre psicotrance, donde hay momentos en que la pared entre conciencia e inconsciente se abre."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "puta-y-libre-valerie-may",
@@ -21064,7 +21920,8 @@
           "quote": "José Miguel Mulet conmigo charlando acerca de su libro que es comer sano."
         }
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover_lookup": "agapea"
     },
     {
       "id": "que-estoy-haciendo-aqui-benjamin-prado",
@@ -21084,7 +21941,10 @@
           "by": "invitado",
           "quote": "maravillosa la portada de qué estoy haciendo aquí. tú el de algún modo el inicio del libro es me han dado un diagnóstico médico"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/ALFAGUARA/Que-estoy-haciendo-aqui-i1n26734603.jpg",
+      "isbn": "9791387846459",
+      "cover_lookup": "agapea"
     },
     {
       "id": "que-se-le-van-las-vitaminas-deborah-garcia-bello",
@@ -21134,7 +21994,8 @@
           "by": "invitado",
           "quote": "Lo leí en el libro este que me estoy leyendo de adicciones de querer no poder y eso cuando me lo leí flipé."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "queridos-ninos-david-trueba",
@@ -21174,7 +22035,11 @@
           "by": "invitado",
           "quote": "Hay un libro por cierto que te recomiendo para que te lo apliques que se llama Quién vive, quién muere y por qué."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Ediciones-Desnivel-S-L/Quien-vive-quien-muere-y-por-que-i1n597674.jpg",
+      "isbn": "9788498290271",
+      "publisher": "Ediciones Desnivel, S. L",
+      "cover_lookup": "agapea"
     },
     {
       "id": "radical-candor-kim-scott",
@@ -21225,7 +22090,9 @@
           "by": "invitado",
           "quote": "Richard Wemman en el libro Rarología habla justamente de cómo se puede cambiar una percepción."
         }
-      ]
+      ],
+      "isbn": "9788484606925",
+      "cover_lookup": "agapea"
     },
     {
       "id": "rasras-lua-mosquetera",
@@ -21237,7 +22104,8 @@
       "episodes": [
         "https://www.ivoox.com/48728820"
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover_lookup": "agapea"
     },
     {
       "id": "rastras-lua-mosquetera",
@@ -21259,7 +22127,8 @@
           "by": "Álex",
           "quote": "que continúa la estela literaria iniciada por rastras"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "ratas-ivan-mourin",
@@ -21366,7 +22235,8 @@
           "by": "invitado",
           "quote": "se titulaba razas la genealogía del asco Javier rosado consideraba que determinado tipo de personas no tenían derecho a la vida"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "realidad-jeosm",
@@ -21382,7 +22252,8 @@
       "year": 2010,
       "publisher": "Belio Magazine",
       "pages": 115,
-      "lookup": "openlibrary"
+      "lookup": "openlibrary",
+      "cover_lookup": "agapea"
     },
     {
       "id": "realidad-y-juego-donald-winnicott",
@@ -21486,7 +22357,10 @@
           "by": "Bruno Cardeñosa",
           "quote": "el mensaje de rovira ya rendirse no es una opción que es el título del libro de ramón arroyo en donde cuenta un poco toda su evidencia"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Amat-Editorial/Rendirse-no-es-una-opcion-i1n13557242.jpg",
+      "isbn": "9788497358415",
+      "cover_lookup": "agapea"
     },
     {
       "id": "rerum-novarum-leon-xiii",
@@ -21537,7 +22411,8 @@
           "by": "invitado",
           "quote": "Tu último libro se llama Respira y relaja la raja."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "revolucion-arturo-perez-reverte",
@@ -21593,7 +22468,10 @@
       "episodes": [
         "https://www.ivoox.com/51064091"
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover": "https://cdn.agapea.com/Espasa-Libros-S-L-/Rie-cuando-puedas-llora-cuando-lo-necesites-i1n2192232.jpg",
+      "isbn": "9788467034394",
+      "cover_lookup": "agapea"
     },
     {
       "id": "rusia-contra-todos-marwan-dasouqi",
@@ -21617,7 +22495,8 @@
           "by": "invitado",
           "quote": "Ahora fíjate, estaba leyendo una un libro de de Marmas Linedas, que fue secuestrado por por Estado Islámico en en Siria... un libro que se llama Rusia contra todos."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "ruthless-ron-miscavige",
@@ -21658,7 +22537,8 @@
       "episodes": [
         "https://www.ivoox.com/106304573"
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover_lookup": "agapea"
     },
     {
       "id": "saludable-mente-marcos-vazquez",
@@ -21734,7 +22614,8 @@
           "by": "invitado",
           "quote": "hay un ciento de kilómetros pero eran dos mundos contrapuestos"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "salvese-quien-pueda-andres-oppenheimer",
@@ -21883,7 +22764,8 @@
           "by": "Álex",
           "quote": "En su momento también entrevisté a Teresa Porqueras, que escribió un libro sobre satanismo, donde también mencionaba el tema."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "se-aceptan-cheques-flores-y-mentiras-luis-alberto-de-cuenca",
@@ -21907,7 +22789,9 @@
           "by": "Álex",
           "quote": "Este es uno de los poemas recogidos en Se aceptan cheques, flores y mentiras del gran Luis Alberto de Cuenca"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Aguilar/Se-aceptan-cheques-flores-y-mentiras-i1n15712104.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "se-que-estas-viva-nacho-abad",
@@ -21981,7 +22865,8 @@
       "episodes": [
         "406a1788-dbcc-42b5-9021-f15e839b0dff"
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover_lookup": "agapea"
     },
     {
       "id": "seducir-con-tus-sentidos-ines-sainz",
@@ -22003,7 +22888,8 @@
           "by": "invitado",
           "quote": "He escrito un libro, el segundo. Claro, lo tenemos aquí. Seducir con tus sentidos."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "ser-distinto-no-es-tan-raro-felipe-mateos",
@@ -22027,7 +22913,9 @@
           "by": "invitado",
           "quote": "Todo esto lo hablas en profundidad en tu libro Ser distinto no es tan raro"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Vergara/Ser-distinto-no-es-tan-raro-i1n23729926.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "ser-excesivamente-ambicioso-fabian-c-barrio",
@@ -22050,7 +22938,8 @@
           "by": "Álex",
           "quote": "fíjate escribes en en tu libro Ser excesivamente ambicioso siempre me había proporcionado quebraderos de cabeza"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "ser-humanos-facundo-manes",
@@ -22125,7 +23014,8 @@
           "by": "invitado",
           "quote": "recuerdo perfectamente y su madre también Cómo fue concebido además fue en invierno durante una chimenea fue maravilloso y y yo creo que eso y adás el embarazo fue precioso me compré todas las revistas aquel entonces ade"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "ser-y-tiempo-martin-heidegger",
@@ -22176,7 +23066,8 @@
           "by": "invitado",
           "quote": "al final lo escribimos juntos que seres y lugares en los que usted no cree ese seres y lugares en los que usted no crees"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "sermones-y-moradas-rafael-alberti",
@@ -22255,7 +23146,8 @@
           "by": "invitado",
           "quote": "Solo escribí una novela que se llama sexo quebrado que es la vida de un homosexual la homosexualidad clandestina en la época de Franco."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "sexo-sabio-antoni-bolinches",
@@ -22380,7 +23272,10 @@
           "by": "invitado",
           "quote": "mi tercera novela que se llama si no amaneciera que es precisamente La Historia"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Planeta/Si-no-amaneciera-i1n23638133.jpg",
+      "isbn": "9788408270478",
+      "cover_lookup": "agapea"
     },
     {
       "id": "sienta-las-bases-de-una-salud-plena-saul-sanchez",
@@ -22392,7 +23287,8 @@
       "episodes": [
         "https://api.spreaker.com/episode/63276195"
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover_lookup": "agapea"
     },
     {
       "id": "silencios-vivos-nach",
@@ -22447,7 +23343,8 @@
           "by": "invitado",
           "quote": "Este libro lo acaba de publicar Manuel Carballal, se llama Siops y es una pasada."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "sito-presidente-felipe-de-luis",
@@ -22469,7 +23366,11 @@
           "by": "invitado",
           "quote": "Se llama Sito presidente y habla de la faceta de Sito Miñanco el narcotraficante como presidente de un equipo de fútbol."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Pepitas-de-calabaza/Sito-Presidente-i1n19822890.jpg",
+      "isbn": "9788417386597",
+      "publisher": "Pepitas de calabaza",
+      "cover_lookup": "agapea"
     },
     {
       "id": "sms-sin-miedo-a-sonar",
@@ -22492,7 +23393,8 @@
           "by": "invitado",
           "quote": "Pues yo creo que se llamaba algo así como SMS Sí hombre sin miedo a soñar"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "snowden-edward-snowden",
@@ -22544,7 +23446,11 @@
           "by": "invitado",
           "quote": "Susan Sontag en este no sé si es en el del dolor de los demás con el texto sobre la fotografía..."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Debolsillo/Sobre-la-fotografia-i1n1471340.jpg",
+      "isbn": "9788483467794",
+      "publisher": "Debolsillo",
+      "cover_lookup": "agapea"
     },
     {
       "id": "sobre-la-paz-perpetua-immanuel-kant",
@@ -22648,7 +23554,8 @@
           "by": "Álex",
           "quote": "Y todo esto que cuentas en Somos alma, tú y Luján, ¿te lo crees o no?"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "somos-lo-que-comemos-jm-mulet",
@@ -22671,7 +23578,8 @@
           "by": "Álex",
           "quote": "Y entonces te decía que qu daba para un capítulo extra de de tu libro somos lo que comemos"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "sonar-lucido-miguel-gasca",
@@ -22747,7 +23655,11 @@
           "by": "Álex",
           "quote": "Me acabo de leer Sony Boy, la biografía de Al Pacino."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Libros-Cupula/Sonny-Boy-i1n25120657.jpg",
+      "isbn": "9788448041748",
+      "publisher": "Libros Cúpula",
+      "cover_lookup": "agapea"
     },
     {
       "id": "sorprende-a-tu-mente-ana-ibanez",
@@ -22768,7 +23680,11 @@
           "by": "invitado",
           "quote": "En el libro precisamente hablas de si no me equivoco son dos estrategias para enfrentar ese esa inseguridad"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Booket/Sorprende-a-tu-mente-i1n26465926.jpg",
+      "isbn": "9788408314202",
+      "publisher": "Booket",
+      "cover_lookup": "agapea"
     },
     {
       "id": "spanish-trip-la-historia-psicodelica-en-espana-juan-carlos-uso",
@@ -22794,7 +23710,9 @@
           "by": "invitado",
           "quote": "siguiendo a Juan Carlos Usó, el mayor historiador de las drogas en España, tiene un libro Spanish Trip, la historia psicodélica en España"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/La-Liebre-de-Marzo-S-L-/Spanish-trip-i1n205347.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "status-will-storr",
@@ -22930,7 +23848,8 @@
           "by": "invitado",
           "quote": "Si ya tenías un Super Humor que era un tomo seguro que la gente que no escuchaba un recopilatorio."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "superate-lorena-torres",
@@ -22948,7 +23867,9 @@
       "year": 2024,
       "publisher": "Penguin Random House Grupo Editorial",
       "pages": 256,
-      "lookup": "openlibrary"
+      "lookup": "openlibrary",
+      "cover": "https://cdn.agapea.com/CONECTA/Superate-i1n24912373.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "supercerebro-deepak-chopra",
@@ -22972,7 +23893,11 @@
           "quote": "creo que Jan quick escribió un libro que se llama supercerebro super Brain"
         }
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover": "https://cdn.agapea.com/La-Esfera-de-los-Libros-S-L-/Supercerebro-i1n9466330.jpg",
+      "isbn": "9788499706184",
+      "publisher": "La Esfera de los Libros, S.L.",
+      "cover_lookup": "agapea"
     },
     {
       "id": "superlopez-jan",
@@ -23047,7 +23972,8 @@
           "quote": "El que se va a quedar por el camino es supersticiones de la danza de la lluvia a la homeopatía."
         }
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover_lookup": "agapea"
     },
     {
       "id": "territorio-comanche-arturo-perez-reverte",
@@ -23213,7 +24139,8 @@
           "by": "Álex",
           "quote": "tengo un libro ahí atrás que se llama the cure of happiness que es un ensayo en el que diversos estudios parecen demostrar"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "the-warrior-diet-ori-hofmekler",
@@ -23322,7 +24249,9 @@
           "by": "invitado",
           "quote": "Tierra de los hombres, vuelo nocturno, carta reen, correo sur."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Ladera-Norte/Tierra-de-los-hombres-i1n23708727.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "timeo-platon",
@@ -23399,7 +24328,8 @@
           "by": "invitado",
           "quote": "Que yo sepa Mi mente intergaláctica y el último es este que tenemos aquí tocando las estrellas, que este último está más centrado en el toc."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "todo-es-cuestion-de-quimica-deborah-garcia-bello",
@@ -23473,7 +24403,10 @@
           "by": "Álex",
           "quote": "He leído recientemente un libro que me ha fascinado que se llama todo está en tu cabeza de la neuróloga Susan ulvan"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Ariel/Todo-esta-en-tu-cabeza-i1n12824851.jpg",
+      "isbn": "9788434423091",
+      "cover_lookup": "agapea"
     },
     {
       "id": "todo-lo-demas-era-silencio-manuel-de-lorenzo",
@@ -23489,7 +24422,9 @@
       "year": 2019,
       "publisher": "Penguin Random House Grupo Editorial",
       "pages": 200,
-      "lookup": "openlibrary"
+      "lookup": "openlibrary",
+      "cover": "https://cdn.agapea.com/Suma-Editorial/Todo-lo-demas-era-silencio-i1n17483080.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "todo-lo-que-era-solido-antonio-munoz-molina",
@@ -23539,7 +24474,8 @@
           "by": "Álex",
           "quote": "Lo dices mucho en tu libro todo no se puede"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "todos-gordos-con-perdon-julio-basulto",
@@ -23560,7 +24496,11 @@
           "by": "Álex",
           "quote": "Estás contento con tu libro nuevo que tenemos aquí? Todos gordos. Con perdón."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Vergara/Todos-gordos-con-perdon--i1n26466801.jpg",
+      "isbn": "9788494898372",
+      "publisher": "Vergara",
+      "cover_lookup": "agapea"
     },
     {
       "id": "toni-peret-y-sus-hermanos-en-el-ritmo-david-cuevas",
@@ -23573,7 +24513,8 @@
       "episodes": [
         "https://api.spreaker.com/episode/59353737"
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover_lookup": "agapea"
     },
     {
       "id": "tony-peret-y-sus-hermanos-en-el-ritmo-david-cuevas",
@@ -23596,7 +24537,8 @@
           "by": "invitado",
           "quote": "Hablamos de mi último libro de Tony Peret y sus hermanos en el ritmo y tal."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "total-recall-mi-verdadera-historia-de-vida-arnold-schwarzenegger",
@@ -23726,7 +24668,8 @@
           "by": "Álex",
           "quote": "En este tiempo que es un año ha sacado transgénicos sin miedo y que es comer sano."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "tras-el-grito-johann-hari",
@@ -23819,7 +24762,10 @@
           "by": "José Antonio Marina",
           "quote": "Por eso uno de mis libros se llama tratado de filosofía zun"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Ariel/Tratado-de-filosofia-zoom-i1n13676450.jpg",
+      "isbn": "9788434424555",
+      "cover_lookup": "agapea"
     },
     {
       "id": "trauma-rafa-guerrero",
@@ -23844,7 +24790,9 @@
           "by": "invitado",
           "quote": "Todo esto lo cuento en tengo su su permiso y lo cuento en mi libro de de trauma"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Planeta-Mexicana/Trauma-Ninos-Traumatizados-Adultos-Con-Problemas-Trauma-Traumatized-Children-Troubled-Adults-i1n25374393.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "tres-adioses-michela-murgia",
@@ -23857,7 +24805,8 @@
         "f6281f78-d242-4650-a913-da4b57b9593c"
       ],
       "relation": "mencionado",
-      "lookup": "none"
+      "lookup": "none",
+      "cover_lookup": "agapea"
     },
     {
       "id": "tropico-de-cancer-henry-miller",
@@ -23940,7 +24889,11 @@
           "by": "invitado",
           "quote": "vi que era de un autor de aquí ya me interese más"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Argonowta/Tu-cerebro-con-psicodelicos-i1n21725937.jpg",
+      "isbn": "9788418943249",
+      "publisher": "Argonowta",
+      "cover_lookup": "agapea"
     },
     {
       "id": "tu-prima-la-coja-pepe-domingo-castano",
@@ -23962,7 +24915,8 @@
           "by": "invitado",
           "quote": "Empieza un libro que tengo escrito que no se va a publicar, Tu prima la coja."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "ulises-james-joyce",
@@ -24044,7 +24998,8 @@
           "by": "invitado",
           "quote": "se llama ultras la novela y es la vida"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "un-amor-sara-mesa",
@@ -24093,7 +25048,10 @@
           "by": "invitado",
           "quote": "Pues mira es el último libro que he escrito que se llamó lugar en 300 años luz del Sol."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/INDEPENDENTLY-PUBLISHED/Un-lugar-a-300-anos-luz-del-Sol-i1n24029159.jpg",
+      "isbn": "9798847859097",
+      "cover_lookup": "agapea"
     },
     {
       "id": "un-mar-violeta-oscuro-ayanta-barilli",
@@ -24169,7 +25127,10 @@
           "by": "invitado",
           "quote": "Claro, cualquiera que lea el el poemario de Vicente Alexandre, un mundo a solas se da cuenta..."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Anthropos-Editorial/MUNDO-A-SOLAS-Edicion-critica-de-Sergio-Arlandis-i1n15804722.jpg",
+      "isbn": "9788416421817",
+      "cover_lookup": "agapea"
     },
     {
       "id": "un-mundo-feliz-aldous-huxley",
@@ -24245,7 +25206,11 @@
           "by": "Álex",
           "quote": "su último libro, Un plan Maestro."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Planeta/El-plan-maestro-i1n25461516.jpg",
+      "isbn": "9788408296966",
+      "publisher": "Editorial Planeta",
+      "cover_lookup": "agapea"
     },
     {
       "id": "una-filosofia-para-sobrevivir-en-el-siglo-xxi-jesus-g-maestro",
@@ -24339,7 +25304,8 @@
           "by": "invitado",
           "quote": "Ramos Pereira había sacado un libro que se llamaba Uriguel al descubierto."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "urtain-retrato-de-una-epoca-felipe-de-luis",
@@ -24361,7 +25327,10 @@
           "by": "Álex",
           "quote": "Y luego el otro libro es Urtain, retrato de una época."
         }
-      ]
+      ],
+      "isbn": "9788418998652",
+      "publisher": "Pepitas de calabaza",
+      "cover_lookup": "agapea"
     },
     {
       "id": "usos-amorosos-de-la-postguerra-espanola-carmen-martin-gaite",
@@ -24385,7 +25354,11 @@
           "by": "invitado",
           "quote": "recogía estas frases de Pilar de Rivera, de ten la casa limpia, se comprensiva, cuando venga tu marido... Usos Amorosos de la Posguerra, de Carmen Martín Gaite"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Anagrama-S-A-/Usos-amorosos-de-la-postguerra-espanola-i1n128358.jpg",
+      "isbn": "9788433900852",
+      "publisher": "Editorial Anagrama S.A.",
+      "cover_lookup": "agapea"
     },
     {
       "id": "usted-puede-ser-feliz-albert-ellis",
@@ -24409,7 +25382,11 @@
           "by": "invitado",
           "quote": "desarrolla esto y abiertamente dice Alberelis me he inspirado en en Epistumio Marcurile para este libro no esa disciplina del juicio"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Ediciones-Paidos-Iberica/Usted-puede-ser-feliz-i1n9872731.jpg",
+      "isbn": "9788449330124",
+      "publisher": "Ediciones Paidós Ibérica",
+      "cover_lookup": "agapea"
     },
     {
       "id": "usted-se-encuentra-aqui-fabian-c-barrio",
@@ -24431,7 +25408,11 @@
           "by": "Álex",
           "quote": "de hecho en el libro usted se encuentra aquí que traes hoy bajo el brazo"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Planeta-Mexicana/Usted-Se-Encuentra-Aqui-de-Como-Las-Filosofias-Clasicas-Pueden-Ayudarte-a-Ser-un-Mejor-Primate-en-un-Mundo-Dificil-de-Comprender-You-Are-Here-i1n26347568.jpg",
+      "isbn": "9786075699783",
+      "publisher": "Editorial Planeta Mexicana",
+      "cover_lookup": "agapea"
     },
     {
       "id": "utopia-tomas-moro",
@@ -24509,7 +25490,8 @@
           "by": "invitado",
           "quote": "Tiene un libro precioso que se llama Valentín."
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "veinte-mil-leguas-de-viaje-submarino-jules-verne",
@@ -24575,7 +25557,8 @@
       "episodes": [
         "https://www.ivoox.com/106304573"
       ],
-      "lookup": "none"
+      "lookup": "none",
+      "cover_lookup": "agapea"
     },
     {
       "id": "vida-de-un-pollo-blanquecino-de-pif-andres-perruca",
@@ -24598,7 +25581,10 @@
           "by": "Joaquín",
           "quote": "Lo leí en una novela de un amigo que se llama perruca Andrés perruca, que se llama vida de un pollo blanquecino de pif"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/JEKYLL-JILL/VIDA-DE-UN-POLLO-BLANQUECINO-DE-PIEL-FINA-i1n25334636.jpg",
+      "isbn": "9788412710069",
+      "cover_lookup": "agapea"
     },
     {
       "id": "vida-despues-de-la-vida-raymond-moody",
@@ -24647,7 +25633,11 @@
           "by": "invitado",
           "quote": "El libro se llama vida más allá de la vida, porque hemos mencionado muchas veces el libro misteriosamente"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Editorial-Kairos-SA/Vida-mas-alla-de-la-vida-i1n25835912.jpg",
+      "isbn": "9788411213554",
+      "publisher": "Editorial Kairós SA",
+      "cover_lookup": "agapea"
     },
     {
       "id": "vidas-de-los-doce-cesares-suetonio",
@@ -24725,7 +25715,9 @@
           "by": "Álex",
           "quote": "tienes este libro vive más reduce tu edad biológica y aumenta tu vitalidad"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/GRIJALBO/Vive-mas-i1n23754449.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "voces-de-chernobil-svetlana-alexievich",
@@ -24751,7 +25743,9 @@
           "quote": "La guerra no tiene rostro de mujer, Chernóbil, unos cuantos libros maravillosos."
         }
       ],
-      "lookup": "openlibrary"
+      "lookup": "openlibrary",
+      "cover": "https://cdn.agapea.com/Editorial-Debate/Voces-de-Chernobil-i1n12729292.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "volver-a-region-juan-benet",
@@ -24774,7 +25768,11 @@
           "by": "invitado",
           "quote": "volver a esa región. Es un autor que resulta un poco aburrido"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Debolsillo/Volveras-a-Region-i1n1911717.jpg",
+      "isbn": "9788484500087",
+      "publisher": "Debolsillo",
+      "cover_lookup": "agapea"
     },
     {
       "id": "volviendo-a-neverland-pablo-rodriguez-lago",
@@ -24819,7 +25817,9 @@
           "by": "invitado",
           "quote": "Tierra de los hombres, vuelo nocturno, carta reen, correo sur."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/DEBOLSILLO/Vuelo-nocturno-i1n25343964.jpg",
+      "cover_lookup": "agapea"
     },
     {
       "id": "w-de-wikileaks-bruno-cardenosa",
@@ -24878,7 +25878,10 @@
         "https://www.ivoox.com/55314794"
       ],
       "buy_url": "https://amzn.to/3kgm1Zo",
-      "lookup": "none"
+      "lookup": "none",
+      "cover": "https://cdn.agapea.com/Ediciones-Paidos/Ya-no-comemos-como-antes-y-menos-mal--i1n19704914.jpg",
+      "isbn": "9788449337208",
+      "cover_lookup": "agapea"
     },
     {
       "id": "ya-no-es-tarde-benjamin-prado",
@@ -24900,7 +25903,11 @@
           "by": "invitado",
           "quote": "cuando publiqué un libro de poas que se llamaba Ya no es tarde, había un poema terrible"
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Visor-libros-S-L-/Ya-no-es-tarde-i1n11301338.jpg",
+      "isbn": "9788498958973",
+      "publisher": "Visor libros, S.L.",
+      "cover_lookup": "agapea"
     },
     {
       "id": "yo-satanista-teresa-porqueras",
@@ -24921,7 +25928,10 @@
           "by": "invitado",
           "quote": "Ahora parecería me hecho más amiga de satán porque claro estoy yo satanista."
         }
-      ]
+      ],
+      "cover": "https://cdn.agapea.com/Ediciones-Cydonia/Yo-satanista-i1n19513102.jpg",
+      "isbn": "9788494981661",
+      "cover_lookup": "agapea"
     },
     {
       "id": "yoga-para-dumis-ramiro-calle",
@@ -24944,7 +25954,8 @@
           "by": "invitado",
           "quote": "Dentro de unos días aparece uno que se llama Yoga para Dumis"
         }
-      ]
+      ],
+      "cover_lookup": "agapea"
     },
     {
       "id": "your-brain-on-porn-gary-wilson",
@@ -25030,7 +26041,7 @@
       ]
     }
   ],
-  "updated_at": "2026-10-14T05:24:57+00:00",
+  "updated_at": "2026-10-14T08:44:39+00:00",
   "transcripts_checked": [
     "a2d4d6d8-21b4-41a9-82dc-d7cc05c42b90",
     "b342eb29-cd39-4885-b641-73ef294f870b",
