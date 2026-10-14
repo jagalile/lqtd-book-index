@@ -155,7 +155,7 @@ function buyLinks(b) {
   links.push([`https://www.todostuslibros.com/busquedas?keyword=${encodeURIComponent(b.isbn || `${b.t} ${b.a || ""}`)}`, "Librerías independientes"]);
   if (!b.buy) links.push([`https://www.amazon.es/s?k=${q}&i=stripbooks`, "Amazon"]);
   return links.map(([href, text], i) =>
-    `<a href="${esc(href)}" target="_blank" rel="noopener nofollow sponsored" class="${i === 0 ? "primary" : ""}">${esc(text)}</a>`).join("");
+    `<a href="${esc(href)}" target="_blank" rel="noopener nofollow" class="${i === 0 ? "primary" : ""}">${esc(text)}</a>`).join("");
 }
 
 const pad = (n) => String(n).padStart(2, "0");

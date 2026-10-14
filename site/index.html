@@ -4,18 +4,23 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>La biblioteca de Lo que tú digas · Libros de los invitados</title>
-  <meta name="description" content="Los libros de los invitados de Lo que tú digas con Álex Fidalgo y los que se mencionan en el podcast, clasificados por temática y enlazados a los episodios en los que se habló de ellos. Web fan no oficial.">
+  <meta name="description" content="Los libros de los invitados de Lo que tú digas con Álex Fidalgo y los que se mencionan en el podcast, clasificados por temática y enlazados a los episodios en los que se habló de ellos. Proyecto fan no oficial y sin ánimo de lucro.">
   <meta name="color-scheme" content="light dark">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%23c2410c'/><rect x='8' y='7' width='5' height='18' rx='1' fill='white'/><rect x='14.5' y='9' width='4' height='16' rx='1' fill='white' opacity='.8'/><rect x='20' y='8' width='4.5' height='17' rx='1' fill='white' transform='rotate(12 22 16)'/></svg>">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='%23012468'/><stop offset='1' stop-color='%2301c7d2'/></linearGradient></defs><rect width='32' height='32' rx='7' fill='url(%23g)'/><rect x='8' y='7' width='5' height='18' rx='1' fill='white'/><rect x='14.5' y='9' width='4' height='16' rx='1' fill='white' opacity='.85'/><rect x='20' y='8' width='4.5' height='17' rx='1' fill='%23fed869' transform='rotate(12 22 16)'/></svg>">
+  <meta name="theme-color" content="#012468">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400..900;1,400..700&display=swap">
   <link rel="preload" href="books.json" as="fetch" crossorigin>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="hero">
     <div class="wrap">
-      <p class="eyebrow">Web fan · no oficial</p>
-      <h1>La biblioteca de <em>Lo que tú digas</em></h1>
+      <p class="kicker">La biblioteca de</p>
+      <h1><img src="lqtd-logo.png" alt="Lo que tú digas" width="520" height="177"></h1>
       <p class="lede" id="lede">Los libros de los invitados de Álex Fidalgo y los que se mencionan en sus conversaciones, ordenados por temática.</p>
+      <p class="fan-badge">Proyecto fan · No oficial · Sin ánimo de lucro · <a href="#aviso">Más información</a></p>
     </div>
   </header>
 
@@ -49,9 +54,35 @@
     </div>
   </main>
 
-  <footer class="wrap footer">
-    <p>Web hecha por un fan, sin relación con Álex Fidalgo ni con <em>Lo que tú digas</em>. Los libros se han sacado de las descripciones de los episodios; puede que falte alguno. Las portadas y fichas vienen de Open Library.</p>
-    <p id="updated"></p>
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="socials">
+        <section>
+          <h2>Lo que tú digas</h2>
+          <ul>
+            <li><a href="https://www.youtube.com/@loquetudigas" target="_blank" rel="noopener"><span class="dot" style="background:#ff0033"></span>YouTube</a></li>
+            <li><a href="https://open.spotify.com/show/444LwT3wHRyVZb6alkDc4c" target="_blank" rel="noopener"><span class="dot" style="background:#1ed760"></span>Spotify</a></li>
+            <li><a href="https://www.ivoox.com/podcast-lo-que-tu-digas-alex-fidalgo_sq_f1424550_1.html" target="_blank" rel="noopener"><span class="dot" style="background:#ff8c00"></span>iVoox</a></li>
+            <li><a href="https://www.instagram.com/lqtdradio" target="_blank" rel="noopener"><span class="dot" style="background:#e1306c"></span>Instagram <small>@lqtdradio</small></a></li>
+            <li><a href="https://x.com/lqtdradio" target="_blank" rel="noopener"><span class="dot" style="background:#fff"></span>X <small>@lqtdradio</small></a></li>
+            <li><a href="https://www.facebook.com/lqtdradio" target="_blank" rel="noopener"><span class="dot" style="background:#1877f2"></span>Facebook</a></li>
+          </ul>
+        </section>
+        <section>
+          <h2>Álex Fidalgo</h2>
+          <ul>
+            <li><a href="https://www.instagram.com/alexfidalgo" target="_blank" rel="noopener"><span class="dot" style="background:#e1306c"></span>Instagram <small>@alexfidalgo</small></a></li>
+            <li><a href="https://x.com/alex_fidalgo" target="_blank" rel="noopener"><span class="dot" style="background:#fff"></span>X <small>@alex_fidalgo</small></a></li>
+          </ul>
+        </section>
+      </div>
+      <div class="disclaimer" id="aviso">
+        <p><strong>Proyecto fan, no oficial.</strong> Esta web la ha hecho un oyente. No está afiliada, patrocinada ni respaldada por <em>Lo que tú digas</em> ni por Álex Fidalgo, y no habla en su nombre. El nombre y el logo del programa son de sus titulares y aquí solo sirven para identificarlo.</p>
+        <p><strong>Sin ánimo de lucro.</strong> No hay publicidad, ni enlaces de afiliado, ni nadie cobra nada por los enlaces a librerías. Si te gusta el programa, apóyalo en sus canales oficiales.</p>
+        <p>Los libros se han sacado de las descripciones de los episodios y de sus subtítulos automáticos, así que puede haber errores o faltar alguno. Fichas y portadas: Open Library y Agapea.</p>
+      </div>
+      <p class="footnote"><span id="updated"></span> <a href="https://github.com/jagalile/lqtd-index" target="_blank" rel="noopener">Código en GitHub</a>.</p>
+    </div>
   </footer>
 
   <dialog id="detail" aria-labelledby="d-title">
