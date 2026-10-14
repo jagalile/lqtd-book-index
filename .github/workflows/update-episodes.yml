@@ -41,10 +41,14 @@ jobs:
         env:
           # Opcional: con una clave gratuita de Google Books hay más portadas.
           GOOGLE_BOOKS_API_KEY: ${{ secrets.GOOGLE_BOOKS_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           pip install -r requirements.txt
           python scripts/fetch_episodes.py
           python scripts/books.py
+          # Libros mencionados en la conversación (subtítulos de YouTube + Gemini).
+          # Si YouTube bloquea o no hay cuota, no falla: se reintenta otro día.
+          python scripts/transcripts.py --limit 10 || echo "::warning::transcripts.py falló; se reintentará"
 
       - name: Commit si hay cambios
         id: commit

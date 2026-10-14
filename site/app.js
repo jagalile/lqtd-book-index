@@ -158,6 +158,20 @@ function buyLinks(b) {
     `<a href="${esc(href)}" target="_blank" rel="noopener nofollow sponsored" class="${i === 0 ? "primary" : ""}">${esc(text)}</a>`).join("");
 }
 
+const pad = (n) => String(n).padStart(2, "0");
+const clock = (s) => (s >= 3600 ? `${Math.floor(s / 3600)}:${pad(Math.floor(s / 60) % 60)}` : `${Math.floor(s / 60)}`) + `:${pad(s % 60)}`;
+
+// Mención encontrada en la transcripción: cita, quién y enlace al minuto exacto.
+function mentionHTML(e) {
+  if (!e.q && e.at == null) return "";
+  const who = { "Álex": "Álex Fidalgo", "invitado": "el invitado" }[e.by] || e.by || "";
+  const at = e.at != null && e.yt
+    ? `<a href="https://www.youtube.com/watch?v=${esc(e.yt)}&t=${e.at}s" target="_blank" rel="noopener">▶ ${clock(e.at)}</a>`
+    : (e.at != null ? clock(e.at) : "");
+  return `<blockquote class="ep-quote">${e.q ? `«${esc(e.q)}»` : ""}
+    <footer>${who ? `Lo menciona ${esc(who)}` : "Se menciona"}${at ? ` en el minuto ${at}` : ""}</footer></blockquote>`;
+}
+
 function epHTML(e) {
   const thumb = e.yt
     ? `<img src="https://i.ytimg.com/vi/${esc(e.yt)}/mqdefault.jpg" alt="" loading="lazy">`
@@ -167,6 +181,7 @@ function epHTML(e) {
   return `<li class="ep"><div class="ep-thumb">${thumb}</div><div>
     <p class="ep-title">${esc(e.title)}</p>
     <p class="ep-meta">${[e.n ? `Episodio #${e.n}` : "", fmtDate(e.date)].filter(Boolean).join(" · ")}</p>
+    ${mentionHTML(e)}
     <div class="ep-links">${links}</div></div></li>`;
 }
 

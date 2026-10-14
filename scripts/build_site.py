@@ -39,8 +39,17 @@ def compact_episode(ep):
 
 
 def compact_book(book, episodes):
-    eps = sorted((compact_episode(episodes[e]) for e in book["episodes"] if e in episodes),
-                 key=lambda e: e["date"], reverse=True)
+    mentions = {m["episode"]: m for m in book.get("mentions", [])}
+    eps = []
+    for e in book["episodes"]:
+        if e not in episodes:
+            continue
+        ep = compact_episode(episodes[e])
+        m = mentions.get(e)
+        if m:  # mención encontrada en la transcripción: minuto, quién y cita
+            ep.update({k: v for k, v in (("at", m.get("t")), ("by", m.get("by")), ("q", m.get("quote"))) if v})
+        eps.append(ep)
+    eps.sort(key=lambda e: e["date"], reverse=True)
     out = {
         "id": book["id"],
         "t": book["title"],

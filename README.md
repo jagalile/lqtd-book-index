@@ -29,9 +29,25 @@ python3 scripts/books.py
 Es un fichero **curado a mano**: título, autor, temáticas (`themes`, de la lista que hay en el propio fichero) y episodios de cada libro. El histórico se extrajo leyendo las descripciones de los episodios. Incluye los libros de los invitados y también los que se mencionan en el episodio sin ser suyos; estos llevan `"relation": "mencionado"`. Solo se cuentan títulos explícitos («ha escrito dos libros» no basta). El script lo completa de forma incremental:
 
 1. **Libros de episodios nuevos:** revisa los episodios que no están en `checked_episodes` y busca libros en su descripción («Compra 'X'», «publica el libro 'X'»…). Lo que encuentra se marca con `"review": true` y sin temáticas: hay que revisarlo y asignarle temáticas a mano. Acierta en torno al 70 % de los casos; los títulos sin comillas se le escapan.
-2. **Fichas:** a los libros sin `lookup` les añade ISBN, año, editorial y portada desde [Open Library](https://openlibrary.org). Si existe la variable `GOOGLE_BOOKS_API_KEY` (clave gratuita de Google Books), la usa primero, porque tiene más portadas de ediciones españolas. Nunca sobrescribe un campo que ya tenga valor.
+2. **Fichas:** a los libros sin `lookup` les añade ISBN, año, editorial y portada desde [Open Library](https://openlibrary.org). Si la obra tiene ediciones en varios idiomas, usa la portada de la edición española. Si existe la variable `GOOGLE_BOOKS_API_KEY` (clave gratuita de Google Books), la usa primero, porque tiene más portadas de ediciones españolas. Nunca sobrescribe un campo que ya tenga valor.
 
 Para corregir algo (una portada equivocada, un autor, una temática) se edita `data/books.json` directamente.
+
+### Libros mencionados en la conversación: `scripts/transcripts.py`
+
+```sh
+echo "GEMINI_API_KEY=tu_clave" > .env   # clave gratuita de Google AI Studio; .env está en .gitignore
+python3 scripts/transcripts.py --limit 40
+```
+
+Para los episodios con vídeo que no estén en `transcripts_checked`:
+
+1. Descarga los subtítulos automáticos en español de YouTube (yt-dlp) a `.cache/transcripts/`. **Las transcripciones no se suben al repo**: solo se publica lo que se extrae de ellas.
+2. Gemini (capa gratuita) lista los libros que se mencionan, corrige los nombres mal transcritos y propone temáticas. Usa `gemini-3.5-flash-lite` (rápido y suficiente) y, si está saturado o sin cuota, `gemini-3.6-flash` y `gemini-3.5-flash`; `--model` permite elegir otro.
+3. Se descartan los títulos que no aparecen en la transcripción (libros inventados o menciones en las que solo se nombra al autor) y se buscan los demás en Open Library; los que no encuentra quedan con `review: true`. Aun así se cuelan películas, series y discos: conviene revisar a mano los libros nuevos de vez en cuando.
+4. Cada mención se guarda en el libro como `mentions: [{episode, t, by, quote}]`: la web enseña la cita y enlaza al minuto exacto del vídeo.
+
+Es reanudable: guarda tras cada episodio y, si Gemini no está disponible, para y sigue en la siguiente ejecución. `--dry-run --episode 554` muestra lo que encontraría sin guardar nada.
 
 ## Web
 
@@ -47,6 +63,6 @@ Portada con estanterías por temática, buscador (libro, autor, temática o epis
 
 `.github/workflows/update-episodes.yml`:
 
-- Los martes y viernes a las 08:00 UTC (los episodios salen esos días a las 07:00, hora de Madrid) y todos los días a las 21:00 UTC ejecuta `fetch_episodes.py` y `books.py`. Si `data/` cambia, hace commit y vuelve a publicar la web.
+- Los martes y viernes a las 08:00 UTC (los episodios salen esos días a las 07:00, hora de Madrid) y todos los días a las 21:00 UTC ejecuta `fetch_episodes.py`, `books.py` y `transcripts.py` (hasta 10 episodios por ejecución; necesita el secret `GEMINI_API_KEY`). Si `data/` cambia, hace commit y vuelve a publicar la web.
 - Cada push a `main` que toque la web o los datos la vuelve a publicar.
 - Para usar Google Books, añade la clave como *secret* `GOOGLE_BOOKS_API_KEY` en *Settings → Secrets and variables → Actions*.

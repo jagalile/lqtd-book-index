@@ -19,6 +19,7 @@ tenga valor. Solo usa la librería estándar.
 """
 
 import argparse
+import difflib
 import json
 import os
 import re
@@ -179,9 +180,32 @@ def short_title(title):
     return re.split(r"[:.¿?¡!]\s", title)[0].strip() or title
 
 
+def spanish_edition(work_key, title):
+    """La edición en español con portada que más se parece al título, o None.
+
+    La portada de la búsqueda es la de la obra, que en los libros traducidos
+    suele ser la de la edición original (inglesa, alemana…)."""
+    data = fetch_json(f"https://openlibrary.org{work_key}/editions.json?limit=200"
+                      "&fields=title,languages,covers,isbn_13,publishers") or {}
+    best, best_score = None, 0
+    for e in data.get("entries") or []:
+        if not e.get("covers") or e["covers"][0] <= 0:
+            continue
+        if not any(l.get("key") == "/languages/spa" for l in e.get("languages") or []):
+            continue
+        isbn = next((i for i in e.get("isbn_13") or [] if i.startswith("97884")), None)
+        score = difflib.SequenceMatcher(None, norm(title), norm(e.get("title") or "")).ratio() + (0.3 if isbn else 0)
+        if score > best_score:
+            best_score = score
+            best = {"cover": f"https://covers.openlibrary.org/b/id/{e['covers'][0]}-L.jpg",
+                    "isbn": isbn or next(iter(e.get("isbn_13") or []), None),
+                    "publisher": (e.get("publishers") or [None])[0]}
+    return best
+
+
 def lookup_openlibrary(book):
     author = re.split(r"\s+y\s+|,", book["author"])[0]
-    fields = "title,author_name,first_publish_year,isbn,cover_i,publisher,number_of_pages_median"
+    fields = "key,title,author_name,first_publish_year,isbn,cover_i,publisher,number_of_pages_median,language"
     for title in dict.fromkeys([book["title"], short_title(book["title"])]):
         q = urllib.parse.urlencode({"title": title, "author": author, "limit": 5, "fields": fields})
         data = fetch_json(f"https://openlibrary.org/search.json?{q}") or {}
@@ -192,13 +216,17 @@ def lookup_openlibrary(book):
             d = docs[0]
             isbns = d.get("isbn") or []
             isbn = next((i for i in isbns if i.startswith("97884")), next((i for i in isbns if len(i) == 13), None))
-            return {
+            info = {
                 "isbn": isbn,
                 "year": d.get("first_publish_year"),
                 "publisher": (d.get("publisher") or [None])[0],
                 "pages": d.get("number_of_pages_median"),
                 "cover": f"https://covers.openlibrary.org/b/id/{d['cover_i']}-L.jpg" if d.get("cover_i") else None,
             }
+            # Obra con ediciones en varios idiomas: mejor la portada española.
+            if d.get("key") and "spa" in (d.get("language") or []) and len(d["language"]) > 1:
+                info.update({k: v for k, v in (spanish_edition(d["key"], book["title"]) or {}).items() if v})
+            return info
     return None
 
 
