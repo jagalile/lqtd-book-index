@@ -185,6 +185,52 @@ function epHTML(e) {
     <div class="ep-links">${links}</div></div></li>`;
 }
 
+// --- Transición de la portada entre la lista y la ficha ----------------------
+// View Transitions API: la portada pulsada «vuela» hasta la ficha y vuelve al
+// cerrarla. En navegadores sin soporte (o con movimiento reducido) se abre y
+// cierra sin animación.
+
+const canMorph = () => document.startViewTransition && !matchMedia("(prefers-reduced-motion: reduce)").matches;
+let fromCover = null; // portada de la lista desde la que se abrió la ficha
+const dialogCover = () => $("d-cover").querySelector(".cover");
+
+function inView(el) {
+  if (!el?.isConnected) return false;
+  const r = el.getBoundingClientRect();
+  return r.width > 0 && r.bottom > 0 && r.right > 0 && r.top < innerHeight && r.left < innerWidth;
+}
+
+// Espera (como mucho 300 ms) a que la imagen esté lista para que la ficha no
+// aparezca con la portada en blanco en mitad de la animación.
+function coverReady() {
+  const img = dialogCover()?.querySelector("img");
+  return img ? Promise.race([img.decode().catch(() => {}), new Promise((r) => setTimeout(r, 300))]) : Promise.resolve();
+}
+
+function morph(from, update, to) {
+  from.style.viewTransitionName = "book-cover";
+  const t = document.startViewTransition(async () => {
+    from.style.viewTransitionName = "";
+    await update();
+    const target = to();
+    if (target) target.style.viewTransitionName = "book-cover";
+  });
+  t.finished.finally(() => { const target = to(); if (target) target.style.viewTransitionName = ""; });
+}
+
+function openDetailFrom(b, cover) {
+  if (!canMorph() || els.dialog.open || !inView(cover)) return openDetail(b);
+  fromCover = cover;
+  morph(cover, () => { openDetail(b); return coverReady(); }, dialogCover);
+}
+
+function closeDetail() {
+  if (!els.dialog.open) return;
+  const back = fromCover;
+  if (!canMorph() || !dialogCover() || !inView(back)) return els.dialog.close();
+  morph(dialogCover(), () => els.dialog.close(), () => back);
+}
+
 function openDetail(b, push = true) {
   els.dialog.querySelector(".d-wrap").style.setProperty("--h", hue(b));
   $("d-cover").innerHTML = coverHTML(b).replace('loading="lazy"', 'fetchpriority="high"');
@@ -224,10 +270,16 @@ function bind() {
     const themeBtn = ev.target.closest("[data-theme]");
     if (themeBtn) return setTheme(themeBtn.dataset.theme);
     const book = ev.target.closest(".book");
-    if (book) openDetail(byId.get(book.dataset.id));
+    if (book) openDetailFrom(byId.get(book.dataset.id), book.querySelector(".cover"));
   });
-  els.dialog.addEventListener("close", () => history.replaceState(null, "", location.pathname + location.search));
-  els.dialog.addEventListener("click", (ev) => { if (ev.target === els.dialog) els.dialog.close(); });
+  els.dialog.addEventListener("close", () => {
+    fromCover = null;
+    history.replaceState(null, "", location.pathname + location.search);
+  });
+  els.dialog.addEventListener("click", (ev) => { if (ev.target === els.dialog) closeDetail(); });
+  // Botón × y Escape: cierre animado de vuelta a la lista.
+  els.dialog.querySelector(".close-form").addEventListener("submit", (ev) => { ev.preventDefault(); closeDetail(); });
+  els.dialog.addEventListener("cancel", (ev) => { ev.preventDefault(); closeDetail(); });
   window.addEventListener("hashchange", openFromHash);
   document.addEventListener("keydown", (ev) => {
     if (ev.key === "/" && document.activeElement !== els.q && !els.dialog.open) {

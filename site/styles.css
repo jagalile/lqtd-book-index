@@ -162,6 +162,11 @@ dialog {
   box-shadow: 0 24px 80px rgb(0 0 0 / .35); overflow: auto;
 }
 dialog::backdrop { background: rgb(20 17 15 / .6); backdrop-filter: blur(3px); }
+
+/* Portada que viaja entre la lista y la ficha (ver morph() en app.js) */
+::view-transition-group(book-cover) { animation-duration: .42s; animation-timing-function: cubic-bezier(.2, .8, .2, 1); }
+::view-transition-old(book-cover), ::view-transition-new(book-cover) { height: 100%; object-fit: cover; }
+::view-transition-old(root), ::view-transition-new(root) { animation-duration: .3s; }
 .close-form { position: sticky; top: 0; height: 0; z-index: 2; }
 .close {
   position: absolute; top: 10px; right: 10px; width: 38px; height: 38px;
