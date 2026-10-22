@@ -4159,6 +4159,22 @@
       ]
     },
     {
+      "id": "cronica-de-una-sociedad-intoxicada-joan-ramon-laporte",
+      "title": "Crónica de una sociedad intoxicada",
+      "author": "Joan-Ramon Laporte",
+      "themes": [
+        "salud",
+        "sociedad"
+      ],
+      "episodes": [
+        "f705fab7-9e29-4c11-9e9b-fcb82c889bf5"
+      ],
+      "lookup": "none",
+      "cover": "https://cdn.agapea.com/Ediciones-Peninsula/Cronica-de-una-sociedad-intoxicada-i1n24587326.jpg",
+      "isbn": "9788411002271",
+      "cover_lookup": "agapea"
+    },
+    {
       "id": "cronicas-del-mas-alla-sol-blanco-soler",
       "title": "Crónicas del más allá",
       "author": "Sol Blanco-Soler",
@@ -26043,7 +26059,7 @@
       ]
     }
   ],
-  "updated_at": "2026-10-20T00:00:34+00:00",
+  "updated_at": "2026-10-22T09:24:04+00:00",
   "transcripts_checked": [
     "a2d4d6d8-21b4-41a9-82dc-d7cc05c42b90",
     "b342eb29-cd39-4885-b641-73ef294f870b",

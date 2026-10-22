@@ -111,7 +111,8 @@ def save(path, data):
 
 # --- 1. Detección en episodios nuevos ----------------------------------------
 
-QUOTE = r"['‘\"«“]([^'’\"»”\n]{3,90}?)['’\"»”]"
+# Comillas o cursiva con asteriscos (*Título*), que usan las descripciones nuevas.
+QUOTE = r"['‘\"«“*]([^'’\"»”*\n]{3,90}?)['’\"»”*]"
 BOOK_PATTERNS = [
     re.compile(r"(?:Compra|Reserva)(?:lo)?\s+(?:su (?:último )?libro\s+|el libro\s+)?" + QUOTE, re.I),
     # «Compra Todos gordos aquí: https://amzn.to/…», sin comillas.
@@ -119,6 +120,7 @@ BOOK_PATTERNS = [
     re.compile(r"\b(?:libro|novela|ensayo|poemario|memorias|autobiografía)\b[^.'‘\"«“]{0,60}?" + QUOTE, re.I),
     # Sin «presenta»: casi siempre es un programa de radio o televisión.
     re.compile(r"\bpublica(?:r|do|da)?\b[^.'‘\"«“]{0,40}?" + QUOTE, re.I),
+    re.compile(r"\b(?:autor|autora|coautor|coautora)\s+(?:del?\s+libro\s+|de\s+)" + QUOTE, re.I),
 ]
 STORE = re.compile(r"https?://(?:amzn\.to|www\.amazon\.es|www\.casadellibro\.com|www\.todostuslibros\.com)\S+")
 
