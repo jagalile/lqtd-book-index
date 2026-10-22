@@ -1,6 +1,26 @@
 {
   "episodes": [
     {
+      "id": "d95dc292-dd94-4c9c-b74a-99a9f5d69951",
+      "title": "«Es un monstruo, pero es tan guapo...» | Francesc Soler - #561",
+      "number": 561,
+      "part": null,
+      "kind": "episodio",
+      "published": "2026-10-22T16:00:00+00:00",
+      "duration_seconds": 4572,
+      "description": "¿Por qué hay mujeres que se enamoran de asesinos? ¿Cómo es posible que alguien acusado de un crimen brutal se convierta en un ídolo sexual, reciba miles de mensajes de admiración y despierte más fascinación que rechazo?\n\nLuigi Mangione, Daniel Sancho, Wade Wilson, Ted Bundy o Charles Manson son algunos de los nombres que ilustran un fenómeno tan inquietante como desconcertante: la atracción por los criminales y el extraordinario poder que puede ejercer la belleza sobre nuestro juicio moral.\n\nEn este episodio de LO QUE TÚ DIGAS charlo con **Francesc Soler, periodista y autor de «Los asesinos guapos»**, sobre la hibristofilia, la romantización de los delincuentes y el papel de las redes sociales en la transformación de algunos criminales en auténticas celebridades.",
+      "links": [],
+      "audio_url": "https://traffic.megaphone.fm/APO4561689378.mp3",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/43154990/ff0931e5f596572c.jpg",
+      "spotify_url": "https://podcasters.spotify.com/pod/show/alex-fidalgo4/episodes/Es-un-monstruo--pero-es-tan-guapo-----Francesc-Soler---561-e3qt4dp",
+      "ivoox_url": "https://www.ivoox.com/por-que-algunas-mujeres-desean-a-asesinos-audios-mp3_rf_182640660_1.html",
+      "youtube_url": "https://www.youtube.com/watch?v=4hWS24gqGBk",
+      "first_seen": "2026-10-22T23:44:09+00:00",
+      "ivoox_id": "182640660",
+      "youtube_id": "4hWS24gqGBk",
+      "apple_url": "https://podcasts.apple.com/es/podcast/es-un-monstruo-pero-es-tan-guapo-francesc-soler-561/id1245349669?i=1000797641233"
+    },
+    {
       "id": "f705fab7-9e29-4c11-9e9b-fcb82c889bf5",
       "title": "Las MENTIRAS De La Industria Farmacéutica | Joan Ramón Laporte - #560",
       "number": 560,
@@ -12044,5 +12064,5 @@
       "amazon_url": "https://music.amazon.es/podcasts/8d40639a-0141-4f6f-8461-5a237bfdbc48/episodes/0347b5e0-e440-4da8-a677-1de896db2499/lo-que-t%C3%BA-digas-con-alex-fidalgo-1-jm-mulet---ciencia-nutrici%C3%B3n-y-medicina-y-pseudomedicina"
     }
   ],
-  "updated_at": "2026-10-20T13:08:48+00:00"
+  "updated_at": "2026-10-22T23:44:16+00:00"
 }
