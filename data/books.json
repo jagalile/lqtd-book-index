@@ -4172,7 +4172,15 @@
       "lookup": "none",
       "cover": "https://cdn.agapea.com/Ediciones-Peninsula/Cronica-de-una-sociedad-intoxicada-i1n24587326.jpg",
       "isbn": "9788411002271",
-      "cover_lookup": "agapea"
+      "cover_lookup": "agapea",
+      "mentions": [
+        {
+          "episode": "f705fab7-9e29-4c11-9e9b-fcb82c889bf5",
+          "t": 155,
+          "by": "invitado",
+          "quote": "Como dices en tu libro, la sociedad está intoxicándose, de que hay una sobremedicación"
+        }
+      ]
     },
     {
       "id": "cronicas-del-mas-alla-sol-blanco-soler",
@@ -26500,6 +26508,7 @@
     "https://www.ivoox.com/19500124",
     "https://www.ivoox.com/19374438",
     "https://www.ivoox.com/19244218",
-    "https://www.ivoox.com/19086738"
+    "https://www.ivoox.com/19086738",
+    "f705fab7-9e29-4c11-9e9b-fcb82c889bf5"
   ]
 }
