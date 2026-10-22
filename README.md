@@ -1,8 +1,8 @@
-# lqtd-index
+# lqtd-book-index
 
 *La biblioteca de Lo que tú digas*: web fan (no oficial) con los libros de los invitados de *LO QUE TÚ DIGAS* con Álex Fidalgo, clasificados por temática y enlazados a los episodios en los que se habló de ellos.
 
-Web: https://jagalile.github.io/lqtd-index/
+Web: https://jgalilea.github.io/lqtd-book-index/
 
 ## Datos
 

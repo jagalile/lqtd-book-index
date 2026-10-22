@@ -15,7 +15,7 @@ const PLATFORMS = [
   ["am", "Amazon Music", "#25d1da", (v) => v],
 ];
 const SHELF_SIZE = 18;
-const REPO = "https://github.com/jagalile/lqtd-index";
+const REPO = "https://github.com/jgalilea/lqtd-book-index";
 
 const $ = (id) => document.getElementById(id);
 const els = {
